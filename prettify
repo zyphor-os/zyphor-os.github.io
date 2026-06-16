@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# prettify.sh - Formats/unminifies a JSON file with indentation
+
+set -e
+
+usage() {
+  echo "Usage: $0 <input.json> [output.json] [indent]"
+  echo ""
+  echo "  input.json   Path to the JSON file to prettify"
+  echo "  output.json  (Optional) Output file. Defaults to overwriting input."
+  echo "  indent       (Optional) Number of spaces for indentation. Defaults to 2."
+  exit 1
+}
+
+if [ $# -lt 1 ]; then
+  usage
+fi
+
+INPUT="$1"
+OUTPUT="${2:-$INPUT}"
+INDENT="${3:-2}"
+
+if [ ! -f "$INPUT" ]; then
+  echo "Error: File '$INPUT' not found."
+  exit 1
+fi
+
+if command -v python3 &>/dev/null; then
+  python3 -c "import json, sys; json.load(open('$INPUT'))" 2>/dev/null || {
+    echo "Error: '$INPUT' is not valid JSON."
+    exit 1
+  }
+  PRETTY=$(python3 -c "import json; print(json.dumps(json.load(open('$INPUT')), indent=$INDENT))")
+elif command -v jq &>/dev/null; then
+  jq -e . "$INPUT" > /dev/null 2>&1 || {
+    echo "Error: '$INPUT' is not valid JSON."
+    exit 1
+  }
+  PRETTY=$(jq --indent "$INDENT" . "$INPUT")
+elif command -v node &>/dev/null; then
+  node -e "JSON.parse(require('fs').readFileSync('$INPUT', 'utf8'))" 2>/dev/null || {
+    echo "Error: '$INPUT' is not valid JSON."
+    exit 1
+  }
+  PRETTY=$(node -e "process.stdout.write(JSON.stringify(JSON.parse(require('fs').readFileSync('$INPUT','utf8')), null, $INDENT))")
+else
+  echo "Error: No JSON processor found. Please install python3, jq, or node."
+  exit 1
+fi
+
+echo "$PRETTY" > "$OUTPUT"
+
+ORIGINAL_SIZE=$(wc -c < "$INPUT")
+PRETTY_SIZE=$(wc -c < "$OUTPUT")
+ADDED=$((PRETTY_SIZE - ORIGINAL_SIZE))
+
+echo "✓ Prettified '$INPUT' → '$OUTPUT'"
+echo "  Original : ${ORIGINAL_SIZE} bytes"
+echo "  Prettified: ${PRETTY_SIZE} bytes"
+echo "  Added    : +${ADDED} bytes (indent: ${INDENT} spaces)"

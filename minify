@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# minify.sh - Minifies a JSON file
+
+set -e
+
+usage() {
+  echo "Usage: $0 <input.json> [output.json]"
+  echo ""
+  echo "  input.json   Path to the JSON file to minify"
+  echo "  output.json  (Optional) Output file. Defaults to overwriting input."
+  exit 1
+}
+
+if [ $# -lt 1 ]; then
+  usage
+fi
+
+INPUT="$1"
+OUTPUT="${2:-$INPUT}"
+
+if [ ! -f "$INPUT" ]; then
+  echo "Error: File '$INPUT' not found."
+  exit 1
+fi
+
+if command -v python3 &>/dev/null; then
+  python3 -c "import json, sys; json.load(open('$INPUT'))" 2>/dev/null || {
+    echo "Error: '$INPUT' is not valid JSON."
+    exit 1
+  }
+  MINIFIED=$(python3 -c "import json; print(json.dumps(json.load(open('$INPUT')), separators=(',', ':')))")
+elif command -v jq &>/dev/null; then
+  jq -e . "$INPUT" > /dev/null 2>&1 || {
+    echo "Error: '$INPUT' is not valid JSON."
+    exit 1
+  }
+  MINIFIED=$(jq -c . "$INPUT")
+elif command -v node &>/dev/null; then
+  node -e "JSON.parse(require('fs').readFileSync('$INPUT', 'utf8'))" 2>/dev/null || {
+    echo "Error: '$INPUT' is not valid JSON."
+    exit 1
+  }
+  MINIFIED=$(node -e "process.stdout.write(JSON.stringify(JSON.parse(require('fs').readFileSync('$INPUT','utf8'))))")
+else
+  echo "Error: No JSON processor found. Please install python3, jq, or node."
+  exit 1
+fi
+
+echo "$MINIFIED" > "$OUTPUT"
+
+ORIGINAL_SIZE=$(wc -c < "$INPUT")
+MINIFIED_SIZE=$(wc -c < "$OUTPUT")
+SAVED=$((ORIGINAL_SIZE - MINIFIED_SIZE))
+PERCENT=$((SAVED * 100 / ORIGINAL_SIZE))
+
+echo "✓ Minified '$INPUT' → '$OUTPUT'"
+echo "  Original : ${ORIGINAL_SIZE} bytes"
+echo "  Minified : ${MINIFIED_SIZE} bytes"
+echo "  Saved    : ${SAVED} bytes (${PERCENT}%)"

@@ -1,0 +1,202 @@
+Package: fastfetch-config-1
+Version: 1.0.4
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash
+Filename: pool/main/z/fastfetch-config-1.deb
+Size: 1684
+MD5sum: 499c22a56297c65f3746faca04a593da
+SHA1: 7316259b414cc3083be089ee30df8b1fabfe911b
+SHA256: a182a4135470d3a2ff739c9f97474260c6d60418249d8f024e699b8e04d78b48
+Section: utils
+Priority: optional
+Description: Zyphor OS Fastfetch Config
+
+Package: grub-screensaver-1
+Version: 2.0.0
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash
+Filename: pool/main/z/grub-screensaver-1.deb
+Size: 1670964
+MD5sum: 91f6af88438bd2562cae163232f14c8f
+SHA1: e409133bee9ddeedc6cb365fb565f2a5bd89eadc
+SHA256: be453eeb9ddde6250526940b5144302d68afd3cffb3170a9a91c14773b00639a
+Section: utils
+Priority: optional
+Description: Zyphor OS Grub Screensaver
+
+Package: zyphor-cli
+Version: 1.16.4
+Architecture: all
+Maintainer: Zyphor OS Team
+Depends: bash
+Filename: pool/main/z/zyphor-cli.deb
+Size: 11736
+MD5sum: fb27d41bf53939c0d938fe6ae27acc99
+SHA1: 122814a764e1e01523d10315b96693cb3d231e88
+SHA256: 60ba42d518245866a4316dceb29ab092a5e8ae22726dc490cd051dfcaf8ffc6d
+Section: utils
+Priority: optional
+Description: Zyphor OS CLI abstraction layer
+
+Package: zyphor-command-center
+Version: 3.0.0-stable-release
+Architecture: all
+Maintainer: Zyphor OS Team
+Depends: python3,python3-pyqt6,curl,jq
+Filename: pool/main/z/zyphor-command-center.deb
+Size: 125682
+MD5sum: d061e54a2752fb2426d43eba74ba776c
+SHA1: 7ac0ac5914a8f532c6e1570a8d84669dad311b1d
+SHA256: 239466833d567f15f16899b4ebcf399072227e640ace4bd32d2ded3ea9a546e0
+Section: utils
+Priority: optional
+Description: Zyphor command center GUI control panel for Zyphor OS tools
+
+Package: zyphor-display-mac-v1
+Version: 1.0.11
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash, compiz, compiz-plugins, compiz-plugins-extra, compizconfig-settings-manager
+Filename: pool/main/z/zyphor-display-mac-v1.deb
+Size: 1596
+MD5sum: 3036612f6c13df4ede34bd42689d0c2d
+SHA1: 60c2b193279e414365c333a1b95ae0727eafd626
+SHA256: 504fae6cd89e571c98c0d23c3cf4c05be4c83f22d585d475cefa22738ed37937
+Section: utils
+Priority: optional
+Description: Zyphor OS display mac
+
+Package: zyphor-os-release
+Version: 14.0.0
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash
+Filename: pool/main/z/zyphor-os-release.deb
+Size: 896
+MD5sum: 1b081642a317a37eb520206a150a4d47
+SHA1: e4fe80958c0026d0a9e778caf5f5b4acde24e577
+SHA256: 7f9041328a7ad400a6022b60f382e6691e92df3e1f78f4f9470fab9696a4792d
+Section: utils
+Priority: optional
+Description: Zyphor OS Release
+
+Package: zyphor-updates
+Version: 5.0.0
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: zyphor-os-release,
+ fastfetch-config-1,
+ grub-screensaver-1,
+ zyphor-display-mac-v1,
+ fastfetch,
+ vim,
+ curl,
+ jq,
+ figlet,
+ lolcat,
+ php8.4,
+ php8.4-cli,
+ php8.4-fpm,
+ php8.4-mysql,
+ php8.4-sqlite3,
+ php8.4-xml,
+ php8.4-mbstring,
+ php8.4-curl,
+ php8.4-zip,
+ php8.4-bcmath,
+ php8.4-intl,
+ php8.4-redis,
+ php8.4-gd,
+ libapache2-mod-php8.4,
+ guvcview,
+ libreoffice,
+ vlc,
+ flameshot,
+ drawing,
+ simplescreenrecorder,
+ ufw,
+ zyshell,
+ zyphor-whats-new
+Filename: pool/main/z/zyphor-updates.deb
+Size: 744
+MD5sum: 8ff8ff74e4235a9d901208859e76a059
+SHA1: ce7d3696dd6851f470628acfc1e5da263e860b72
+SHA256: 59aef491b0a458f9785fe1671fa34befc4fc940203dcc16de419d5b6a707a481
+Section: utils
+Priority: optional
+Description: Zyphor OS Updates
+
+Package: zyphor-wallpapers-default-2026-2027
+Version: 1.0.1
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash
+Filename: pool/main/z/wallpapers-default-2026-2027.deb
+Size: 9658038
+MD5sum: 67e2391fd01e2ff1016b5f7257f8f133
+SHA1: 44d2666486cbe4ddf07c5a13a95fe7e4139a1031
+SHA256: 3d2f691c8ba4e08eb9b4f14debe86181a88af83cd78d74b9a58715d524b16a37
+Section: utils
+Priority: optional
+Description: Zyphor OS wallpapers-default-2026-2027
+
+Package: zyphor-wallpapers-nature
+Version: 1.1.0
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash
+Filename: pool/main/z/wallpapers-nature.deb
+Size: 24873198
+MD5sum: 55a2bcb39f006374d889584302a29914
+SHA1: bffa3faef4bd25aed49640fe3144814883438a01
+SHA256: 4671123dfc65f822a4db48437e3d50245948b3301f3ebd510e0957961b435d5e
+Section: utils
+Priority: optional
+Description: Zyphor OS wallpapers-nature
+
+Package: zyphor-wallpapers-pragmata
+Version: 1.2.0
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: bash
+Filename: pool/main/z/wallpapers-pragmata.deb
+Size: 9991344
+MD5sum: db0e33e5734cf98706238cd55750ab3b
+SHA1: 83506053f6648eaf14969ca19b67e57ade3e15b7
+SHA256: e0ba8f16bd0182ee936bfee3623dd86cad264404452ab44da71e4f720de200fc
+Section: utils
+Priority: optional
+Description: Zyphor OS wallpapers-pragmata
+
+Package: zyphor-whats-new
+Version: 4.0.0-stable-release
+Architecture: amd64
+Maintainer: Mark Jason P. Espelita
+Depends: xdg-utils
+Filename: pool/main/z/zyphor-whats-new.deb
+Size: 2514
+MD5sum: 02e834a67f322d718c47dbcefdb2a838
+SHA1: 372163bf4afcb26eca231fe326b7c26949c253b5
+SHA256: 95708078b039c3ed600b73ff022495cb66c7fa6dda0efad3ae7ff87d8cf639d5
+Section: utils
+Priority: optional
+Description: Zyphor OS What's New
+ A lightweight release notes viewer for Zyphor OS that shows system updates
+ and changes in the browser after upgrades.
+
+Package: zyshell
+Version: 2.0.0
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Depends: zsh
+Filename: pool/main/z/zyshell.deb
+Size: 10714
+MD5sum: 2c26b8e68ce185140f2dbfbc09de2104
+SHA1: 4aac9be695532fa56adee18ff317d20fbb7ab2a6
+SHA256: 114c1d7b45d85f1b1818e94e54275e41d47d7b2b116754a65ef678b91651b7c1
+Section: utils
+Priority: optional
+Description: Zyphor OS Default Shell
+
