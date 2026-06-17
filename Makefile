@@ -16,3 +16,6 @@ add:
 
 	git add pool/main/z/zyphor-whats-new.deb
 	git commit -m "chore: updated zyphor-whats-new package"
+
+	git add pool/main/z/zysh.deb
+	git commit -m "feat: added zysh package"
