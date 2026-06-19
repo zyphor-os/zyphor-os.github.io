@@ -11,6 +11,9 @@ add:
 	git add pool/main/z/zyphor-os-release.deb
 	git commit -m "chore: updated zyphor-os-release package"
 
+	git add pool/main/z/zyphor-repo-config.deb
+	git commit -m "chore: updated zyphor-repo-config package"
+
 	git add pool/main/z/zyphor-updates.deb
 	git commit -m "chore: updated zyphor-updates package"
 
@@ -18,4 +21,10 @@ add:
 	git commit -m "chore: updated zyphor-whats-new package"
 
 	git add pool/main/z/zysh.deb
-	git commit -m "feat: added zysh package"
+	git commit -m "chore: updated zysh package"
+
+	git add pool/main/z/zylearn.deb
+	git commit -m "feat: added zylearn package"
+
+	git add Makefile
+	git commit -m "chore: modified Makefile"
