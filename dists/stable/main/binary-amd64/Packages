@@ -54,15 +54,15 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 5.0.0-r1-stable-release
+Version: 6.0.0-r2-stable-release
 Architecture: all
 Maintainer: Zyphor OS Team
-Depends: python3,python3-pyqt6,curl,jq
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 125712
-MD5sum: 5657918de0d262500740d6a20ebbc635
-SHA1: 879ad8d6175609868177bd087deecf1f9dd8f05e
-SHA256: 3082b3414a3dd6b9935fb78cd9dcc48877e3fee027129f40a0899c7186f17c36
+Size: 125002
+MD5sum: c6a91904c720fd4e56481e88046f3779
+SHA1: 1d982fe8a4768ff163c34d309f5ddb7e55d87760
+SHA256: 5331189821adbea156b95627d4763a5fd890510292fc0752a965c66291e06526
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
@@ -82,15 +82,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 17.0.0-r1-stable-release
+Version: 18.0.0-r2-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 908
-MD5sum: 12e83535148ae69f8b128b338f2f6610
-SHA1: 1ba4ff6f3ea81036e9d945514d0fd140649915bd
-SHA256: cb9177cbae8835de5d901b7bf5f70a052d69190117cca9639d8cdfc27affa975
+Size: 898
+MD5sum: ba9885b593c700e84d5c1d5cf8da6248
+SHA1: aa95b058855b216bb5bdfb43146d6b64ff48ebfe
+SHA256: 88beae4e02495e16742893b9f93b2eb179b1ee3a0b7b03c91bfae38deab25f79
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -149,9 +149,9 @@ Depends: zyphor-os-release,
  zyphor-repo-config
 Filename: pool/main/z/zyphor-updates.deb
 Size: 750
-MD5sum: 787d3290a2e5d716e56fb8baa6a0529a
-SHA1: 5e15240e10e4a9177f6c1ea70cac9bc548144bdd
-SHA256: 3543e60c7976865d94dad7b9a4dbdf2f7377f7c16e9e7d9a9c8d2b686a65c78b
+MD5sum: 32908cd6852a8d6f86b8961d4e97aa9e
+SHA1: 6fac492d18ef7342adf27ff2c37fa588ba3aad43
+SHA256: a5fd3aaed8800ecb0070d3734539856b464b7adb453f6fe1b844fa9960b16275
 Section: utils
 Priority: optional
 Description: Zyphor OS Updates
@@ -199,15 +199,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 7.0.0-r1-stable-release
+Version: 8.0.0-r2-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2548
-MD5sum: 648da3bac014c435d7153363f99e1de8
-SHA1: e026578869caec0370a74f6ddccc169b37f05f84
-SHA256: f6638833cd96e7a2546c01b19f9ca423cb72d8d5876cda0a48b906601d19fdcb
+Size: 2580
+MD5sum: c8c0a9c2b02c40e319952e8a553dd32b
+SHA1: 8859e05fe9397b6b1393969f6212c0a3527031ee
+SHA256: 69899bc528db65808feccfc0a88d46c8966ac201b37fdda2a7317b3e9cbc7861
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
