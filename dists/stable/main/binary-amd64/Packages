@@ -82,15 +82,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 18.0.0-r2-stable-release
+Version: 19.0.0-r3-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 898
-MD5sum: ba9885b593c700e84d5c1d5cf8da6248
-SHA1: aa95b058855b216bb5bdfb43146d6b64ff48ebfe
-SHA256: 88beae4e02495e16742893b9f93b2eb179b1ee3a0b7b03c91bfae38deab25f79
+Size: 1088
+MD5sum: c77a6b60117bd70fa74d33efcb964826
+SHA1: 3da7da98e25498dff93c0f34c7852c1d0536c6fd
+SHA256: 642c7bd59617cf2c14c0745a8ad289f948545a50cd070f9b6375194acd0ac86a
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -199,15 +199,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 8.0.0-r2-stable-release
+Version: 9.0.0-r3-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2580
-MD5sum: c8c0a9c2b02c40e319952e8a553dd32b
-SHA1: 8859e05fe9397b6b1393969f6212c0a3527031ee
-SHA256: 69899bc528db65808feccfc0a88d46c8966ac201b37fdda2a7317b3e9cbc7861
+Size: 2768
+MD5sum: cb9ae3c8fc240cce95463bb0ba29f8f3
+SHA1: e93acf8985a3279ec17820bb2d064c69d4d0f8dc
+SHA256: d1b00062d51f036be4be63419def5019bd21a1c94c061b23847b7f01e1dc39db
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
@@ -215,17 +215,17 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 2.0.1-r1-stable-release
+Version: 3.0.0-r2-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
 Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
-Size: 1614
-MD5sum: 867bae360f1d5c5ca8079e961cc4dd7b
-SHA1: 381aec482937b7dba04aabc496357a785417775e
-SHA256: ca992f80b1a84b874859a710bf92392cc9207108a78af0e552a308daad8d450e
+Size: 1844
+MD5sum: a90c1ed83768b297b0eacdd2cec31eea
+SHA1: 4386717535732d450e2968a30ef657c419dff639
+SHA256: 6966b03c678c1b6c30ca15b0107d2dda2d7e58119fb2265507bd616b9838a656
 Section: utils
 Description: Zyphor OS Default Shell
 
