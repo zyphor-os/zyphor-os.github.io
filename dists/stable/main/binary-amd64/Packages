@@ -40,15 +40,15 @@ Priority: optional
 Description: Zyphor OS Learning CLI
 
 Package: zyphor-cli
-Version: 1.16.5-r1-stable-release
+Version: 1.16.6-r2-stable-release
 Architecture: all
 Maintainer: Zyphor OS Team
 Depends: bash
 Filename: pool/main/z/zyphor-cli.deb
-Size: 11770
-MD5sum: 28aeae1b31ad97feb31e5b31178228b3
-SHA1: 5c0354f94b336aab07e80891d70795e8ffb9587b
-SHA256: 73081b89e6eb24b9af6573a8397d5c3b7826b14597a7f709b0e87f4178d7097c
+Size: 12420
+MD5sum: c8e4212126339731cc542e7e75b66b35
+SHA1: b91a8f59d24f6c33afa9d1d0a73b7696f8f92efb
+SHA256: 2400e40f84da318c38b91c9e8cfd42f4c57e10ea1944a32723e221f33070b521
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
@@ -82,15 +82,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 19.0.0-r3-stable-release
+Version: 20.0.0-r4-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1088
-MD5sum: c77a6b60117bd70fa74d33efcb964826
-SHA1: 3da7da98e25498dff93c0f34c7852c1d0536c6fd
-SHA256: 642c7bd59617cf2c14c0745a8ad289f948545a50cd070f9b6375194acd0ac86a
+MD5sum: fde8d0b82f13083c0a7ef011a9b74b47
+SHA1: 6b724914069db5647e89a0e62e709afcaec416cd
+SHA256: 45e44468361dbcb942b437b8ea27001498d27449c4d651909c53d1f72f14082a
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -199,15 +199,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 9.0.0-r3-stable-release
+Version: 10.0.0-r4-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2768
-MD5sum: cb9ae3c8fc240cce95463bb0ba29f8f3
-SHA1: e93acf8985a3279ec17820bb2d064c69d4d0f8dc
-SHA256: d1b00062d51f036be4be63419def5019bd21a1c94c061b23847b7f01e1dc39db
+Size: 2772
+MD5sum: f7d6bbba87122fd9d1d18645309b622e
+SHA1: c0ca12195ccdaa286ec9e0f14f22f2d2e38ee482
+SHA256: 91052656b92ef8f19f61b8f58e759e2951d7b77fa99fcf98a4a2e91318ef6989
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
