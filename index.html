@@ -164,6 +164,7 @@
                 <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                 <li class="nav-item"><a class="nav-link" href="#philosophy">Philosophy</a></li>
                 <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="docs.html">Documentation</a></li>
             </ul>
         </div>
     </div>
@@ -185,11 +186,11 @@
                         <br>
                         <b>Download Latest Releases: 
                             <hr>
-                            <a href="https://drive.google.com/uc?export=download&id=1CAUJLU0N_lXVSSejHHethg9BlYOVDi5r" class="nav-link fw-bold" target="_blank">Desktop - v1.13.0-2026-06-16-r5</a>
+                            <a href="" class="nav-link fw-bold _zyphorOSDesktopUrl" target="_blank">Desktop - <span class="_zyphorOSDesktopLatestVersion">...</span></a>
                             <hr>
-                            <a href="https://drive.google.com/uc?export=download&id=1eRYZQN7W-4aB1hp6SXclQwdO8Qzh31Ko" class="nav-link fw-bold" target="_blank">Horizon - v1.0.0-beta-2026.06.14-r1</a>
+                            <a href="" class="nav-link fw-bold _zyphorOSDesktopUrl" target="_blank">Horizon - v1.0.0-beta-2026.06.14-r1</a>
                             <hr>
-                            <a href="https://drive.google.com/uc?export=download&id=1a36Q9SL7jQ4h_S_isf-j7ORkW6GHBBnF" class="nav-link fw-bold" target="_blank">Server - v1.2.0-beta-2026-06-16-r2</a>
+                            <a href="" class="nav-link fw-bold _zyphorOSServerUrl" target="_blank">Server - <span class="_zyphorOSServerLatestVersion">...</span></a>
                             <hr>
                             <a href="https://github.com/zyphor-os/zyphor-os-minimal" class="nav-link fw-bold" target="_blank">Minimal Version (Skeleton) Codebase</a>
                         </b>
@@ -354,6 +355,48 @@
         </p>
     </div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Desktop
+        $.get('https://api.github.com/repos/zyphor-os/zyphor-os-desktop', function(res) {
+            let _zyphorOSDesktopUrl = res.html_url;
+
+            console.log(res);
+
+            // implementation
+            $('._zyphorOSDesktopUrl').attr('href', _zyphorOSDesktopUrl);
+        })
+
+        $.get('https://api.github.com/repos/zyphor-os/zyphor-os-desktop/releases/latest', function(res) {
+            let zyphorOSDesktopLatestVersion = res.tag_name;
+            console.log(res);
+
+            // implementation
+            $('._zyphorOSDesktopLatestVersion').text(zyphorOSDesktopLatestVersion);
+        })
+
+        // server
+        $.get('https://api.github.com/repos/zyphor-os/zyphor-os-server', function(res) {
+            let _zyphorOSServerUrl = res.html_url;
+
+            console.log(res);
+
+            // implementation
+            $('._zyphorOSServerUrl').attr('href', _zyphorOSServerUrl);
+        })
+
+        $.get('https://api.github.com/repos/zyphor-os/zyphor-os-server/releases/latest', function(res) {
+            let zyphorOSServerLatestVersion = res.tag_name;
+            console.log(res);
+
+            // implementation
+            $('._zyphorOSServerLatestVersion').text(zyphorOSServerLatestVersion);
+        })
+    })
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
