@@ -5,11 +5,11 @@ add:
 	git add dists/stable/main/binary-amd64/Packages.gz
 	git commit -m "chore: updated compressed Packages index"
 
-	git add pool/main/z/zyphor-cli.deb
-	git commit -m "chore: updated zyphor-cli package"
-
 	git add pool/main/z/zyphor-os-release.deb
 	git commit -m "chore: updated zyphor-os-release package"
+
+	git add pool/main/z/zyphor-updates.deb
+	git commit -m "chore: updated zyphor-updates package"
 
 	git add pool/main/z/zyphor-whats-new.deb
 	git commit -m "chore: updated zyphor-whats-new package"
