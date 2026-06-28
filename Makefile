@@ -1,12 +1,12 @@
 add:
 	git add dists/stable/main/binary-amd64/Packages
-	git commit -m "chore: updated Packages index"
+	git commit -m "chore: Update Packages"
 
 	git add dists/stable/main/binary-amd64/Packages.gz
-	git commit -m "chore: updated compressed Packages index"
+	git commit -m "chore: Update Packages.gz"
 
-	git add pool/main/z/fastfetch-config-1.deb
-	git commit -m "chore: updated fastfetch-config-1 package"
+	git add pool/main/z/grub-screensaver-1.deb
+	git commit -m "chore: Update grub-screensaver-1.deb"
 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
