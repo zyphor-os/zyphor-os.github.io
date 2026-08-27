@@ -52,16 +52,29 @@ Section: utils
 Priority: optional
 Description: Zyphor OS Learning CLI
 
+Package: zyphor-archive-keyring
+Version: 1.0.0-beta-release
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Filename: pool/main/z/zyphor-archive-keyring.deb
+Size: 5692
+MD5sum: 78245fecb912ec665fd33dab44d7b865
+SHA1: ba23b796f394f9003921ac845c7c1c94b2d24520
+SHA256: 53e61ca4673cb1e065f3cfe96ae3454a730d4c45734aa37528bba884866a498a
+Section: utils
+Priority: optional
+Description: Zyphor OS archive-keyring Configuration
+
 Package: zyphor-cli
-Version: 10.1.0-r16-stable-release
+Version: 11.0.0-r17-stable-release
 Architecture: all
 Maintainer: Zyphor OS Team
 Depends: bash
 Filename: pool/main/z/zyphor-cli.deb
-Size: 17608
-MD5sum: c686b36c754584a88c9554a4255aaf5e
-SHA1: 84f9c74948cb35728ddb7970710234e3f447e321
-SHA256: fa4d56077c8607788324786d975aa3e10c5ed8a9904c7a27d32d0f28f5fa53d5
+Size: 18816
+MD5sum: 7e6adf8d9982efc9a9baae950b14259c
+SHA1: 9a0274214a04af9bc84fab2591052ab825375f6c
+SHA256: 82e22f9b37c91bc2b695570ec6bf2553e6d493fb7fd26e69ef58612cbabc18ad
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
@@ -141,14 +154,15 @@ Priority: optional
 Description: Zyphor OS Release
 
 Package: zyphor-repo-config
-Version: 4.0.0-r4-stable-release
+Version: 5.0.0-r5-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
+Depends: zyphor-archive-keystring
 Filename: pool/main/z/zyphor-repo-config.deb
-Size: 940
-MD5sum: acc0165c4b58273e8de64abe27a41249
-SHA1: 111863ea5b0b06f442d8168ab15cdb5aacf16fb5
-SHA256: 546ef3c5376832044251b9bec9d812ec1281eb7ca541b76abbead149aba6fee6
+Size: 980
+MD5sum: b5e2ecdecf1151102abbb8bd9433cd5b
+SHA1: 84cab79e0cb2d2ebb706322307eaede3c4a78bdf
+SHA256: ff3513f9360f97f77d8e74877b87dd04a10c3fb6f4cfa9be02bc6f1e972aa636
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
