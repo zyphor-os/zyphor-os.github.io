@@ -58,9 +58,9 @@ Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Filename: pool/main/z/zyphor-archive-keyring.deb
 Size: 5692
-MD5sum: 78245fecb912ec665fd33dab44d7b865
-SHA1: ba23b796f394f9003921ac845c7c1c94b2d24520
-SHA256: 53e61ca4673cb1e065f3cfe96ae3454a730d4c45734aa37528bba884866a498a
+MD5sum: 8cac07ecadd45ade78b5ca7516cf9a2b
+SHA1: 1ccaf5052637a13d38b7dbd088e548325b901c4a
+SHA256: 2304321532c03843702c4528ce7b435f42a8636508cf9f6cc8a142b161596e3e
 Section: utils
 Priority: optional
 Description: Zyphor OS archive-keyring Configuration
