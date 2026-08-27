@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: ada-lovelace
+Components: main
+Date: Thu, 27 Aug 2026 02:22:26 +0000
+Description: Zyphor OS ada-lovelace Repository
+Label: Zyphor OS
+Origin: Zyphor OS
+Suite: ada-lovelace
+MD5Sum:
+ 9e3b100d93a92e21bfcf185696a1ba3b              201 Release
+ 2a68abcf68aeadeec69de29b375fb07a             9685 main/binary-amd64/Packages
+ b260465d19ab3bc90a01cc5478c3f327             3475 main/binary-amd64/Packages.gz
+SHA1:
+ a5c49c60c11eac60e9bffcad13b3d7f6d6c938c9              201 Release
+ f818b24bbf0c08ed5371d7f389f00aea0c80d002             9685 main/binary-amd64/Packages
+ 901c689fd60e9352907cec75f37e5f26d5b7ec48             3475 main/binary-amd64/Packages.gz
+SHA256:
+ 5e317c0a7a3abf00d0d069c7fa7cff0529c00cc01016ea2f63747a1e7470e40d              201 Release
+ e12a63a16076558d88f5480be09ac146b1050d2c0c596e28e772b8e1ef1eb6df             9685 main/binary-amd64/Packages
+ f336677b1c780e982bef38be624687862bd204717fd6fdadb3bf1d57f53bf3b1             3475 main/binary-amd64/Packages.gz
+SHA512:
+ 3dcd81cddc905b32aefffd8453fb2e7c9ab88d5a3eb3534b3e49115653f482403857cd9645c6724acb54470b71c5b5cebb5a2b68b61b829a5efa871acd704ccb              201 Release
+ c5eacacd6182d7b94eff3268ff6c5ad71089082bf051cf8697d8161ee8e23e280e485e8bf1534ef3d1d94e097666f6127cb230ca09f5c3f39354aa059115a9b2             9685 main/binary-amd64/Packages
+ 43873efed75b48e72cc6f00575642767e2b985a6bd1437f840f1fac2be240bef60e6b5bb1b9fd7d8ea20342bb626fe7879a410ea97816688556ef0c15406fbd9             3475 main/binary-amd64/Packages.gz
