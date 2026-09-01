@@ -139,16 +139,28 @@ Section: utils
 Priority: optional
 Description: Zyphor OS display mac
 
+Package: zyphor-grub-theme
+Version: 1.0.0-r1-stable-release
+Architecture: all
+Maintainer: Mark Jason P. Espelita
+Filename: pool/main/z/zyphor-grub-theme.deb
+Size: 1164
+MD5sum: ffb82ed4b817b6280584918ec78be22b
+SHA1: f0482b47e4cf77bd715876576d64b2926cbcf5d9
+SHA256: 5895c9bf1e80a43970a5561cfd27cd506189d5bf335e7685a2544b3193549ef4
+Section: utils
+Description: Zyphor OS Zyphor Grub Theme
+
 Package: zyphor-os-release
-Version: 51.0.0-r34-stable-release
+Version: 52.0.0-r35-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1096
-MD5sum: 9336a2f34edd69de0a1781e4659e2eb7
-SHA1: 407320810927d4773dc67044df3a376db37175b9
-SHA256: 7cd5bad2e65c3643466365d797615ca24cedf6f5868383f34b9b7e6935751fab
+Size: 1100
+MD5sum: edbc1a68fb383194b63434ddd7ba0e1d
+SHA1: f3a26d22ca9686e61b4925960b87aadcb7ed9aa6
+SHA256: 1e50e38b2e1ada39ced811b5f09d07144a94f9a91c3c7ace60a8ef8d06a82a98
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -169,7 +181,7 @@ Description: Zyphor OS repository configuration
  Installs and manages the Zyphor OS APT repository configuration.
 
 Package: zyphor-updates
-Version: 8.0.0-r8-stable-release
+Version: 9.0.0-r9-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: zyphor-os-release,
@@ -204,14 +216,15 @@ Depends: zyphor-os-release,
  ksnip,
  zysh,
  zyphor-whats-new,
- zyphor-repo-config
+ zyphor-repo-config,
+ zyphor-grub-theme
 Conflicts: flameshot
 Replaces: flameshot
 Filename: pool/main/z/zyphor-updates.deb
-Size: 956
-MD5sum: 9a279f7fd1fdd691a06c82cee2c2f806
-SHA1: 43f50c6109f8c70a0c7f0cdd63f95fd57e0468c7
-SHA256: d7608d7a2293bf8eba0256aff239c59e998fec28adcd925f66515c91f325d94e
+Size: 964
+MD5sum: 062283a9a1d86d4c368ae38a6996eff0
+SHA1: 628482204312fe1bc66b6c179740fcbd51c3afc5
+SHA256: 4bda227cb54916407a5f79dca2468be04f163d8dae3b0429300a6ba22bc5be03
 Section: utils
 Priority: optional
 Description: Zyphor OS Updates
@@ -259,15 +272,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 41.0.1-r39-stable-release
+Version: 42.0.0-r40-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 4016
-MD5sum: 941ae4b2034aad2e8bd781da3bb5e884
-SHA1: fed67b1be54351353334bfb23bbf250109971d57
-SHA256: e3bc1453c210545f7b3f755fe6c9559429feee789f7ee27518514ded5c9d1f25
+Size: 4036
+MD5sum: 866b850a34419db4390dfcaa021f3bd5
+SHA1: 1c70b92fbcdb675d00c4d4f7493d73b3cd90da0f
+SHA256: 380eda02e14df416eacc59305cdd438a910168948ea465af8341a3c593cdd7c7
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
