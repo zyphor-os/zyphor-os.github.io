@@ -140,27 +140,27 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-grub-theme
-Version: 2.0.0-r2-stable-release
+Version: 3.0.0-r3-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-grub-theme.deb
 Size: 1204
-MD5sum: 29873c87aa02bae71d005f9f0cecee0e
-SHA1: 4a912e64220c93abda571006c0ec4248a90c52d2
-SHA256: ea665dd9e873d0323f30c8070a2b13b7dcee6087614127218e6bb0c38e8182a4
+MD5sum: 11e63d6dfa5760a7c940b9f82766744e
+SHA1: e5bbee434ec5557d13f1779808da6fe269be1884
+SHA256: f05f49ec0b2e0c171dd683d128062ddcd7a4a5de05eef991bd2dd7111c02bc1d
 Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
 Package: zyphor-os-release
-Version: 52.0.0-r35-stable-release
+Version: 53.0.0-r36-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1100
-MD5sum: edbc1a68fb383194b63434ddd7ba0e1d
-SHA1: f3a26d22ca9686e61b4925960b87aadcb7ed9aa6
-SHA256: 1e50e38b2e1ada39ced811b5f09d07144a94f9a91c3c7ace60a8ef8d06a82a98
+MD5sum: 408fd5716983ba7dc4366a4eb721197b
+SHA1: 43a2a4920faf9fec17f4515820c0ce7b54498df4
+SHA256: 838e666a0ff8535dfa2f20da8df453c2d9d6560bbfb022c4fcd323ea37d0d2b6
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -272,15 +272,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 42.0.0-r40-stable-release
+Version: 43.0.0-r41-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 4036
-MD5sum: 866b850a34419db4390dfcaa021f3bd5
-SHA1: 1c70b92fbcdb675d00c4d4f7493d73b3cd90da0f
-SHA256: 380eda02e14df416eacc59305cdd438a910168948ea465af8341a3c593cdd7c7
+Size: 4016
+MD5sum: 234ee6567b282668ad89d94d6b41bc36
+SHA1: 9a381b4fdbe16d06fd54fcf7a3af7b3c924c1625
+SHA256: 322b18abb8abb7ae9aa8d276b07fcb188a2acfc36c726e99c3de7485eb84378e
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
@@ -288,17 +288,17 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 7.0.0-r8-stable-release
+Version: 8.0.0-r9-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
 Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
-Size: 2000
-MD5sum: 0bce40598dcd21aaadcad77f7ff0add5
-SHA1: 6f44dfa968f5c75f0c050f53a4ba5a983b67264b
-SHA256: 2bb0653627fb37889fb2b7ae970c8cf77c59d59feb6e21a4538de8bd07f3e0da
+Size: 2072
+MD5sum: 9a1ad814ba16de024f7508ffba71720c
+SHA1: e3c2a467c6327c567def3f02dfbbd3af224a646d
+SHA256: dca41a6f38b9baa7836f3447f822c2ca19cf2c02bad85b2aabfbbaf51b6d1a9a
 Section: utils
 Description: Zyphor OS Default Shell
 
