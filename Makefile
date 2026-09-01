@@ -20,17 +20,11 @@ add:
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Packages index"
 
-	git add ada-lovelace-lts/pool/main/z/zyphor-os-release.deb
-	git commit -m "chore: update zyphor-os-release package"
-
-	git add ada-lovelace-lts/pool/main/z/zyphor-updates.deb
-	git commit -m "chore: update zyphor-updates package"
-
-	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
-	git commit -m "chore: update zyphor-whats-new package"
+	git add ada-lovelace-lts/pool/main/z/grub-screensaver-1.deb
+	git commit -m "chore: update grub-screensaver package"
 
 	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
-	git commit -m "feat: add zyphor grub theme package"
+	git commit -m "feat: update zyphor grub theme package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
