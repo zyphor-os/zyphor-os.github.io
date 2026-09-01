@@ -288,7 +288,7 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 6.0.1-r7-stable-release
+Version: 7.0.0-r8-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
@@ -296,9 +296,9 @@ Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
 Size: 2000
-MD5sum: 5fe59e893617883c4ac8276b1a16f3f2
-SHA1: c0d56681f1418f6d7dd4dd2c92c1f5fa6182ba1c
-SHA256: eb7b5cf2440cfccc835066044ce63adff4bb035769349ba16abcb485729d8ee6
+MD5sum: 0bce40598dcd21aaadcad77f7ff0add5
+SHA1: 6f44dfa968f5c75f0c050f53a4ba5a983b67264b
+SHA256: 2bb0653627fb37889fb2b7ae970c8cf77c59d59feb6e21a4538de8bd07f3e0da
 Section: utils
 Description: Zyphor OS Default Shell
 
