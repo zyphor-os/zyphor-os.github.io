@@ -1,7 +1,5 @@
 add:
 
-# 	add makefile
-
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
@@ -22,15 +20,6 @@ add:
 
 	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
 	git commit -m "chore: update zyphor grub theme package"
-
-	git add ada-lovelace-lts/pool/main/z/zyphor-os-release.deb
-	git commit -m "chore: update zyphor OS release package"
-
-	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
-	git commit -m "chore: update zyphor whats-new package"
-
-	git add ada-lovelace-lts/pool/main/z/zysh.deb
-	git commit -m "chore: update zysh package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
