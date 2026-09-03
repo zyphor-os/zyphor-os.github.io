@@ -94,7 +94,7 @@ Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
 
 Package: zyphor-command-center-web
-Version: 1.1.0-r2-beta-release
+Version: 1.1.1-r2-stable-release
 Architecture: all
 Maintainer: Mark Jason Penote Espelita <markjasonespelita@gmail.com>
 Depends: composer,
@@ -110,13 +110,13 @@ Depends: composer,
  php-fileinfo
 Recommends: sqlite3
 Filename: pool/main/z/zyphor-command-center-web.deb
-Size: 135000
-MD5sum: 7d8adfa343276b7c09c084a0b5a8383c
-SHA1: 4cd4380ea7fa8300c422f7f83bfce96899ca2b58
-SHA256: db47ee5cf0664baddd921d1930fae5b80dab170a6accba9eb55e778b1a521865
+Size: 134992
+MD5sum: f96db237a749db1c377eaaef4faf9e33
+SHA1: 6eafc50898eb64ad1a0d7fb887e445eef3460f11
+SHA256: b585d912bbb96211004a14803b4f1fa3f94fcabf044e7c7e66c32a50ccca6c32
 Section: admin
 Priority: optional
-Homepage: https://zyphoros.github.io
+Homepage: https://zyphor-os.vercel.app
 Description: Zyphor Command Center Web
  A Laravel-based web interface for Zyphor Command Center.
  .
