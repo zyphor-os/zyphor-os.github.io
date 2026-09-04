@@ -288,7 +288,7 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 9.0.0-r10-stable-release
+Version: 10.0.0-r11-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
@@ -296,9 +296,9 @@ Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
 Size: 2072
-MD5sum: ef49a49a10ea10f6030a888f5782dbb8
-SHA1: 9fcb8f1d59cff09c58acc9f1086a417aa5833390
-SHA256: b400f02832960142c497c3a6678a5f3266c0028b6a36d97d799d072d721d6c7d
+MD5sum: b03431004215c81401c1dfdcb8c6e538
+SHA1: f969728a89e9435061ebb5f8860ace4520092657
+SHA256: cdfee35fa4b3ebb107286905abfe54e3bbee37c61cc33c23733d3bc749fa3466
 Section: utils
 Description: Zyphor OS Default Shell
 
