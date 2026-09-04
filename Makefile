@@ -17,8 +17,8 @@ add:
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Packages index"
 
-	git add ada-lovelace-lts/pool/main/z/zyphor-command-center-web.deb
-	git commit -m "chore: update zyphor command center web package"
+	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
+	git commit -m "chore: update zyphor grub theme package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
