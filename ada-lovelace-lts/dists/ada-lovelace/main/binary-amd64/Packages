@@ -140,14 +140,14 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-grub-theme
-Version: 7.0.1-r8-stable-release
+Version: 8.0.0-r9-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-grub-theme.deb
 Size: 1204
-MD5sum: 0e1202818a2a2468ec823a72a4786a78
-SHA1: e0104782a541dd9094e3c22f55f4670d2fd97ba4
-SHA256: 88deb3ee40b1bf5f07f09483ba957f140062184d449d0308023ed645a9a5e2e9
+MD5sum: 76888c909af3dce95ca7ceb1304c7e88
+SHA1: bed75a4c576906617c56938fea6ef68dda4aedcf
+SHA256: 84dab4d6abb563438b7f915413623b12f370e9375f96d579af439e7cb635b5d7
 Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
@@ -288,7 +288,7 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 10.0.1-r12-stable-release
+Version: 11.0.0-r13-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
@@ -296,9 +296,9 @@ Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
 Size: 2072
-MD5sum: 6bc0d4ba25fa45afd7546f7baec10641
-SHA1: 5d63c3296995d2f179f6d19d803e99350b01af20
-SHA256: 64b95c31cce01dc8a43540c82f68b50b638f309e3a4bcbb259449d15e34a07e6
+MD5sum: d136de2acc4470c10bb4af93b18c32e3
+SHA1: 8142c079f199283694660be7f23ffa137865c6d6
+SHA256: 80d366c2702401092fccf71522a2da5c99966e08c99bf6a2f2cda2a239c28cd6
 Section: utils
 Description: Zyphor OS Default Shell
 
