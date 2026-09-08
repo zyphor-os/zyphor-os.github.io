@@ -288,7 +288,7 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 11.0.0-r13-stable-release
+Version: 12.0.0-r14-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
@@ -296,9 +296,9 @@ Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
 Size: 2072
-MD5sum: d136de2acc4470c10bb4af93b18c32e3
-SHA1: 8142c079f199283694660be7f23ffa137865c6d6
-SHA256: 80d366c2702401092fccf71522a2da5c99966e08c99bf6a2f2cda2a239c28cd6
+MD5sum: f53e8a50cd8b5ad720115bdbab9dba90
+SHA1: 8964ab27ea390b9523afba7bc2a5e19b3643ed1d
+SHA256: ace6bfde3145b0b09ff22113e01afef04c157a3819904710b782c4b9e28604db
 Section: utils
 Description: Zyphor OS Default Shell
 
