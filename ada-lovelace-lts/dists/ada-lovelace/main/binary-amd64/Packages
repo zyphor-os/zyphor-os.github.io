@@ -66,15 +66,15 @@ Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
 Package: zyphor-cli
-Version: 11.0.0-r17-stable-release
+Version: 12.0.0-r18-stable-release
 Architecture: all
 Maintainer: Zyphor OS Team
 Depends: bash
 Filename: pool/main/z/zyphor-cli.deb
-Size: 18812
-MD5sum: 5b4661b90f4893841357e9909341043a
-SHA1: 4490c32b97a4d6b9fbedd7adcb1ef1e6e9d9c258
-SHA256: 91135a4a9f0fb3524dceef15a2fc726d7fb6b90ca1397c7dc4ac70dc38f887f4
+Size: 20652
+MD5sum: 4bd3c3fcb85b770562b2602911103cc7
+SHA1: c18ce7efab640bd30ac22c03cadb1d4018518ffd
+SHA256: 940794cf1e24047863a87aa7a489f5717db48d19c413dcdb94b225b481801485
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
@@ -152,15 +152,15 @@ Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
 Package: zyphor-os-release
-Version: 53.0.0-r36-stable-release
+Version: 54.0.0-r37-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1100
-MD5sum: 408fd5716983ba7dc4366a4eb721197b
-SHA1: 43a2a4920faf9fec17f4515820c0ce7b54498df4
-SHA256: 838e666a0ff8535dfa2f20da8df453c2d9d6560bbfb022c4fcd323ea37d0d2b6
+Size: 1104
+MD5sum: 39e7c902e866aadce0672f2b83a926f5
+SHA1: 2ad55616fa12d40ab9b0d4c169d520b4203c458f
+SHA256: 29b46c5e22ee6782395478c0e4d9a9067e4431b44b2d577653f40b7f892fc908
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -272,15 +272,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 43.0.0-r41-stable-release
+Version: 44.0.0-r42-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 4016
-MD5sum: 234ee6567b282668ad89d94d6b41bc36
-SHA1: 9a381b4fdbe16d06fd54fcf7a3af7b3c924c1625
-SHA256: 322b18abb8abb7ae9aa8d276b07fcb188a2acfc36c726e99c3de7485eb84378e
+Size: 4808
+MD5sum: 8890d427690905e1012f02298c3acfa6
+SHA1: 89e69e6f8fdfaaf29197b6af1e31f255fc363bea
+SHA256: 9aa42e8537a895d0ca7dcccc2155539b960723c8916a5a0cef412fcc9b149417
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
