@@ -140,14 +140,14 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-grub-theme
-Version: 11.0.0-r12-stable-release
+Version: 11.0.1-r13-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-grub-theme.deb
 Size: 1204
-MD5sum: 814ad72ae0f8137eb1c8dd92ef7344f7
-SHA1: 607b7fc17ec3e111cbd521e45baaa934d6a8d06a
-SHA256: bead8881a70e5dcc88d2b949c01426847251a779dcb0872a5c07c41eddb284ab
+MD5sum: 14b4cd4af7404b88526236dc0f78f941
+SHA1: e6a612bcd14aa3c546d12cfc4ed066359bfa2e45
+SHA256: 1ba170ff06927d6a589b11df36e00701d6c163791341db10af5c1b6c502e033a
 Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
