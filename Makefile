@@ -1,5 +1,4 @@
 add:
-# 	add makefile
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
