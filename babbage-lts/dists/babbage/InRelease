@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: babbage
+Components: main
+Date: Sat, 12 Sep 2026 00:52:18 +0000
+Description: Zyphor OS babbage Repository
+Label: Zyphor OS
+Origin: Zyphor OS
+Suite: babbage
+MD5Sum:
+ 60cba1f443793667f7f5d0b1977b1497              186 Release
+ 120e40085620bcdb08ce2457ddcd31ff              923 main/binary-amd64/Packages
+ 143fc0dcbcd5987a60ee38988df95da1              504 main/binary-amd64/Packages.gz
+SHA1:
+ 2e542d01f839100bfb70bd0151ffd55fe3295392              186 Release
+ 5500997000a45e68f4293f07e07cccad75e5be51              923 main/binary-amd64/Packages
+ 43d854be7eda036b2c7d88aa2afd44c079066253              504 main/binary-amd64/Packages.gz
+SHA256:
+ cf3fd76deec89b8c8e06fa8d435c9a4fea4b430d7b24d619f193e3c71a90cbf2              186 Release
+ e6f781ba25ea23d817e0a86bf4d22a1deaed2e3769de2717d4275acdb6f035bd              923 main/binary-amd64/Packages
+ c27d5187e83953aaa07f16f27df4faf28a5fc71a536dbf41180de294466a8596              504 main/binary-amd64/Packages.gz
+SHA512:
+ 8c917d2586c4b9d26267215445e6a6f6bfc1f559eef7f619cfd8a7ba6ce5ded9a86482f54473f2f0e71324c4c77cfa0ff87ea77982194e9d8adbd0e9b8f9a100              186 Release
+ 328487f5c3477f407c8ba5df2dfb13975c4bde547c66f546226cc10f9e8ad13a3fe4fbf62ceb3329997dceb4988940e474a615d4d7413f3890eb00e0b9aec266              923 main/binary-amd64/Packages
+ a88475a6c593a7a850ba26603873807a9a86aa2331d25fff9f019ec894dffe64b533687593848f687999dda0e101eae773f6e2ef9f2694982cea10a5cfe6e373              504 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEElNKaGEPAVty8W6s1DBZ784ju+AFAmqkokIACgkQ1DBZ784j
+u+DWnQ//b9LWTvFW9KRlixX8xsL5PlvtZl9e8/B1tJar4fh3qm3PVutoWidMbdkO
+8yEQKnV7MzaCuiY1LCfiK0itqJ7vV05qJKVgfRZzkBQCFj4+zsXJL0p/oSjJDpyN
+u+bu4PH3ZfhQLeeaM3+DNc2tVXWL2P8/UbJ2c0XekFKyYP0C+d5R+eSvUMt7yxlQ
+h5xZWk3a98PfMQw19/asku48s5TylYXXK4IXq9fB5JzCJ+hcwo6XzqTaB/sWsckt
+OB2VXoVasEIRGDAgP4pHlCvurugmvJUFc+sDoD4VxhQiHXCHCXTCvB6nY3LqDpgb
+mqyd30YTMQJRLpmzGgb4ksxnisCOacP4bjhfKqoCtu27MBPmvKfsVm6dXSqsK7pz
+72iEq1sw7jHJgXdYEtcfR1lWBDkXxedrXAJcX4tEFmaV8DIzfOVDz6cMI7B2X1Og
+9TN5X3q26NBO4Mbg5YFV7jmeFL3FNgPuz4WrDNma2FMMjb/cRzY6kCim/MgOxPms
+YLgQwefklskOAISUwC2Xs1KR/q6tJOcPChgf+nelFyEiMY+syGfsMBGuHCijSEIW
+w6i0mYDGup0+UFLe1Ah81R+67ZicfRPCXohZQpU0qgpsbpmK7DUfpqHpmaDbdFgu
+LnPGSs9eGpZ/m5qRJZLQiRsoFgZABJQeFe4n5PvefLdBaqUqy+k=
+=URRb
+-----END PGP SIGNATURE-----
