@@ -12,15 +12,15 @@ Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
 Package: zyphor-repo-config
-Version: 1.0.1-r1
+Version: 1.0.2-r1
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: zyphor-archive-keyring
 Filename: pool/main/z/zyphor-repo-config.deb
-Size: 1032
-MD5sum: 4c070457ee52e963cb8e7633fbd7d258
-SHA1: 8c80b5b8eaa35ebf2532367cfc3c8633d35a5a8b
-SHA256: 6c1b546d54f07baa6c5a7833b724d609c18463770bd8fbe98dc0c1785882a5a3
+Size: 1024
+MD5sum: 3ce77134bd00663b162b8826c5ff9625
+SHA1: 9d460836d2c98a2a2c2de9392ecfc4b0377eb3b7
+SHA256: 8c72c224f5c3441ee89b428955875a5448e11ad57bbd2202e0b52d819657df6b
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
