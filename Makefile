@@ -17,8 +17,8 @@ add:
 	git add babbage-lts/dists/babbage/main/binary-amd64/Packages.gz
 	git commit -m "chore: update babbage compressed Packages index"
 
-	git add babbage-lts/pool/main/z/zyphor-os-release.deb
-	git commit -m "chore: add zyphor os release package"
+	git add babbage-lts/pool/main/z/zyphor-grub-theme.deb
+	git commit -m "chore: add zyphor grub theme package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
