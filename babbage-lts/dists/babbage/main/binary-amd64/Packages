@@ -24,6 +24,21 @@ Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
 
+Package: zyphor-os-release
+Version: 1.0.0-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita
+Filename: pool/main/z/zyphor-os-release.deb
+Size: 964
+MD5sum: 7a8cd774273e68438e8a0fa6ea5ca816
+SHA1: 3a56ffe851085e2302e370327aec49859a409378
+SHA256: 5eaf7576451ed8bc87d51c6f36d9f5348c94609ba932257d19d84772f0860f0b
+Section: base
+Priority: required
+Description: Zyphor OS release information
+ Provides operating system identification and release metadata
+ for Zyphor OS.
+
 Package: zyphor-repo-config
 Version: 1.0.2-r1
 Architecture: all
