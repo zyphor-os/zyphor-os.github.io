@@ -25,15 +25,15 @@ Priority: optional
 Description: Zyphor OS Desktop Environment Theme
 
 Package: zyphor-grub-theme
-Version: 1.0.0-r1-alpha
+Version: 1.0.1-r2-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita
 Depends: grub-common
 Filename: pool/main/z/zyphor-grub-theme.deb
-Size: 1043300
-MD5sum: 10a60e5af1bb4d24a6ce70fafde6cc8e
-SHA1: eb418ce69da50330a596fc180dc979bcf0ec5214
-SHA256: 951bc8669514aa0419c1f10d6519e1386d8ee1edb6de348f3e878a9d942ffa5d
+Size: 1043260
+MD5sum: d7782e61e2202bdff69c12edb3e394f9
+SHA1: eacca986e0c465cab6a4b0dc1a02afe9046a6e55
+SHA256: 8824c9e36dafd8fac7e1919c5d2027b55af8cea207757c3cbd8a8d9f1fef77bf
 Section: admin
 Priority: optional
 Description: Zyphor OS GRUB theme and configuration
