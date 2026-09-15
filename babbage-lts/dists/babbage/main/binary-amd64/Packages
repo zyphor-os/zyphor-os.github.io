@@ -25,15 +25,15 @@ Priority: optional
 Description: Zyphor OS Desktop Environment Theme
 
 Package: zyphor-fastfetch-config
-Version: 1.0.0-r1-alpha
+Version: 1.0.1-r2-alpha
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash, fastfetch
 Filename: pool/main/z/zyphor-fastfetch-config.deb
-Size: 1768
-MD5sum: 050ab6244edcae558b67388e39c2f722
-SHA1: 254461eb1baeb4c0a7b88fb9b9dd1603f4e93738
-SHA256: 1eee46fa55058d8d3d6f75124b954b547c54521bf57474b3754feeca47de2823
+Size: 1892
+MD5sum: dda2194ffff88c98e020612f18605490
+SHA1: 0849a969da3f7b50bb7e809892f6570b5a19cdf5
+SHA256: 6c632d7bce277d74bb9be0b77d56d745e3ae361eb5a20d6b956981a52f177abf
 Section: utils
 Priority: optional
 Description: Zyphor OS Fastfetch Config
