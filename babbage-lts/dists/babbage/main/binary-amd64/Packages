@@ -12,14 +12,14 @@ Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
 Package: zyphor-desktop-environment
-Version: 2.1.0-r6-alpha
+Version: 2.1.1-r7-alpha
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-desktop-environment-theme.deb
-Size: 4396848
-MD5sum: 62e5805b10dc3b2d3914fe8d226178e0
-SHA1: 94789f8c87fd5e7bef2225737a6e8dfd499c399c
-SHA256: a3ed83ea9063728d2c51a3f1556db95700daeee8eb5c07f968c3fe3371860483
+Size: 4397104
+MD5sum: dc6aef8a2b5f85ca263932f4d82a3123
+SHA1: 467cbc6531ba5bc30a9079da19eb352d0a30b695
+SHA256: 259aedcfa42ab71932e87b431603eef7b144df1b8c104603fe782af5798c70f4
 Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
