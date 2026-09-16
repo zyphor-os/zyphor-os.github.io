@@ -55,14 +55,14 @@ Description: Zyphor OS GRUB theme and configuration
  and GRUB configuration drop-in.
 
 Package: zyphor-os-release
-Version: 1.0.3-r4-alpha
+Version: 2.0.0-r5-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1232
-MD5sum: edc69cfac3852d0825725f983705edec
-SHA1: d79f3195ca21ffbe8fc0884306fa8894c3bb479d
-SHA256: d4ae47b9c348587416c95c55d62ba9e5efda7aaddd3e3e6f7271c0d417e5cbaa
+Size: 1288
+MD5sum: d20b2d09fc9020a1ca47b66159e4d99b
+SHA1: a9e6972dee56905ffde1609fd3dbb46c83a6c431
+SHA256: 6e45b4b1d2355ea433b3a09592e7ec6cdd707db2ddb36295ba2f9bd95c9614fd
 Section: base
 Priority: required
 Description: Zyphor OS release information
