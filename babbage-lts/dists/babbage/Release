@@ -1,24 +1,24 @@
 Architectures: amd64
 Codename: babbage
 Components: main
-Date: Wed, 16 Sep 2026 03:41:21 +0000
+Date: Wed, 16 Sep 2026 05:42:17 +0000
 Description: Zyphor OS babbage Repository
 Label: Zyphor OS
 Origin: Zyphor OS
 Suite: babbage
 MD5Sum:
- 42003d696af0dc878c8322e01211884e              186 Release
- 7fb9719dadde3114d7447c9e52638099             3737 main/binary-amd64/Packages
- 2b80b3ae888516e9b545d0c82a9773f8             1474 main/binary-amd64/Packages.gz
+ adbe1622ba854fc121f19136ff2b321f              186 Release
+ 426ee75054d31ddfe370f1ab8415a438             3738 main/binary-amd64/Packages
+ 8e5bb645a93c663167ade8da9b6aa8f0             1475 main/binary-amd64/Packages.gz
 SHA1:
- 925bb4e2a4f7cfcc22efa857706d6f4eff662060              186 Release
- 1d8a30daba2592307d10d44f5d9a6a43848ad319             3737 main/binary-amd64/Packages
- 4c954b02ae1c040e9cffeb01427dbb83656b01cb             1474 main/binary-amd64/Packages.gz
+ 756b7b1dd5d815294ce668624a95d95555d727fe              186 Release
+ e01c3c9cda456560d40a873afe8e52e5432a9054             3738 main/binary-amd64/Packages
+ 610ccf95cb5c5dd93000ffbff5c59503609da262             1475 main/binary-amd64/Packages.gz
 SHA256:
- 803e00e4d3654ef562bffa16e326504162bf9b50edbaf890515c663bec368ba8              186 Release
- 80278b65a0cc8c563a43bc3175fa1ebda95e14f7b8a8f984965ef36abc6f7862             3737 main/binary-amd64/Packages
- 3178946bc588ac8cc7a5c2daf0f171cad7eeebbb3468036ea4cc1080f0360438             1474 main/binary-amd64/Packages.gz
+ d4a6afc34a7a5d434acd71d640b1ab27c7b038023ac952eb92b746519cf3ba0f              186 Release
+ b8e00d0ab376df62be557db652ad45cc2ec7333cc2c3799af9874813d407026d             3738 main/binary-amd64/Packages
+ 183f675dd43e11f58565b9d799e5aed9f516fef454aa7ff0b1f16f460c75d0aa             1475 main/binary-amd64/Packages.gz
 SHA512:
- fd8c181fb387cbb3291e559230b3cb4c3b3d6f4592d4ae11ab2e32abe9adf11aed8c6ad2eb05ab0ebc8752a7bb4f7f7243a0b80f3cca48a9d4d101717a0ec2b4              186 Release
- c18f8dc0a6d19c0c439b5c42c9685460e532bd3c587a69fa4ca4e3f9043a485efb8d7ca1bc3ca563082bee8d5428f75c33a42450376cda286d0da41196e8ef1b             3737 main/binary-amd64/Packages
- 6a52abd31a2f1b6857a54f891f79600c45766bc2338392dc5cea396e36a867229759f80f211d30243966a1f6462fc48612b4f16d7db3ec3275bb245fd96bdb01             1474 main/binary-amd64/Packages.gz
+ 79acbd36d6bf30591b30c7c1865124e3ac1046b25036697a41df0d80817529b3d4aa93acf2ca5380234e4177f5e3d620f5e7a4b05532dc26603276dd705a77b7              186 Release
+ 40a010f049ecd248ba4f7ca5706bb67850ecdb3502fb7d09975305c98525a57509d393ac5508a5c77e1354526f75cd0d02b5aa0b6f467d1cf23f8452283fd6b7             3738 main/binary-amd64/Packages
+ aa6900ed8d409ecd1fc68e990cd4628781a8504d99a84879182e4f19f769c7f257d56218d1e31aa8e9147128478a05b28f418eadf0f83a70ec2cac5105af7f76             1475 main/binary-amd64/Packages.gz
