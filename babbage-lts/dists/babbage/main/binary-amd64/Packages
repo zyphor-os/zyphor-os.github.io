@@ -12,14 +12,14 @@ Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
 Package: zyphor-background-themes
-Version: 1.0.2-r3-alpha
+Version: 1.0.3-r4-alpha
 Architecture: all
 Maintainer: Zyphor OS Project
 Filename: pool/main/z/zyphor-background-themes.deb
-Size: 1408024
-MD5sum: fd71e2e9996273735dc30b96d7e166ba
-SHA1: cb2ca4f3f192317db8aa24f7efef76931ce17e8a
-SHA256: 4704a0ebeb8a7b614dfc2b613f877093f2ba867750b4aceff5fec812608c65de
+Size: 18939292
+MD5sum: f5fb775094f015be46a887a2163e6695
+SHA1: cddce7d7778e0d415eeb0386a546e6414af663ca
+SHA256: 6320070cd0095964e58416073e41b0c3897278096e5fba443a9792a13cf01fe7
 Section: x11
 Priority: optional
 Description: Zyphor OS desktop-base theme
