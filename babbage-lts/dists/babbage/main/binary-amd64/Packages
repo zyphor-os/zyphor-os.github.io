@@ -12,15 +12,15 @@ Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
 Package: zyphor-cli
-Version: 1.0.0-r1-alpha
+Version: 1.0.1-r2-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita
-Depends: bash
+Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 21976
-MD5sum: b2614c75b5b6e9ac19bc952f6e29c617
-SHA1: 63f442947f3f044e6b0c2d6d4d96483cab6a8dd6
-SHA256: 11fbd2c66e4e9efafaffd8c14dd0c38f85f1365184dc1dc6ace201eea99592e1
+Size: 21988
+MD5sum: 730e878e2bc56070f8d00402232744df
+SHA1: c9089f1ed4c75561b9d204c1ab3ba2dc194dc2c1
+SHA256: 2ad84081fb5b9b29ca252d686729f3ced461b007402bbd6fc83e3a2fce4a2870
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
