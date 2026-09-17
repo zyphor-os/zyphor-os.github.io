@@ -18,8 +18,8 @@ add:
 	git add babbage-lts/dists/babbage/main/binary-amd64/Packages.gz
 	git commit -m "chore: update babbage compressed Packages index"
 
-	git add babbage-lts/pool/main/z/zyphor-desktop-environment-theme.deb
-	git commit -m "chore: update zyphor desktop environment theme package"
+	git add babbage-lts/pool/main/z/zyphor-background-themes.deb
+	git commit -m "chore: update zyphor background themes package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
