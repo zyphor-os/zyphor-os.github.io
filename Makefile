@@ -1,5 +1,4 @@
 add:
-# 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
@@ -19,7 +18,7 @@ add:
 	git commit -m "chore: update babbage compressed Packages index"
 
 	git add babbage-lts/pool/main/z/zyphor-background-themes.deb
-	git commit -m "chore: add zyphor background themes package"
+	git commit -m "chore: update zyphor background themes package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
