@@ -42,14 +42,14 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-desktop-environment
-Version: 2.1.3-r9-alpha
+Version: 2.2.0-r10-alpha
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-desktop-environment-theme.deb
-Size: 4396088
-MD5sum: 332f4165603c75494522b2e55361349e
-SHA1: eb562e330a4bb13115f19e6a032425483d9ad665
-SHA256: c93a55c4bd8f520d822b18217d9b869f0a3b3bac7449a335cb25a5cb6d636464
+Size: 4396440
+MD5sum: dff37a4a55546b7d24ace6ae8c92e451
+SHA1: 93f72abddc2e8cb03871d2e11f46f5d8a805ea9d
+SHA256: 1ffa970b3a2553fcb8ee7730cfa75ff3ace79c4ccf8c48b677425e49565ba7d3
 Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
