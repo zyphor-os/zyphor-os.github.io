@@ -27,6 +27,21 @@ Description: Zyphor OS desktop-base theme
  Provides the default Zyphor OS desktop background
  and theme assets for desktop environments.
 
+Package: zyphor-bashrc-config
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita
+Depends: git
+Filename: pool/main/z/zyphor-bashrc-config.deb
+Size: 1916
+MD5sum: 4173e38e919b325c470a7416e8e6f481
+SHA1: 3e512aea2c5cf8559ce8f696466f7c21a5a9c794
+SHA256: 0638313e828a160f3341b5ad01e524c83eaab99685878051dd54359a6a914744
+Section: shells
+Priority: optional
+Description: Zyphor OS Bash configuration
+ Provides the default Zyphor OS Bash prompt and shell startup information.
+
 Package: zyphor-cli
 Version: 1.0.1-r2-alpha
 Architecture: all
