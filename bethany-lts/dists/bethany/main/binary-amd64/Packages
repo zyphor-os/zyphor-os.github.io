@@ -43,15 +43,15 @@ Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
 Package: zyphor-cli
-Version: 1.0.1-r2-alpha
+Version: 2.0.0-r3-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 21992
-MD5sum: 6538e8b658e42323e9eaf9d32d726812
-SHA1: 6d1cb4c44ae6afe2f5ee04c4256c593184cb604f
-SHA256: 5c15704553b9de050a420a6c4dce2aee9395ee44b6e06451302ceecbd62b77c0
+Size: 22048
+MD5sum: 210ba80dced64395bb29ad51e202ce4c
+SHA1: b681b54e519df17c74c351008d9174c742abfc87
+SHA256: 229f6811691f2f2c13b3104f46aeffaf8488d764228e0d45863072a5673feb9d
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
