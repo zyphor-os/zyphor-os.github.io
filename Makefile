@@ -17,8 +17,8 @@ add:
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update ada lovelace Packages.gz"
 
-	git add ada-lovelace-lts/pool/main/z/zywin-ui.deb
-	git commit -m "chore: update zywin-ui package"
+	git add ada-lovelace-lts/pool/main/z/zyphor-cli.deb
+	git commit -m "chore: update zyphor CLI package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
