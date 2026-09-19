@@ -42,20 +42,6 @@ Priority: optional
 Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
-Package: zyphor-cli
-Version: 2.0.0-r3-alpha
-Architecture: all
-Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
-Depends: bash, curl, jq
-Filename: pool/main/z/zyphor-cli.deb
-Size: 22048
-MD5sum: 210ba80dced64395bb29ad51e202ce4c
-SHA1: b681b54e519df17c74c351008d9174c742abfc87
-SHA256: 229f6811691f2f2c13b3104f46aeffaf8488d764228e0d45863072a5673feb9d
-Section: utils
-Priority: optional
-Description: Zyphor OS CLI abstraction layer
-
 Package: zyphor-desktop-environment
 Version: 3.0.0-r12-alpha
 Architecture: all
@@ -115,15 +101,15 @@ Description: Zyphor OS release information
  for Zyphor OS.
 
 Package: zyphor-repo-config
-Version: 2.0.0-r2-alpha
+Version: 3.0.0-r3-alpha
 Architecture: all
 Maintainer: Mark Jason P. Espelita <markjasonespelita@gmail.com>
 Depends: zyphor-archive-keyring
 Filename: pool/main/z/zyphor-repo-config.deb
-Size: 1052
-MD5sum: 5db6db8f999588d86fa396e0ec4de341
-SHA1: 54df044a61e8cce8b919b9212d22c537effce235
-SHA256: ee0960b54039cceec8c2d5f482ac4591154b33e6169e239f3fe22ef49083e4d4
+Size: 1060
+MD5sum: fa798a4920dc0c3ff13ee00b64e8931e
+SHA1: b3a7b7a9e572b225c70a36f2bebfce17ca541dd9
+SHA256: 5b916f25307d452c06e219b8d35de63cc5b0374d9d521f21fa481600d7e1a52b
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
