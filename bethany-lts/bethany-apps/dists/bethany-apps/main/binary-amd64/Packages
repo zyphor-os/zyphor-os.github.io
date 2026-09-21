@@ -1,3 +1,16 @@
+Package: zycamera-launcher
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Filename: pool/main/z/zycamera-launcher.deb
+Size: 25760
+MD5sum: 4446ac45f1018993556cd844dc5e47d6
+SHA1: ddf557a4f803e4a6e315a5858f306d79e092ea34
+SHA256: 8248938fbf425baa2b761f13447619fbfdb669b8167f25b506565a06b48cfbe9
+Section: utils
+Priority: optional
+Description: Zyphor OS Camera Launcher
+
 Package: zylearn
 Version: 1.0.0-r1-alpha
 Architecture: all
@@ -24,4 +37,93 @@ SHA256: 5c8d3bfd1ac520f2f6b31f005d315d3e6a6cf00e29e9cb159ae308c307eca475
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
+
+Package: zyphor-command-center
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Zyphor OS Team
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web
+Filename: pool/main/z/zyphor-command-center.deb
+Size: 124872
+MD5sum: 7e7295e3a511c9ccbe6b43ddb28190cf
+SHA1: 4d94c251066cf4aa9fc7b1141453af5f07124dd8
+SHA256: 53631a1110317df6fb23562be28e99e4490db34e11e5165c97c5e31b0d5d620c
+Section: utils
+Priority: optional
+Description: Zyphor command center GUI control panel for Zyphor OS tools
+
+Package: zyphor-command-center-web
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Penote Espelita <markjasonespelita@gmail.com>
+Depends: composer,
+ php-cli,
+ php-sqlite3,
+ php-mbstring,
+ php-xml,
+ php-curl,
+ php-zip,
+ php-bcmath,
+ php-intl,
+ php-tokenizer,
+ php-fileinfo
+Recommends: sqlite3
+Filename: pool/main/z/zyphor-command-center-web.deb
+Size: 135072
+MD5sum: 3a2681c4dcb2b32b9473a09f9e18b016
+SHA1: d081dcd23b253fe6ee636ba0dc7f6ae715021f61
+SHA256: da7a5c23118cbb32c3defdec3cb6583d3d7f317b1396e1af35fc794c509eb2c3
+Section: admin
+Priority: optional
+Homepage: https://zyphor-os.vercel.app
+Description: Zyphor Command Center Web
+ A Laravel-based web interface for Zyphor Command Center.
+ .
+ Provides the graphical management interface used by the
+ Zyphor Command Center desktop application, including
+ user management, dashboards, release notes, package
+ management, analytics, and system configuration pages.
+
+Package: zyphor-whats-new
+Version: 1.0.0-r1-alpha
+Architecture: amd64
+Maintainer: Mark Jason P. Espelita
+Depends: xdg-utils
+Filename: pool/main/z/zyphor-whats-new.deb
+Size: 3280
+MD5sum: fbd0336fca5c1c9ac0cf9f0cf17730fd
+SHA1: d8c9802f8a109ff0188dfb2c219f3d3176646abc
+SHA256: 09f17f2c15aa0860cbfe2a6ead010526fa4eb42f3bd842c29d5aae7e12b8a52d
+Section: utils
+Priority: optional
+Description: Zyphor OS What's New
+ A lightweight release notes viewer for Zyphor OS that shows system updates
+ and changes in the browser after upgrades.
+
+Package: zywin
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Dan Stephen B. Blanco & Zyphor OS Team
+Filename: pool/main/z/zywin.deb
+Size: 21924
+MD5sum: 8c39b6aef1f91c698067ee777e432689
+SHA1: 49b0900bbb3ac9822a167b4d6d7660014f2ba571
+SHA256: 4e217fd2c9e1478d7fe0d6633dd00957468729ff831ad0380048d8760ca76323
+Section: utils
+Priority: optional
+Description: Zyphor OS Windows Installer Application
+
+Package: zywin-ui
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Depends: zywin
+Filename: pool/main/z/zywin-ui.deb
+Size: 140364
+MD5sum: 03d2fbda26dc5bb9cb18590e65a97066
+SHA1: 62322c0b7f175adf532ed5acf30680980c9f7c17
+SHA256: ed6010f520a4cd391687f730db05c2470ae1d45c503643df4011574590ba04be
+Section: utils
+Priority: optional
+Description: Zyphor OS zywin-ui Application
 
