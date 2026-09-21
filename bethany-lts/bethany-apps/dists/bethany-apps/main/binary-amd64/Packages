@@ -1,3 +1,16 @@
+Package: zylearn
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Filename: pool/main/z/zylearn.deb
+Size: 11948
+MD5sum: f50384b3f135cb3d8708a9b29f4a3d90
+SHA1: 923789577790afd7582efc097aaa7ef8783411b4
+SHA256: 45ffb47f8902a1ccf33441807a87e6ca79f05c6febef8ad489fcccacb3494030
+Section: utils
+Priority: optional
+Description: Zyphor OS Learning CLI
+
 Package: zyphor-cli
 Version: 3.0.1-r5-alpha
 Architecture: all
