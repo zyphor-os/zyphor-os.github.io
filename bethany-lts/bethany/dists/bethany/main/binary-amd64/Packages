@@ -101,15 +101,15 @@ Description: Zyphor OS release information
  for Zyphor OS.
 
 Package: zyphor-repo-config
-Version: 4.0.0-r4-alpha
+Version: 5.0.0-r4-alpha
 Architecture: all
 Maintainer: Mark Jason P. Espelita <markjasonespelita@gmail.com>
 Depends: zyphor-archive-keyring
 Filename: pool/main/z/zyphor-repo-config.deb
 Size: 1060
-MD5sum: 2e618d6b0c25177f599be9d8f5fc9ffa
-SHA1: 7bdcdcc963e093f22bd9857c205e0065c336736c
-SHA256: fc95d8cf15fa493c63210d37f6a2e8393e0be3c4c05b7c9c3eb48373f7cd23e1
+MD5sum: 4255a6bda1fe499ccd72bd72489fe81a
+SHA1: b89d6cb8153f784f508397ab20a63e08c4c93183
+SHA256: f34cd27b52765185495382480dfd522192e35f44a2c81cf0c21424a75d384244
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
