@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: bethany
+Components: main
+Date: Mon, 21 Sep 2026 01:44:39 +0000
+Description: Zyphor OS bethany Repository
+Label: Zyphor OS
+Origin: Zyphor OS
+Suite: bethany
+MD5Sum:
+ fc92f861d4207b867800d108443c0660              186 Release
+ 65c8caa5a6fafdce1466f9735110fdd8              533 main/binary-amd64/Packages
+ 2e248a2e8dfe44276868f88d706d265e              390 main/binary-amd64/Packages.gz
+SHA1:
+ 9f5b6fb29cdef0286d632b0bd9889d818f773a2d              186 Release
+ e957fd591d55634bd3067c80602665b5749cae17              533 main/binary-amd64/Packages
+ 04274e3a94f7b91bac0bd255b7db292b3855d8d9              390 main/binary-amd64/Packages.gz
+SHA256:
+ 4ceae9da5d0fd9d2422bc9ef0a2d2a98ac301d673070311d09d4fa92d4c14928              186 Release
+ 3c5bb542cf01efb8c1e7c4df514a4972b24e5536ba85315901cd2ed348257dd8              533 main/binary-amd64/Packages
+ 6dcfefcf504f132923ccc0cacc205cfceb0dc03a51c08f28f29ab5ed4610bc73              390 main/binary-amd64/Packages.gz
+SHA512:
+ 4718cbfa7d3e16fdc9c599ca1bea8de8d030b0e89541dd402837e1aa3ca8e0b472827e3bf13be1b7adf3a2984766c88c2cef505963a119d7c35915595cea8a9e              186 Release
+ b3d6e26bbc74d3fddab9327dd3a62096e4c11224b6874334d75aaa799f276571f58b86c20a1cc4e830c3a4ee0ee7ef1a028ac8dd5f091adeebef61ddd03f51c2              533 main/binary-amd64/Packages
+ 60e7f29af373f6e225dab2ebc19b08856ac3b92dd54802d51c96174b4da2e035a873c998281fad9a3838fb7cbe1d3c653ec31a73fe0c26cb2bbc3ea459fa8fe8              390 main/binary-amd64/Packages.gz
