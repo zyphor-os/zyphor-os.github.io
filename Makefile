@@ -2,29 +2,23 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	git add bethany-lts/bethany/dists/bethany/InRelease
-	git commit -m "chore: update bethany InRelease"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
+	git commit -m "chore: update bethany apps InRelease"
 
-	git add bethany-lts/bethany/dists/bethany/Release
-	git commit -m "chore: update bethany Release"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release
+	git commit -m "chore: update bethany apps Release"
 
-	git add bethany-lts/bethany/dists/bethany/Release.gpg
-	git commit -m "chore: update bethany Release signature"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg
+	git commit -m "chore: update bethany apps Release signature"
 
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
-	git commit -m "chore: update bethany Packages"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages
+	git commit -m "chore: update bethany apps Packages"
 
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
-	git commit -m "chore: update bethany Packages.gz"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
+	git commit -m "chore: update bethany apps Packages.gz"
 
-	git add bethany-lts/bethany/pool/main/z/zyphor-repo-config.deb
-	git commit -m "chore: update zyphor repo config package"
-
-	git add bethany-lts/dists/
-	git commit -m "feat: add bethany repository metadata"
-
-	git add bethany-lts/pool/
-	git commit -m "feat: add bethany repository packages"
+	git add bethany-lts/bethany-apps/pool/main/z/zylearn.deb
+	git commit -m "feat: add zylearn package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
