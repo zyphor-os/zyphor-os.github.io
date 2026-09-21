@@ -1,0 +1,117 @@
+Package: zyphor-archive-keyring
+Version: 2.0.0-r2-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-archive-keyring.deb
+Size: 5820
+MD5sum: 07ca1a61acb178f33e6fa72bc829d9bc
+SHA1: 482bfcfa8879414e58a3cbb5a20f09d4e3d253ea
+SHA256: eb9cbcf338d12c73a2d491fabbaa9396dcd23c695c346409e45890aaeae0a6d4
+Section: utils
+Priority: optional
+Description: Zyphor OS archive-keyring Configuration
+
+Package: zyphor-background-themes
+Version: 3.0.0-r9-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-background-themes.deb
+Size: 1438240
+MD5sum: 9a73a2ff2880b8f7e3f6a9b9d08ee106
+SHA1: 8dc455ee42827a7c591b54852bd0a5ba8c264096
+SHA256: bafa5dfc760257398a8253d767b2b520a73fab137db6f5ac152919925c310ffa
+Section: x11
+Priority: optional
+Description: Zyphor OS desktop-base theme
+ Zyphor OS desktop theme and background artwork.
+ Provides the default Zyphor OS desktop background
+ and theme assets for desktop environments.
+
+Package: zyphor-bashrc-config
+Version: 2.0.0-r2-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: git
+Filename: pool/main/z/zyphor-bashrc-config.deb
+Size: 1916
+MD5sum: e8fe2e628d85b686df71e09cd8d18217
+SHA1: f018a672282bca91c841c6eae2cfe4e9437a6aa2
+SHA256: d4686d375c589aedf0d673c206496772acc32b7edc02f39dbef463a34f0439d5
+Section: shells
+Priority: optional
+Description: Zyphor OS Bash configuration
+ Provides the default Zyphor OS Bash prompt and shell startup information.
+
+Package: zyphor-desktop-environment
+Version: 3.0.0-r12-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-desktop-environment.deb
+Size: 4397108
+MD5sum: 8cc0ccff0fd37ba42b810cd94975d4a6
+SHA1: f23eaf24346646bb110a2adb10b4e415b05ff969
+SHA256: 916df15c63d0f4d371895380633e513dd55c4d55f3c878aaed37e93306f55c4f
+Section: admin
+Priority: optional
+Description: Zyphor OS Desktop Environment Theme
+
+Package: zyphor-fastfetch-config
+Version: 2.0.1-r4-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash, fastfetch
+Filename: pool/main/z/zyphor-fastfetch-config.deb
+Size: 1872
+MD5sum: 706752c55a15539748b85b31da7152b1
+SHA1: 2b24b36281c90be205429e44a53aadeed2aa8b8a
+SHA256: af7f13159a462147d1f83e099d0e0fa2a5373fee5054ae086ee79aed7dc3d01b
+Section: utils
+Priority: optional
+Description: Zyphor OS Fastfetch Config
+
+Package: zyphor-grub-theme
+Version: 1.0.1-r2-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita
+Depends: grub2-common
+Filename: pool/main/z/zyphor-grub-theme.deb
+Size: 1043252
+MD5sum: 82acef9e189463314a8b72222abf0543
+SHA1: e28184eede3690c0330af616b3c84428590ec09d
+SHA256: a5ec8e22524264ff2ecd87a44860c8c630a21b721a9ec2707d74d9a8f9b965d6
+Section: admin
+Priority: optional
+Description: Zyphor OS GRUB theme and configuration
+ Provides the Zyphor OS GRUB theme, background, branding,
+ and GRUB configuration drop-in.
+
+Package: zyphor-os-release
+Version: 3.0.0-r8-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-os-release.deb
+Size: 1404
+MD5sum: 0d2bf6b57c208a3ac07205b924dbf646
+SHA1: b1f39abe7be82104f248ac10e88d7ccf4a967886
+SHA256: e018dd2c2dbaca31e1e5aa8bb770f19b1c2e0099bc0df5607f36475540363df5
+Section: base
+Priority: required
+Description: Zyphor OS release information
+ Provides operating system identification and release metadata
+ for Zyphor OS.
+
+Package: zyphor-repo-config
+Version: 4.0.0-r4-alpha
+Architecture: all
+Maintainer: Mark Jason P. Espelita <markjasonespelita@gmail.com>
+Depends: zyphor-archive-keyring
+Filename: pool/main/z/zyphor-repo-config.deb
+Size: 1060
+MD5sum: 2e618d6b0c25177f599be9d8f5fc9ffa
+SHA1: 7bdcdcc963e093f22bd9857c205e0065c336736c
+SHA256: fc95d8cf15fa493c63210d37f6a2e8393e0be3c4c05b7c9c3eb48373f7cd23e1
+Section: admin
+Priority: optional
+Description: Zyphor OS repository configuration
+ Installs and manages the Zyphor OS APT repository configuration.
+
