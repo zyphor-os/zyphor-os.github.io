@@ -1,12 +1,13 @@
 Package: zycamera-launcher
-Version: 1.0.0-r1-alpha
+Version: 1.1.0-r2-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
+Depends: guvcview
 Filename: pool/main/z/zycamera-launcher.deb
-Size: 25760
-MD5sum: 4446ac45f1018993556cd844dc5e47d6
-SHA1: ddf557a4f803e4a6e315a5858f306d79e092ea34
-SHA256: 8248938fbf425baa2b761f13447619fbfdb669b8167f25b506565a06b48cfbe9
+Size: 25772
+MD5sum: 3cbbdeac7f69d638066895e18f44303e
+SHA1: 14b6f2c4dea6cd2e00fe081474b1d0acc2937dd9
+SHA256: 192bad0dde7cbe734616f3e4aeec96e7cc7318b8a105e651ab160be529e2dafe
 Section: utils
 Priority: optional
 Description: Zyphor OS Camera Launcher
@@ -39,15 +40,15 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 1.0.0-r1-alpha
+Version: 1.0.1-r2-alpha
 Architecture: all
 Maintainer: Zyphor OS Team
-Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli
 Filename: pool/main/z/zyphor-command-center.deb
 Size: 124872
-MD5sum: 7e7295e3a511c9ccbe6b43ddb28190cf
-SHA1: 4d94c251066cf4aa9fc7b1141453af5f07124dd8
-SHA256: 53631a1110317df6fb23562be28e99e4490db34e11e5165c97c5e31b0d5d620c
+MD5sum: fb9000cb33addebc1a4c074ee55a7517
+SHA1: edad18cf2d601d9170a82c125eecef55514cb7bd
+SHA256: 29f1acef8fc400dff1570e2b43f892ca578aba8c496dccd71d9176fca2451cdc
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
