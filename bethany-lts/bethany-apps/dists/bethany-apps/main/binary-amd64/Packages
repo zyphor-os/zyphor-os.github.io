@@ -1,0 +1,14 @@
+Package: zyphor-cli
+Version: 3.0.1-r5-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash, curl, jq
+Filename: pool/main/z/zyphor-cli.deb
+Size: 22004
+MD5sum: 18659c8605d38d8b74bb452dcbd02b0d
+SHA1: e333c0ee57d7ecf2dec43f8a57d27aa9107618f9
+SHA256: 5c8d3bfd1ac520f2f6b31f005d315d3e6a6cf00e29e9cb159ae308c307eca475
+Section: utils
+Priority: optional
+Description: Zyphor OS CLI abstraction layer
+
