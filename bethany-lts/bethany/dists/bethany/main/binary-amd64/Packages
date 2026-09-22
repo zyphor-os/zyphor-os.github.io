@@ -100,6 +100,22 @@ Description: Zyphor OS release information
  Provides operating system identification and release metadata
  for Zyphor OS.
 
+Package: zyphor-plymouth
+Version: 1.0.1-r2-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: plymouth, plymouth-themes
+Filename: pool/main/z/zyphor-plymouth.deb
+Size: 108600
+MD5sum: a24574dacf385fdea25b46167945a2c2
+SHA1: 0a2f6700f1ffc10552a9f8e770b856c27e4889f2
+SHA256: 94d241ff116a7543a71e3079304317ebff17555d841354624af038505b07a8fb
+Priority: optional
+Description: Zyphor OS Plymouth boot theme
+ Zyphor OS Plymouth boot theme and artwork.
+ Provides the default Zyphor OS boot splash theme
+ and related Plymouth assets.
+
 Package: zyphor-repo-config
 Version: 5.0.0-r4-alpha
 Architecture: all
