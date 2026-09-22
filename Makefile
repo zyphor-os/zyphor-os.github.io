@@ -17,8 +17,8 @@ add:
 	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
 	git commit -m "chore: update bethany Packages.gz"
 
-	git add bethany-lts/bethany/pool/main/z/zyphor-desktop-environment.deb
-	git commit -m "chore: update zyphor desktop environment package"
+	git add bethany-lts/bethany/pool/main/z/zyphor-plymouth.deb
+	git commit -m "feat: add zyphor Plymouth package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
