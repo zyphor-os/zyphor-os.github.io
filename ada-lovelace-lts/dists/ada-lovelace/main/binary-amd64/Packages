@@ -140,27 +140,27 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-grub-theme
-Version: 16.0.0-r18-stable-release
+Version: 17.0.0-r19-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-grub-theme.deb
-Size: 1208
-MD5sum: d06cff665490dd907a8d1f402b766c0d
-SHA1: b74b4ba3c348c5970728f56c8d7d381d627fed72
-SHA256: 29822463b6e64bdfb18678e83dfdb603a9ebb6f919fb3b88ab76f50c23d59171
+Size: 1204
+MD5sum: 4f7c8d8e9cb836a0d05d95007df6fcd0
+SHA1: bb02ba128648367e584d63bd22a245a15570cdb0
+SHA256: d946aa1646b077d67a3f264e537465e287f3d618d56f00f1f4a8170e710692d6
 Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
 Package: zyphor-os-release
-Version: 59.0.0-r42-stable-release
+Version: 60.0.0-r43-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1100
-MD5sum: bcf73864c3297e8e2e0b5052cea9c4a4
-SHA1: bb05f38185c58ac01a881eae9732b19ba3fa1486
-SHA256: b7b221aa605eb985973cba805fba40d295c3a282c8e8d463b759f6bec6977afd
+Size: 1096
+MD5sum: 290f80ab2f25691dc88a9c6ccf9129f8
+SHA1: 5fda2142b955f7df5098aaa57997db6346531e18
+SHA256: d927082b5c9fe24509b6e17c8aaf8a6322984bcbb995521da2a8e649ce0427f1
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -272,15 +272,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 49.0.0-r47-stable-release
+Version: 50.0.0-r48-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 4972
-MD5sum: a450df898426e5a227972acb748c8855
-SHA1: f66f8ac34ec3bc0f67c5faaac2d9340a10f0cee8
-SHA256: 696c64c7dc756aa3a4dce91b8f7d6e4d758eb95602b9e1314fde65ea2bc295d7
+Size: 4956
+MD5sum: 6f0172fe2f216a799c9824aae711221b
+SHA1: 10036cfc81bdaa02249313491532e1ac21213163
+SHA256: e641074f7b87d80d8773f41f0e4f494fa19341e02aa7a93b5ba40c6bddac7c3b
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
