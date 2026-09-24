@@ -69,22 +69,6 @@ Section: utils
 Priority: optional
 Description: Zyphor OS Fastfetch Config
 
-Package: zyphor-grub-theme
-Version: 1.0.1-r2-alpha
-Architecture: all
-Maintainer: Mark Jason Espelita
-Depends: grub2-common
-Filename: pool/main/z/zyphor-grub-theme.deb
-Size: 1043252
-MD5sum: 82acef9e189463314a8b72222abf0543
-SHA1: e28184eede3690c0330af616b3c84428590ec09d
-SHA256: a5ec8e22524264ff2ecd87a44860c8c630a21b721a9ec2707d74d9a8f9b965d6
-Section: admin
-Priority: optional
-Description: Zyphor OS GRUB theme and configuration
- Provides the Zyphor OS GRUB theme, background, branding,
- and GRUB configuration drop-in.
-
 Package: zyphor-os-release
 Version: 3.0.0-r8-alpha
 Architecture: all
@@ -112,22 +96,6 @@ SHA1: 4c160f1948afdc7e95379d933d3db5a56ac83359
 SHA256: efa6bcb9bce220ffa005e3d418521d987f7a4b4452d410c4542a706a57337271
 Priority: optional
 Description: Zyphor OS Plymouth boot theme
- Zyphor OS Plymouth boot theme and artwork.
- Provides the default Zyphor OS boot splash theme
- and related Plymouth assets.
-
-Package: zyphor-plymouth-live
-Version: 1.0.0-r1-alpha
-Architecture: all
-Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
-Depends: plymouth, plymouth-themes
-Filename: pool/main/z/zyphor-plymouth-live.deb
-Size: 108772
-MD5sum: 22ddda2a3bd7a4741dbc1e4574684597
-SHA1: fb23fe08167103bbfcb4c912076808495d4b5f43
-SHA256: 53ccfc0ea6255a8e2465bbe1dafebadfe3e4309ee145b0d922afa2f98acfb294
-Priority: optional
-Description: Zyphor OS Live Mode Plymouth boot theme
  Zyphor OS Plymouth boot theme and artwork.
  Provides the default Zyphor OS boot splash theme
  and related Plymouth assets.
