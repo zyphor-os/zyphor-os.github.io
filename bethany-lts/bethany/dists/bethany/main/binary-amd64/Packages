@@ -116,6 +116,22 @@ Description: Zyphor OS Plymouth boot theme
  Provides the default Zyphor OS boot splash theme
  and related Plymouth assets.
 
+Package: zyphor-plymouth-live
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: plymouth, plymouth-themes
+Filename: pool/main/z/zyphor-plymouth-live.deb
+Size: 108772
+MD5sum: 22ddda2a3bd7a4741dbc1e4574684597
+SHA1: fb23fe08167103bbfcb4c912076808495d4b5f43
+SHA256: 53ccfc0ea6255a8e2465bbe1dafebadfe3e4309ee145b0d922afa2f98acfb294
+Priority: optional
+Description: Zyphor OS Live Mode Plymouth boot theme
+ Zyphor OS Plymouth boot theme and artwork.
+ Provides the default Zyphor OS boot splash theme
+ and related Plymouth assets.
+
 Package: zyphor-repo-config
 Version: 5.0.0-r4-alpha
 Architecture: all
