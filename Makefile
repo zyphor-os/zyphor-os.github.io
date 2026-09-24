@@ -1,4 +1,5 @@
 add:
+# 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
@@ -17,8 +18,8 @@ add:
 	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
 	git commit -m "chore: update bethany Packages.gz"
 
-	git add bethany-lts/bethany/pool/main/z/zyphor-background-themes.deb
-	git commit -m "chore: update zyphor background themes package"
+	git add bethany-lts/bethany/pool/main/z/zyphor-plymouth-live.deb
+	git commit -m "feat: add zyphor Plymouth live package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
