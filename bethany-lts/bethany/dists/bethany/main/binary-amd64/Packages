@@ -85,15 +85,15 @@ Description: Zyphor OS release information
  for Zyphor OS.
 
 Package: zyphor-plymouth
-Version: 1.0.3-r4-alpha
+Version: 1.0.4-r5-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: plymouth, plymouth-themes
 Filename: pool/main/z/zyphor-plymouth.deb
-Size: 108752
-MD5sum: cba272eaa50ac3bfe17259ea454d5595
-SHA1: 4c160f1948afdc7e95379d933d3db5a56ac83359
-SHA256: efa6bcb9bce220ffa005e3d418521d987f7a4b4452d410c4542a706a57337271
+Size: 108852
+MD5sum: 81e11062ef2d35f7d3551a64621f63a8
+SHA1: f71a733560ced00827e2ab7cef500db22fa0a7ed
+SHA256: d47aaeb8e5c255518c524920f4a42ee9b9978a6d98ad1f78cb08840902cd7751
 Priority: optional
 Description: Zyphor OS Plymouth boot theme
  Zyphor OS Plymouth boot theme and artwork.
