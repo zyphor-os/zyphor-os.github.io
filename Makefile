@@ -17,9 +17,6 @@ add:
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Ada Lovelace package index"
 
-	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
-	git commit -m "chore: update zyphor GRUB theme package"
-
 	git add ada-lovelace-lts/pool/main/z/zyphor-os-release.deb
 	git commit -m "chore: update zyphor OS release package"
 
