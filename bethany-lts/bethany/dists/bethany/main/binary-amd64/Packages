@@ -28,15 +28,15 @@ Description: Zyphor OS desktop-base theme
  and theme assets for desktop environments.
 
 Package: zyphor-bashrc-config
-Version: 2.0.0-r2-alpha
+Version: 3.0.0-r3-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: git
 Filename: pool/main/z/zyphor-bashrc-config.deb
-Size: 1916
-MD5sum: e8fe2e628d85b686df71e09cd8d18217
-SHA1: f018a672282bca91c841c6eae2cfe4e9437a6aa2
-SHA256: d4686d375c589aedf0d673c206496772acc32b7edc02f39dbef463a34f0439d5
+Size: 1932
+MD5sum: afc54a9b794584126a29fe50ebe8b7dd
+SHA1: e14ccc0d5278876730cc8460937035aeec109a3d
+SHA256: 1bda9cb84d7ced1b6ad765f426e3185fe4232779f2337b3926de66bcae834e3c
 Section: shells
 Priority: optional
 Description: Zyphor OS Bash configuration
