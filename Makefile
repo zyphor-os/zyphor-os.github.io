@@ -17,8 +17,8 @@ add:
 	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Bethany package index"
 
-	git add bethany-lts/bethany/pool/main/z/zyphor-bashrc-config.deb
-	git commit -m "chore: update zyphor bashrc config package"
+	git add bethany-lts/bethany/pool/main/z/zyphor-calamares-settings.deb
+	git commit -m "chore: update zyphor Calamares settings package"
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
 
