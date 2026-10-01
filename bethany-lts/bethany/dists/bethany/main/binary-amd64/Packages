@@ -43,15 +43,15 @@ Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
 Package: zyphor-calamares-settings
-Version: 1.0.3-r4-alpha
+Version: 1.0.4-r5-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: calamares
 Filename: pool/main/z/zyphor-calamares-settings.deb
-Size: 496096
-MD5sum: 3b89540e3c27cbbad6df0ac29d7afa4f
-SHA1: 0b63beeecfa5de0d328199628f2a132e02d8f403
-SHA256: 1b55fa2f99e6a109b3b65d0ddcc38160f3cf30c507a4822c101714b234e4c49b
+Size: 496044
+MD5sum: 6929d4359c6ebb071aaa866d93de7466
+SHA1: ad5af9d7dc0e02843f0cdda074b882a71bb8c21e
+SHA256: 6a661bff933aead4658d8d2c75684d73cef78383714ee11e6d023b8303f7fe42
 Section: admin
 Priority: optional
 Description: Zyphor OS Calamares installer configuration
