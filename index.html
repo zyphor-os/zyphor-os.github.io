@@ -217,7 +217,7 @@
         <div class="container">
 
             <!-- NEW: redesign notice banner -->
-            <div class="alert zyphor-notice d-flex align-items-center flex-wrap gap-2 mb-4" role="alert">
+            <!-- <div class="alert zyphor-notice d-flex align-items-center flex-wrap gap-2 mb-4" role="alert">
                 <i class="feature-icon me-2">⚡</i>
                 <div class="flex-grow-1">
                     <strong>We've launched a new site!</strong>
@@ -228,7 +228,7 @@
                     <a href="https://zyphor-os.vercel.app/documentation" class="btn btn-sm btn-outline-light">Docs</a>
                     <a href="https://white-opossum-308929.hostingersite.com/zyphor-os-wiki/" class="btn btn-sm btn-outline-light">Wiki</a>
                 </div>
-            </div>
+            </div> -->
             <!-- END notice banner -->
 
             <div class="row align-items-center">
@@ -242,7 +242,7 @@
                         Your Zyphor buddy!
                         <br>
                         <br>
-                        <b>Download Latest Releases: 
+                        <!-- <b>Download Latest Releases: 
                             <hr>
                             <a href="" class="nav-link fw-bold _zyphorOSDesktopUrl" target="_blank">Desktop - <span class="_zyphorOSDesktopLatestVersion">...</span></a>
                             <hr>
@@ -251,7 +251,7 @@
                             <a href="" class="nav-link fw-bold _zyphorOSServerUrl" target="_blank">Server - <span class="_zyphorOSServerLatestVersion">...</span></a>
                             <hr>
                             <a href="https://github.com/zyphor-os/zyphor-os-minimal" class="nav-link fw-bold" target="_blank">Minimal Version (Skeleton) Codebase</a>
-                        </b>
+                        </b> -->
                     </p>
                     <div class="mt-4">
                         <a href="https://github.com/zyphor-os/zyphor-os-desktop" class="btn btn-zyphor me-3">Visit Our Github Repository</a>
@@ -268,7 +268,119 @@
         </div>
     </section>
 
-    <div class="container py-5">
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card h-100 bg-dark text-light border-secondary shadow-lg"
+                        style="border-radius: 16px;">
+
+                        <div class="card-body p-4 text-center">
+
+                            <h3 class="fw-bold mb-3">
+                                Zyphor OS 1 Legacy (End Of Life)
+                            </h3>
+
+                            <div class="my-4">
+                                <div class="fs-2 fw-bold text-white"
+                                    id="downloads-project-1">
+                                    ...
+                                </div>
+
+                                <small class="text-white-50">
+                                    SourceForge Downloads
+                                </small>
+                            </div>
+
+                            <a href="https://sourceforge.net/projects/zyphor-os-1-legacy"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i class="bi bi-download me-2"></i>
+                                View Project
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card h-100 bg-dark text-light border-secondary shadow-lg"
+                        style="border-radius: 16px;">
+
+                        <div class="card-body p-4 text-center">
+
+                            <h3 class="fw-bold mb-3">
+                                Zyphor OS 2 "Ada Lovelace" LTS
+                            </h3>
+
+                            <div class="my-4">
+                                <div class="fs-2 fw-bold text-white"
+                                    id="downloads-project-2">
+                                    ...
+                                </div>
+
+                                <small class="text-white-50">
+                                    SourceForge Downloads
+                                </small>
+                            </div>
+
+                            <a href="https://sourceforge.net/projects/zyphor-os-2-ada-lovelace/"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i class="bi bi-download me-2"></i>
+                                View Project
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card h-100 bg-dark text-light border-secondary shadow-lg"
+                        style="border-radius: 16px;">
+
+                        <div class="card-body p-4 text-center">
+
+                            <h3 class="fw-bold mb-3">
+                                Zyphor OS 3 "Bethany" LTS
+                            </h3>
+
+                            <div class="my-4">
+                                <div class="fs-2 fw-bold text-white"
+                                    id="downloads-project-3">
+                                    ...
+                                </div>
+
+                                <small class="text-white-50">
+                                    SourceForge Downloads
+                                </small>
+                            </div>
+
+                            <a href="https://sourceforge.net/projects/zyphor-os-3-bethany-lts/"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i class="bi bi-download me-2"></i>
+                                View Project
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="container py-5">
         <div class="release-card p-5 shadow-lg text-center">
 
             <div class="release-label mb-2">
@@ -284,7 +396,7 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
     <section id="features" class="py-2">
         <div class="container py-4">
@@ -753,6 +865,85 @@
 
         });
     })
+</script>
+
+
+
+
+<script>
+async function getSourceForgeDownloads(project, elementId) {
+
+    const startDate = '2026-03-30';
+
+    const endDate = new Date()
+        .toISOString()
+        .split('T')[0];
+
+    const apiUrl =
+        `https://sourceforge.net/projects/${project}/files/stats/json` +
+        `?start_date=${startDate}` +
+        `&end_date=${endDate}` +
+        `&period=monthly` +
+        `&os_by_country=false`;
+
+    try {
+
+        const response = await fetch(apiUrl);
+
+        if (!response.ok) {
+            throw new Error('SourceForge API request failed');
+        }
+
+        const data = await response.json();
+
+        let totalDownloads = 0;
+
+        if (Array.isArray(data.downloads)) {
+
+            totalDownloads = data.downloads.reduce(
+                (total, item) => {
+                    return total + (Number(item[1]) || 0);
+                },
+                0
+            );
+
+        }
+
+        document.getElementById(elementId).textContent =
+            totalDownloads.toLocaleString();
+
+    } catch (error) {
+
+        console.error(
+            `Unable to load SourceForge statistics for ${project}:`,
+            error
+        );
+
+        document.getElementById(elementId).textContent =
+            '—';
+    }
+}
+
+
+// Project 1
+getSourceForgeDownloads(
+    'zyphor-os-1-legacy',
+    'downloads-project-1'
+);
+
+
+// Project 2
+getSourceForgeDownloads(
+    'zyphor-os-2-ada-lovelace',
+    'downloads-project-2'
+);
+
+
+// Project 3
+getSourceForgeDownloads(
+    'zyphor-os-3-bethany-lts',
+    'downloads-project-3'
+);
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
