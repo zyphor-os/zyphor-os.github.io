@@ -374,157 +374,229 @@
                 <tbody>
                     <tr>
                         <td>SYSTEM</td>
-                        <td><code>zyphor system upgrade</code></td>
+                        <td><code>sudo zyphor system upgrade</code></td>
                         <td>Upgrade all installed system packages to their latest available versions from configured repositories, ensuring security updates, bug fixes, and feature improvements are applied.</td>
                     </tr>
 
                     <tr>
                         <td>SYSTEM</td>
-                        <td><code>zyphor system clean</code></td>
+                        <td><code>sudo zyphor system clean</code></td>
                         <td>Remove package caches, temporary files, and unused dependencies to free disk space and keep the system optimized.</td>
                     </tr>
 
                     <tr>
                         <td>SYSTEM</td>
-                        <td><code>zyphor system info</code></td>
+                        <td><code>sudo zyphor system info</code></td>
                         <td>Display detailed information about the operating system, kernel version, hardware resources, and system environment.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup dev &lt;target&gt;</code></td>
+                        <td><code>sudo zyphor setup dev &lt;target&gt;</code></td>
                         <td>Automatically configure a complete development environment for the selected programming language or technology stack.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup dev php</code></td>
+                        <td><code>sudo zyphor setup dev php</code></td>
                         <td>Install and configure PHP, Composer, Node.js, and other tools commonly required for modern PHP application development.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup dev node</code></td>
+                        <td><code>sudo zyphor setup dev node</code></td>
                         <td>Install Node.js runtime and package management tools for building JavaScript and TypeScript applications.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup dev composer</code></td>
+                        <td><code>sudo zyphor setup dev composer</code></td>
                         <td>Install Composer and configure the environment for managing PHP packages and project dependencies.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup dev git</code></td>
+                        <td><code>sudo zyphor setup dev git</code></td>
                         <td>Generate SSH keys, configure Git settings, and prepare secure authentication for GitHub and Git-based workflows.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup dev android-studio</code></td>
+                        <td>Install and configure Android Studio and the required tools for Android development.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup wine</code></td>
+                        <td><code>sudo zyphor setup pentest recon</code></td>
+                        <td>Install reconnaissance and scanning tools such as Nmap, Masscan, Amass, and Gobuster for network and target discovery.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest web</code></td>
+                        <td>Install web application testing tools including Sqlmap, Nikto, Burp Suite, ZAP, and Wpscan for auditing web apps.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest wireless</code></td>
+                        <td>Install wireless auditing tools such as Aircrack-ng, Kismet, and Wifite for testing Wi-Fi networks you own or are authorized to assess.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest passwords</code></td>
+                        <td>Install password auditing tools including John the Ripper, Hashcat, Hydra, and Medusa for credential strength testing.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest sniffing</code></td>
+                        <td>Install traffic analysis tools such as Wireshark, Tcpdump, and Bettercap, and configure non-root packet capture.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest forensics</code></td>
+                        <td>Install forensics and analysis tools including Autopsy, Sleuth Kit, Binwalk, and Volatility3 for investigating systems and files.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest exploitation</code></td>
+                        <td>Install exploitation framework tools such as Metasploit, Exploit-DB, and SET for authorized penetration testing engagements.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup pentest full</code></td>
+                        <td>Install the complete pentest toolkit, covering recon, web, wireless, passwords, sniffing, forensics, and exploitation in one run.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup wine</code></td>
                         <td>Install and configure Wine with 32-bit compatibility, then initialize the default Wine environment for running Windows applications.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup theme light</code></td>
+                        <td><code>sudo zyphor setup theme light</code></td>
                         <td>Apply the Windows-10 inspired desktop theme for a bright and familiar user experience.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>zyphor setup theme dark</code></td>
+                        <td><code>sudo zyphor setup theme dark</code></td>
                         <td>Apply the Kali-Dark inspired desktop theme optimized for developers and low-light environments.</td>
                     </tr>
 
                     <tr>
                         <td>PACKAGE</td>
-                        <td><code>zyphor pkg install &lt;pkg&gt;</code></td>
+                        <td><code>sudo zyphor pkg install &lt;pkg&gt;</code></td>
                         <td>Install software packages from configured repositories while automatically resolving required dependencies.</td>
                     </tr>
 
                     <tr>
                         <td>PACKAGE</td>
-                        <td><code>zyphor pkg remove &lt;pkg&gt;</code></td>
+                        <td><code>sudo zyphor pkg remove &lt;pkg&gt;</code></td>
                         <td>Uninstall a package and optionally remove associated dependencies that are no longer required.</td>
                     </tr>
 
                     <tr>
                         <td>PACKAGE</td>
-                        <td><code>zyphor pkg search &lt;key&gt;</code></td>
+                        <td><code>sudo zyphor pkg search &lt;key&gt;</code></td>
                         <td>Search available repositories for packages matching a keyword, name, or partial package identifier.</td>
                     </tr>
 
                     <tr>
                         <td>PACKAGE</td>
-                        <td><code>zyphor pkg list</code></td>
+                        <td><code>sudo zyphor pkg list</code></td>
                         <td>Display all currently installed packages along with their versions and installation status.</td>
                     </tr>
 
                     <tr>
                         <td>SERVICE</td>
-                        <td><code>zyphor service restart &lt;name&gt;</code></td>
+                        <td><code>sudo zyphor service restart &lt;name&gt;</code></td>
                         <td>Restart a running service to apply configuration changes or recover from operational issues.</td>
                     </tr>
 
                     <tr>
                         <td>NETWORK / STORAGE</td>
-                        <td><code>zyphor smb mount</code></td>
+                        <td><code>sudo zyphor smb mount</code></td>
                         <td>Connect and mount a remote SMB/CIFS network share, making it accessible like a local directory.</td>
                     </tr>
 
                     <tr>
+                        <td>NETWORK / STORAGE</td>
+                        <td><code>sudo zyphor smb share-add</code></td>
+                        <td>Share a local folder over SMB so it's accessible from other devices, including Windows PCs, on the network.</td>
+                    </tr>
+
+                    <tr>
+                        <td>NETWORK / STORAGE</td>
+                        <td><code>sudo zyphor smb share-list</code></td>
+                        <td>List all folders currently being shared over SMB from this machine.</td>
+                    </tr>
+
+                    <tr>
+                        <td>NETWORK / STORAGE</td>
+                        <td><code>sudo zyphor smb share-remove</code></td>
+                        <td>Stop sharing a folder that was previously shared over SMB.</td>
+                    </tr>
+
+                    <tr>
                         <td>FTP</td>
-                        <td><code>zyphor ftp upload</code></td>
+                        <td><code>sudo zyphor ftp upload</code></td>
                         <td>Transfer files securely from the local system to a configured FTP server.</td>
                     </tr>
 
                     <tr>
                         <td>SSH</td>
-                        <td><code>zyphor ssh connect</code></td>
+                        <td><code>sudo zyphor ssh connect</code></td>
                         <td>Establish a secure encrypted shell session to a remote server for administration and maintenance.</td>
                     </tr>
 
                     <tr>
                         <td>SSH</td>
-                        <td><code>zyphor ssh cmd</code></td>
+                        <td><code>sudo zyphor ssh cmd</code></td>
                         <td>Execute commands on a remote server over SSH without opening an interactive terminal session.</td>
                     </tr>
 
                     <tr>
                         <td>DOCTOR</td>
-                        <td><code>zyphor doctor scan</code></td>
+                        <td><code>sudo zyphor doctor scan</code></td>
                         <td>Analyze the system for configuration issues, missing dependencies, broken packages, and common problems.</td>
                     </tr>
 
                     <tr>
                         <td>DOCTOR</td>
-                        <td><code>zyphor doctor fix</code></td>
+                        <td><code>sudo zyphor doctor fix</code></td>
                         <td>Attempt to automatically repair issues detected during a diagnostic scan.</td>
                     </tr>
 
                     <tr>
                         <td>DOCTOR</td>
-                        <td><code>zyphor doctor report</code></td>
+                        <td><code>sudo zyphor doctor report</code></td>
                         <td>Generate a comprehensive diagnostic report for troubleshooting and technical support purposes.</td>
                     </tr>
 
                     <tr>
                         <td>BUILD</td>
-                        <td><code>zyphor build package [dir]</code></td>
+                        <td><code>sudo zyphor build package [dir]</code></td>
                         <td>Build a Debian package from a project directory, simplifying software packaging and distribution.</td>
                     </tr>
 
                     <tr>
                         <td>BUILD</td>
-                        <td><code>zyphor build repo</code></td>
+                        <td><code>sudo zyphor build repo</code></td>
                         <td>Generate repository metadata files such as Packages.gz for hosting a Debian-compatible package repository.</td>
                     </tr>
 
                     <tr>
                         <td>CORE</td>
-                        <td><code>zyphor help</code></td>
+                        <td><code>sudo zyphor help</code></td>
                         <td>Display the complete Zyphor CLI command reference, categories, usage examples, and available options.</td>
                     </tr>
                 </tbody>
