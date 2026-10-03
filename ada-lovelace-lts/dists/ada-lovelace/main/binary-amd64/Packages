@@ -152,15 +152,15 @@ Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
 Package: zyphor-os-release
-Version: 69.0.0-r52-stable-release
+Version: 69.0.1-r53-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1288
-MD5sum: 742ad2949ad5f623bb4b7a0503279961
-SHA1: d2aadc581d48fb08643b6c7e924efae38a9312d9
-SHA256: 72d8c0c1e5bad2efe47dd31a90f93cc7e2721059131951016d8f52ad32e4810e
+MD5sum: 0cf7f8d8f420df37a8d108619813df1b
+SHA1: 2301d7564e4ddc8fb61c70fff0bc9c6a8b1becaa
+SHA256: 272f20eb0e818f5b7b07e89408e5b162adb1ad1e6f921e06d6f0aaa4015c8bc8
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
