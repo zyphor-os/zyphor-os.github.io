@@ -152,6 +152,8 @@
       <li class="nav-item"><a class="nav-link" href="#zyphor-cli"><i class="fa-solid fa-box me-2"></i>Zyphor CLI</a></li>
       <li class="nav-item"><a class="nav-link" href="#zyphor-command-center"><i class="fa-solid fa-box me-2"></i>Zyphor Command Center</a></li>
       <li class="nav-item"><a class="nav-link" href="#zylearn"><i class="fa-solid fa-box me-2"></i>ZyLearn</a></li>
+      <li class="nav-item"><a class="nav-link" href="#zywin"><i class="fa-solid fa-box me-2"></i>Zywin</a></li>
+      <li class="nav-item"><a class="nav-link" href="#zywin-ui"><i class="fa-solid fa-box me-2"></i>Zywin UI</a></li>
       <li class="nav-item"><a class="nav-link" href="#zyphor-updates"><i class="fa-solid fa-box me-2"></i>Zyphor Updates</a></li>
       <li class="nav-item"><a class="nav-link" href="#zysh"><i class="fa-solid fa-box me-2"></i>Zysh</a></li>
     </ul>
@@ -753,6 +755,109 @@
                 </tbody>
             </table>
         </div>
+    </section>
+
+    <!-- zywin -->
+    <section id="zywin" class="content-section mb-5">
+        <h2 class="fw-bold">ZyWin</h2>
+        <p>Installation: <code>zyphor pkg install zywin</code></p>
+
+        <div class="alert alert-warning d-flex align-items-start gap-2" role="alert">
+            <i class="fa-solid fa-lightbulb mt-1"></i>
+            <div>
+                Note: Please run <code>zyphor setup wine</code> first to install and configure Wine before using ZyWin.
+            </div>
+        </div>
+
+        <p>
+            <strong>ZyWin</strong> is a lightweight command-line utility that makes running Windows software
+            on Zyphor OS easier. It automatically detects supported installer formats, prepares the required
+            Wine environment, and launches applications with minimal user interaction.
+        </p>
+
+        <p>
+            ZyWin supports Windows executable files (<code>.exe</code>), Windows Installer packages
+            (<code>.msi</code>), and optical disc images (<code>.iso</code>). When an ISO image is provided,
+            ZyWin automatically extracts its contents to a temporary directory, searches for executable
+            installers, and prompts the user to select one when multiple executables are available.
+        </p>
+
+        <p>
+            Each application is executed using its own dedicated Wine prefix stored under
+            <code>~/.local/share/zywin/prefixes/</code>. This keeps applications isolated from one another,
+            helping prevent registry conflicts, DLL incompatibilities, and configuration issues that can
+            occur when sharing a single Wine prefix.
+        </p>
+
+        <p>
+            Temporary files created while extracting ISO images are stored under
+            <code>/tmp/zywin-installer-iso-extract-&lt;timestamp&gt;</code>. These can be removed at any time
+            using the cleanup command.
+        </p>
+
+        <h4 class="mt-4 mb-3">Available Commands</h4>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th width="35%">Command</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>zywin &lt;application.exe&gt;</code></td>
+                        <td>
+                            Launches a Windows executable using a dedicated Wine prefix.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>zywin &lt;installer.msi&gt;</code></td>
+                        <td>
+                            Installs an MSI package using Wine's Windows Installer service.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>zywin &lt;image.iso&gt;</code></td>
+                        <td>
+                            Extracts the ISO, locates executable installers, and launches the selected
+                            executable using Wine.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>zywin cleanup</code></td>
+                        <td>
+                            Removes temporary ISO extraction directories created by ZyWin.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- zywin-ui -->
+    <section id="zywin-ui" class="content-section mb-5">
+        <h2 class="fw-bold">ZyWin UI</h2>
+        <p>Installation: <code>zyphor pkg install zywin-ui</code></p>
+
+        <div class="alert alert-warning d-flex align-items-start gap-2" role="alert">
+            <i class="fa-solid fa-lightbulb mt-1"></i>
+            <div>
+                Note: ZyWin UI is <b>NOT</b> pre-installed and available by default after operating system installation.
+            </div>
+        </div>
+
+        <p>
+            <strong>ZyWin UI</strong> — A graphical interface for installing and initializing Windows
+            applications on Zyphor OS using Wine, providing a simple point-and-click experience without
+            requiring terminal commands.
+        </p>
+
+        <img src="assets/images/zywin-ui.png" alt="" width="100%">
     </section>
 
     <!-- zyphor updates-->
