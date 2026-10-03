@@ -493,6 +493,12 @@
                     </tr>
 
                     <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup web-server</code></td>
+                        <td>Sets up an Apache web server by enabling required modules, configuring SSL, creating a VirtualHost, setting the site document root, and enabling and restarting the Apache service.</td>
+                    </tr>
+
+                    <tr>
                         <td>PACKAGE</td>
                         <td><code>sudo zyphor pkg install &lt;pkg&gt;</code></td>
                         <td>Install software packages from configured repositories while automatically resolving required dependencies.</td>
@@ -523,6 +529,48 @@
                     </tr>
 
                     <tr>
+                        <td>SERVICE</td>
+                        <td><code>sudo zyphor service list</code></td>
+                        <td>Lists system services and displays their current running status and whether each service is enabled or disabled at boot.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SERVICE</td>
+                        <td><code>sudo zyphor service start &lt;service&gt;</code></td>
+                        <td>Starts a specified system service using systemd and reports whether the service started successfully.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SERVICE</td>
+                        <td><code>sudo zyphor service status &lt;service&gt;</code></td>
+                        <td>Displays the current status and detailed information of a specified system service.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SERVICE</td>
+                        <td><code>sudo zyphor service stop &lt;service&gt;</code></td>
+                        <td>Stops a specified system service using systemd and reports whether the service stopped successfully.</td>
+                    </tr>
+
+                    <tr>
+                        <td>NETWORK / STORAGE</td>
+                        <td><code>sudo zyphor smb list</code></td>
+                        <td>Lists the available SMB network shares on a specified IP address using the provided username.</td>
+                    </tr>
+
+                    <tr>
+                        <td>NETWORK / STORAGE</td>
+                        <td><code>sudo zyphor smb disk-list</code></td>
+                        <td>Displays a list of available disks and their partition information on the system.</td>
+                    </tr>
+
+                    <tr>
+                        <td>NETWORK / STORAGE</td>
+                        <td><code>sudo zyphor smb disk-mount</code></td>
+                        <td>Mounts an NTFS disk partition to a named directory under <code>/mnt</code> for access through the filesystem.</td>
+                    </tr>
+
+                    <tr>
                         <td>NETWORK / STORAGE</td>
                         <td><code>sudo zyphor smb mount</code></td>
                         <td>Connect and mount a remote SMB/CIFS network share, making it accessible like a local directory.</td>
@@ -550,6 +598,18 @@
                         <td>FTP</td>
                         <td><code>sudo zyphor ftp upload</code></td>
                         <td>Transfer files securely from the local system to a configured FTP server.</td>
+                    </tr>
+
+                    <tr>
+                        <td>FTP</td>
+                        <td><code>sudo zyphor ftp download</code></td>
+                        <td>Downloads a file from an FTP server by prompting for the FTP host, username, remote file, and optional local save path.</td>
+                    </tr>
+
+                    <tr>
+                        <td>FTP</td>
+                        <td><code>sudo zyphor ftp list</code></td>
+                        <td>Lists the files and directories available on an FTP server by prompting for the FTP host and username.</td>
                     </tr>
 
                     <tr>
@@ -594,6 +654,12 @@
                         <td>Generate repository metadata files such as Packages.gz for hosting a Debian-compatible package repository.</td>
                     </tr>
 
+                    <tr>
+                        <td>CORE</td>
+                        <td><code>sudo zyphor refresh</code></td>
+                        <td>Refreshes the Zyphor OS system by resetting first-boot defaults and rebooting the system to apply them.</td>
+                    </tr>
+                    
                     <tr>
                         <td>CORE</td>
                         <td><code>sudo zyphor help</code></td>
