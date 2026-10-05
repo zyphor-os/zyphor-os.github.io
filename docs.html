@@ -214,11 +214,116 @@
     </section>
 
     <!-- installation -->
-    <section id="installation" class="content-section mb-5">
-      <h2 class="fw-bold">Installation</h2>
-      <p>ISO File Size: 3.5GB</p>
-      <p>Latest Operating System Version: <span class="_latestVersion">...</span></p>
-      <p>ISO Download (On Github Readme): <a href="https://github.com/zyphor-os/zyphor-os-desktop" class="navlink">Zyphor OS</a></p>
+    <section id="installation" class="py-5">
+            
+        <h1 class="fw-bold">Installation</h1>
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card h-100 bg-dark text-light border-secondary shadow-lg"
+                        style="border-radius: 16px;">
+
+                        <div class="card-body p-4 text-center">
+
+                            <h3 class="fw-bold mb-3">
+                                Zyphor OS 1 Legacy (End Of Life)
+                            </h3>
+
+                            <div class="my-4">
+                                <div class="fs-2 fw-bold text-white"
+                                    id="downloads-project-1">
+                                    ...
+                                </div>
+
+                                <small class="text-white-50">
+                                    SourceForge Downloads
+                                </small>
+                            </div>
+
+                            <a href="https://sourceforge.net/projects/zyphor-os-1-legacy"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i class="bi bi-download me-2"></i>
+                                Download
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card h-100 bg-dark text-light border-secondary shadow-lg"
+                        style="border-radius: 16px;">
+
+                        <div class="card-body p-4 text-center">
+
+                            <h3 class="fw-bold mb-3">
+                                Zyphor OS 2 "Ada Lovelace" LTS
+                            </h3>
+
+                            <div class="my-4">
+                                <div class="fs-2 fw-bold text-white"
+                                    id="downloads-project-2">
+                                    ...
+                                </div>
+
+                                <small class="text-white-50">
+                                    SourceForge Downloads
+                                </small>
+                            </div>
+
+                            <a href="https://sourceforge.net/projects/zyphor-os-2-ada-lovelace/"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i class="bi bi-download me-2"></i>
+                                Download
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 3 -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card h-100 bg-dark text-light border-secondary shadow-lg"
+                        style="border-radius: 16px;">
+
+                        <div class="card-body p-4 text-center">
+
+                            <h3 class="fw-bold mb-3">
+                                Zyphor OS 3 "Bethany" LTS
+                            </h3>
+
+                            <div class="my-4">
+                                <div class="fs-2 fw-bold text-white"
+                                    id="downloads-project-3">
+                                    ...
+                                </div>
+
+                                <small class="text-white-50">
+                                    SourceForge Downloads
+                                </small>
+                            </div>
+
+                            <a href="https://sourceforge.net/projects/zyphor-os-3-bethany-lts/"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i class="bi bi-download me-2"></i>
+                                Download
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
     </section>
 
     <hr>
@@ -1131,6 +1236,82 @@
       }
     });
   });
+</script>
+
+<script>
+async function getSourceForgeDownloads(project, elementId) {
+
+    const startDate = '2026-03-30';
+
+    const endDate = new Date()
+        .toISOString()
+        .split('T')[0];
+
+    const apiUrl =
+        `https://sourceforge.net/projects/${project}/files/stats/json` +
+        `?start_date=${startDate}` +
+        `&end_date=${endDate}` +
+        `&period=monthly` +
+        `&os_by_country=false`;
+
+    try {
+
+        const response = await fetch(apiUrl);
+
+        if (!response.ok) {
+            throw new Error('SourceForge API request failed');
+        }
+
+        const data = await response.json();
+
+        let totalDownloads = 0;
+
+        if (Array.isArray(data.downloads)) {
+
+            totalDownloads = data.downloads.reduce(
+                (total, item) => {
+                    return total + (Number(item[1]) || 0);
+                },
+                0
+            );
+
+        }
+
+        document.getElementById(elementId).textContent =
+            totalDownloads.toLocaleString();
+
+    } catch (error) {
+
+        console.error(
+            `Unable to load SourceForge statistics for ${project}:`,
+            error
+        );
+
+        document.getElementById(elementId).textContent =
+            '—';
+    }
+}
+
+
+// Project 1
+getSourceForgeDownloads(
+    'zyphor-os-1-legacy',
+    'downloads-project-1'
+);
+
+
+// Project 2
+getSourceForgeDownloads(
+    'zyphor-os-2-ada-lovelace',
+    'downloads-project-2'
+);
+
+
+// Project 3
+getSourceForgeDownloads(
+    'zyphor-os-3-bethany-lts',
+    'downloads-project-3'
+);
 </script>
 </body>
 </html>
