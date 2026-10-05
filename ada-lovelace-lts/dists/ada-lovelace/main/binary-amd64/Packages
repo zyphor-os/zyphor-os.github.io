@@ -140,27 +140,27 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-grub-theme
-Version: 25.0.0-r27-stable-release
+Version: 26.0.0-r28-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-grub-theme.deb
 Size: 1208
-MD5sum: c3c57c66ed3fcdb8980471a416ae68a6
-SHA1: 275bb52db806e6f856e53e79b8abc1dad67ae36c
-SHA256: cb0c551e02e3b33f1ffd787243d168f316d33e96da1d4d3440e8f9cf120d2e86
+MD5sum: 34fbd1185af493995f05304239cc4c5a
+SHA1: 806b90d273703ee22edce16f20e3269f7f774adc
+SHA256: 39bad8cbf61aa6749cd0771d9729c25ab07dc365aae70f1566988eeff5b66973
 Section: utils
 Description: Zyphor OS Zyphor Grub Theme
 
 Package: zyphor-os-release
-Version: 69.0.1-r53-stable-release
+Version: 70.0.0-r54-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1288
-MD5sum: 0cf7f8d8f420df37a8d108619813df1b
-SHA1: 2301d7564e4ddc8fb61c70fff0bc9c6a8b1becaa
-SHA256: 272f20eb0e818f5b7b07e89408e5b162adb1ad1e6f921e06d6f0aaa4015c8bc8
+MD5sum: 570f82ac5a9b8135c700bf31b4d5cb45
+SHA1: dfc8cd57b6754255d86458c0e6215b406b62551d
+SHA256: 50481ce1204e1dd13eeb1d1c0c96e90d630e291b78969f599f11b2bac8efbf6e
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -272,15 +272,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 59.0.1-r58-stable-release
+Version: 60.0.0-r59-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2980
-MD5sum: 0106241ab8286c187fcf3d8b17ae1567
-SHA1: ea14eef0bab92b620c5620ad5b80ba8bdb1744cf
-SHA256: 585465999f6e664b3a55d7cb899cb84185b777739ca059c6f63e894ad1f671da
+Size: 2976
+MD5sum: 44af6df71761a6cb8668cf81036f7a4d
+SHA1: 3e3a4c5cea60069b3447a339e8d97ac2b92bc4fc
+SHA256: f7b2fba9e95d02449a5f679786bbc314545fa188786e02a915f2f5679b143603
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
