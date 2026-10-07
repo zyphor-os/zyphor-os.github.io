@@ -17,8 +17,8 @@ add:
 	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Ada Lovelace Reforged package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-os-release.deb
-	git commit -m "chore: add zyphor OS release package"
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-plymouth.deb
+	git commit -m "chore: add zyphor Plymouth package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
