@@ -11,6 +11,22 @@ Section: utils
 Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
+Package: zyphor-background-themes
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-background-themes.deb
+Size: 2437584
+MD5sum: 7f14159ecaa58fd758a9673eb3b32c09
+SHA1: 7d5b2262dbcb517d1a569076c3dcf0dd98136a72
+SHA256: 1659aac721917565139f57d5955a3a0a8196d7e44c5d5fbed21e1bde80e81cfd
+Section: x11
+Priority: optional
+Description: Zyphor OS desktop-base theme
+ Zyphor OS desktop theme and background artwork.
+ Provides the default Zyphor OS desktop background
+ and theme assets for desktop environments.
+
 Package: zyphor-os-release
 Version: 1.0.1-r2
 Architecture: all
