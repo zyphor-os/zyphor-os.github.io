@@ -27,6 +27,48 @@ Description: Zyphor OS desktop-base theme
  Provides the default Zyphor OS desktop background
  and theme assets for desktop environments.
 
+Package: zyphor-bashrc-config
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: git
+Filename: pool/main/z/zyphor-bashrc-config.deb
+Size: 1920
+MD5sum: c76a1762d5dbc99b3f4e7bed56b0f577
+SHA1: 091b2416b172bbb58d02d82a151a1ab40f0c0cf3
+SHA256: 6d73c1c7ba8e9c4289509dbe75e189abab3d20505d661eadc997d5d47bc9ead0
+Section: shells
+Priority: optional
+Description: Zyphor OS Bash configuration
+ Provides the default Zyphor OS Bash prompt and shell startup information.
+
+Package: zyphor-face-icon
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-face-icon.deb
+Size: 1744
+MD5sum: 8b5c918fa2460d62a7baa9d328f604bf
+SHA1: 2e6bd160de3c9c3c7cddbd850610e1f6d29aa0ac
+SHA256: 1de0c68fe1030a0fb5c8f33abaf765329853756f6de805514be5364f3a6177de
+Section: utils
+Priority: optional
+Description: Zyphor OS Face Icon
+
+Package: zyphor-fastfetch-config
+Version: 1.0.1-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash, fastfetch
+Filename: pool/main/z/zyphor-fastfetch-config.deb
+Size: 1876
+MD5sum: 72963b292f2d27a41e62f534cf6f08e6
+SHA1: 461b2de8c64f35a77e084d152032cf43ffe26bd4
+SHA256: feb79617c6e11b8b13823757038926d491586ffeab3a2af5da235640074014e1
+Section: utils
+Priority: optional
+Description: Zyphor OS Fastfetch Config
+
 Package: zyphor-os-release
 Version: 1.0.1-r2
 Architecture: all
