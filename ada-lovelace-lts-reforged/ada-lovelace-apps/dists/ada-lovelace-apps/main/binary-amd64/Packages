@@ -1,27 +1,54 @@
-Package: zyphor-cli
-Version: 13.0.1-r20-stable-release
+Package: zycamera-launcher
+Version: 1.0.0-r1
 Architecture: all
-Maintainer: Zyphor OS Team
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: guvcview
+Filename: pool/main/z/zycamera-launcher.deb
+Size: 25788
+MD5sum: 6398b553dd6cce3e4c7d44ced95b1659
+SHA1: e601112663687d8bede302f250f0ac811b9b9aba
+SHA256: c0b1e9aa31e10142359db47582e8ebd79ee03c88d2f864031cfd75b4d9c3fe85
+Section: utils
+Priority: optional
+Description: Zyphor OS Camera Launcher
+
+Package: zylearn
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zylearn.deb
+Size: 832
+MD5sum: 9a83f0cd65deeec7bf3e94f722b85262
+SHA1: 7c6736f1b406a545e3fe1519b9f923097110cebe
+SHA256: 60719c7e0dafd9a6356148f481e8c976a2d6f5d1649781d6416a9fd819bd5e29
+Section: utils
+Priority: optional
+Description: Zyphor OS Learning CLI
+
+Package: zyphor-cli
+Version: 13.0.2-r21-stable-release
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash
 Filename: pool/main/z/zyphor-cli.deb
-Size: 22056
-MD5sum: 542f626cee41c08356a6dc169810073c
-SHA1: ee90bbb64e64075e5ec0c4cd6d2cd3cfe74da25e
-SHA256: bb14658365e06c8f34c6df86d7e480a5d37f4639bbb6c1f5cbe11703208020da
+Size: 22092
+MD5sum: 1c14e1a21b1c5699107c17e82b4c5352
+SHA1: a56243d71df5409f7281bba935bff1c14054e1e1
+SHA256: e0a74138ca0885225bd7a6b2645d8f6355ad13a7010b2b5d69c96174d63b52b3
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 7.0.0-r3-stable-release
+Version: 7.0.1-r4-stable-release
 Architecture: all
-Maintainer: Zyphor OS Team
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 124856
-MD5sum: 1fb6f9d41e0b95df93b525f23f84fbe1
-SHA1: 2feb3cd965047af65f4559acf771128c563eaedb
-SHA256: f85e45d16060b6118a2acc3be5888969404cbf442d4d2598a56b5c615ec680ac
+Size: 124888
+MD5sum: 59130abadaaefa68669814eddcafae54
+SHA1: bb482839669adac13d2e9be07bed472ea663efdd
+SHA256: fcb73e4ec5b27c2352298962a094dded19ae8adc552eb83238d5632a538a90cf
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
@@ -59,18 +86,45 @@ Description: Zyphor Command Center Web
  management, analytics, and system configuration pages.
 
 Package: zyphor-whats-new
-Version: 61.0.0-r60-stable-release
+Version: 61.0.1-r61-stable-release
 Architecture: amd64
-Maintainer: Mark Jason P. Espelita
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2956
-MD5sum: 8c2ae6f200846bf04fcfa0b2e22d060b
-SHA1: c9690239622149c48a4e9cc6fb7c79a78cd8c719
-SHA256: 012651e7840cfca8bfdd196ae8dc1c5c87a7c964422ab1b87f1c8a374aed17f7
+Size: 2980
+MD5sum: 43647513dd487612752a013061da714b
+SHA1: b82f33b2453e17ad1a3f09f5c928a36794cd4bef
+SHA256: d11f16034ec52e195119da7be04a4a2b63c3dee32570d3a5ce4fc2e3d8deb843
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
  A lightweight release notes viewer for Zyphor OS that shows system updates
  and changes in the browser after upgrades.
+
+Package: zywin
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Dan Stephen B. Blanco & Zyphor OS Team
+Filename: pool/main/z/zywin.deb
+Size: 22044
+MD5sum: 4ed34f3223344ce709c778665357a1b2
+SHA1: 5776e7d117712eb2c0391c8596aef12ff4eb8328
+SHA256: db90630b117b210fe1054ef42f7f8072afbdcb1895e169c3c4c6d9a5d039c5e0
+Section: utils
+Priority: optional
+Description: Zyphor OS Windows Installer Application
+
+Package: zywin-ui
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: zywin
+Filename: pool/main/z/zywin-ui.deb
+Size: 140376
+MD5sum: 01a2a851545e92a6d4c646684ae59bdc
+SHA1: 1cb2df3c4347416e4e4cde6e222849679eb48b43
+SHA256: 6768e549f5e9cd618ab3a97ef1182352b7056c1bf6fbec14089c376cafebc9de
+Section: utils
+Priority: optional
+Description: Zyphor OS zywin-ui Application
 
