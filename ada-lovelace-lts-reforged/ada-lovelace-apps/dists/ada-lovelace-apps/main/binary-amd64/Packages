@@ -58,3 +58,19 @@ Description: Zyphor Command Center Web
  user management, dashboards, release notes, package
  management, analytics, and system configuration pages.
 
+Package: zyphor-whats-new
+Version: 61.0.0-r60-stable-release
+Architecture: amd64
+Maintainer: Mark Jason P. Espelita
+Depends: xdg-utils
+Filename: pool/main/z/zyphor-whats-new.deb
+Size: 2956
+MD5sum: 8c2ae6f200846bf04fcfa0b2e22d060b
+SHA1: c9690239622149c48a4e9cc6fb7c79a78cd8c719
+SHA256: 012651e7840cfca8bfdd196ae8dc1c5c87a7c964422ab1b87f1c8a374aed17f7
+Section: utils
+Priority: optional
+Description: Zyphor OS What's New
+ A lightweight release notes viewer for Zyphor OS that shows system updates
+ and changes in the browser after upgrades.
+
