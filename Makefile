@@ -17,8 +17,14 @@ add:
 	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Ada Lovelace Reforged package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-background-themes.deb
-	git commit -m "chore: add zyphor background themes package"
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-bashrc-config.deb
+	git commit -m "chore: add zyphor bashrc config package"
+
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-face-icon.deb
+	git commit -m "chore: add zyphor face icon package"
+
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-fastfetch-config.deb
+	git commit -m "chore: add zyphor fastfetch config package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
