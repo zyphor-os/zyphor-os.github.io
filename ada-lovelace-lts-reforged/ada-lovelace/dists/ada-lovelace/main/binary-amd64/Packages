@@ -1,0 +1,13 @@
+Package: zyphor-archive-keyring
+Version: 2.0.0-r2-stable-release
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Filename: pool/main/z/zyphor-archive-keyring.deb
+Size: 5816
+MD5sum: d588ecc27a2614a87b185f880366db74
+SHA1: a9099a3834dc0b6ecd0356dca8d42bba7a2a55e0
+SHA256: 7803719f887637617b1e6e2805056e01e2875baafa897b7b2055466c1e30f9e8
+Section: utils
+Priority: optional
+Description: Zyphor OS archive-keyring Configuration
+

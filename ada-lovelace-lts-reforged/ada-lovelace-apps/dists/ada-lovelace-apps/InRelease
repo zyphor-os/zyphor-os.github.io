@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: ada-lovelace-apps
+Components: main
+Date: Wed, 07 Oct 2026 00:27:52 +0000
+Description: Zyphor OS ada-lovelace-apps Repository
+Label: Zyphor OS
+Origin: Zyphor OS
+Suite: ada-lovelace-apps
+MD5Sum:
+ 3e23a132a208838cbb22f9e73c20c6f6              216 Release
+ ee88b15a8567d2c06bd0ab6b246c0958             1889 main/binary-amd64/Packages
+ fc64613a78d2086a715134da3a7ad72d              948 main/binary-amd64/Packages.gz
+SHA1:
+ efdbecdf8a56b22df87f02aae3dd15982be7244a              216 Release
+ d20a40134db6331639b74c88c38063a45bca268a             1889 main/binary-amd64/Packages
+ b7b75443041c8664f216e7419e20ca838b3f7b06              948 main/binary-amd64/Packages.gz
+SHA256:
+ 027835b3c2f34c29f570adba0102f4722e3b19ab36b02b918aad281e86b7be90              216 Release
+ 920750bf9f38d0e6ea6f9cef7ba4ecbd3558a343313b29050a91010ab3a7a32c             1889 main/binary-amd64/Packages
+ 302f09e6da7de5e680034de70c3fb8cf2d2c43418ca55aec37d93a68bd1f1eab              948 main/binary-amd64/Packages.gz
+SHA512:
+ a124e8b3fc28987821e2e5b68df7018ae34f44bf0d4de222aba06219db74c7ee7140f6039bab819fc59313cb984e16fd09be0dcbeda40927634b6d0a13f9dceb              216 Release
+ 5e0d0a83cac6da290521eaa37043e326c62a0bcd2f3e9fafd957a2ecdd40587179594cc4e2678e99c0ea9ebe706a120e3379aa571e32064e1ae6290233e955ac             1889 main/binary-amd64/Packages
+ 127e29295a78d4e2de4dad8db2c03948a7e35e2f14177d766e2171e50ab6ac0e476fbd7a1ae6dd322a47fc7d068c60ce09d8abb03a9794d165bbeb041010274d              948 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEElNKaGEPAVty8W6s1DBZ784ju+AFAmrFkggACgkQ1DBZ784j
+u+CqNw//YMguj+4/TNlKKDNYO4mCHAHQwWYHy7EJunZxd9cfXcohD7a3Krlp0s+b
+soeEHZsA3kTPO1KOJMZYFxZgDEmb3wnn5QlDjUxp1cq0GTPu9IqAfjFT7goo4ejb
+n/xOWhIBPzH0zGiX+W5SBORYI1GKGtKE1D3Znt96UrMd88GRljrygY1Druw2TyJD
+Ncg3g8cUehCHss0xfKdWYnYsVuFuOWLVYPF/C4CAbb/zrBa13Z++xJWLjds7Z2oM
+O7fYzofvPy1ztai8pO4Lmlto1wi+4Yq4FWNKbQEkX4OHFVluPrDHTtfvHkYTpT7M
+1+bncYuddYuHPE4QPWMGcVpKufF/gRD75IhQl0J9MNFvQBiWYeQWceGRXYq0VGY+
+GmzjZA3XrJ6G67cuPD0SP7n3JQQ5cMtwKJW3ZqrZjerQ9EF/m5PeuECjtzp++Pig
+xwhUiimMsJqCdbuZbQ46bl8hdigejOQdTu8jNHLWN77em8jr89nLo2Th+MlejLit
+9y2eIvJlf95ZZlwJ37e4z7s19qv/nTeJAH78tx+BBwmB9OOaz4/J2y6gP+3b3n2H
+fwujg2sr2NfPFqX8/mF2qo7/q4TUoK9ZGBaAo4UhSkpxc/tglIVWgLWHbtKJ+JKL
+/eBgTFrfMf/cuVsfo3MbBNfpn/7vRMH/9f1QkpndcoXS3l5qrjo=
+=ron4
+-----END PGP SIGNATURE-----

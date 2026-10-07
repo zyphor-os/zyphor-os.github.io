@@ -1,0 +1,60 @@
+Package: zyphor-cli
+Version: 13.0.1-r20-stable-release
+Architecture: all
+Maintainer: Zyphor OS Team
+Depends: bash
+Filename: pool/main/z/zyphor-cli.deb
+Size: 22056
+MD5sum: 542f626cee41c08356a6dc169810073c
+SHA1: ee90bbb64e64075e5ec0c4cd6d2cd3cfe74da25e
+SHA256: bb14658365e06c8f34c6df86d7e480a5d37f4639bbb6c1f5cbe11703208020da
+Section: utils
+Priority: optional
+Description: Zyphor OS CLI abstraction layer
+
+Package: zyphor-command-center
+Version: 7.0.0-r3-stable-release
+Architecture: all
+Maintainer: Zyphor OS Team
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web
+Filename: pool/main/z/zyphor-command-center.deb
+Size: 124856
+MD5sum: 1fb6f9d41e0b95df93b525f23f84fbe1
+SHA1: 2feb3cd965047af65f4559acf771128c563eaedb
+SHA256: f85e45d16060b6118a2acc3be5888969404cbf442d4d2598a56b5c615ec680ac
+Section: utils
+Priority: optional
+Description: Zyphor command center GUI control panel for Zyphor OS tools
+
+Package: zyphor-command-center-web
+Version: 1.1.1-r2-stable-release
+Architecture: all
+Maintainer: Mark Jason Penote Espelita <markjasonespelita@gmail.com>
+Depends: composer,
+ php-cli,
+ php-sqlite3,
+ php-mbstring,
+ php-xml,
+ php-curl,
+ php-zip,
+ php-bcmath,
+ php-intl,
+ php-tokenizer,
+ php-fileinfo
+Recommends: sqlite3
+Filename: pool/main/z/zyphor-command-center-web.deb
+Size: 134980
+MD5sum: 20647048b894a843ce0133de4e4d5f88
+SHA1: 1fd9be339f91722c9fd435439025855ec1599aa3
+SHA256: c53fdaf0b972242dfbe1318e092b31cac8c3ea04a9e3556a493f6d50308f247f
+Section: admin
+Priority: optional
+Homepage: https://zyphor-os.vercel.app
+Description: Zyphor Command Center Web
+ A Laravel-based web interface for Zyphor Command Center.
+ .
+ Provides the graphical management interface used by the
+ Zyphor Command Center desktop application, including
+ user management, dashboards, release notes, package
+ management, analytics, and system configuration pages.
+
