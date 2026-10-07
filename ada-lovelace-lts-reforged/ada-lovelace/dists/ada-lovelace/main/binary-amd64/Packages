@@ -11,6 +11,21 @@ Section: utils
 Priority: optional
 Description: Zyphor OS archive-keyring Configuration
 
+Package: zyphor-os-release
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-os-release.deb
+Size: 1420
+MD5sum: 0a19c063e090f4fb65dbe459104cd1a9
+SHA1: cd3fcca2a1a9102f263085caee4e7bc2dbd89786
+SHA256: b8032a79f024d8323a005341eca50c9ceae8922672a0ed9fd1e80410014a0c5a
+Section: base
+Priority: required
+Description: Zyphor OS release information
+ Provides operating system identification and release metadata
+ for Zyphor OS.
+
 Package: zyphor-repo-config
 Version: 6.0.0-r5-stable
 Architecture: all
