@@ -2,41 +2,41 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/InRelease
-	git commit -m "chore: update Ada Lovelace Apps Reforged InRelease"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
+	git commit -m "chore: update Bethany Apps InRelease"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release
-	git commit -m "chore: update Ada Lovelace Apps Reforged Release"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release
+	git commit -m "chore: update Bethany Apps Release"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release.gpg
-	git commit -m "chore: update Ada Lovelace Apps Reforged Release signature"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg
+	git commit -m "chore: update Bethany Apps Release signature"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages
-	git commit -m "chore: update Ada Lovelace Apps Reforged package index"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages
+	git commit -m "chore: update Bethany Apps package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
-	git commit -m "chore: update compressed Ada Lovelace Apps Reforged package index"
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
+	git commit -m "chore: update compressed Bethany Apps package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-cli.deb
-	git commit -m "chore: update zyphor CLI package"
-
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-command-center.deb
-	git commit -m "chore: update zyphor Command Center package"
-
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-whats-new.deb
+	git add bethany-lts/bethany-apps/pool/main/z/zyphor-whats-new.deb
 	git commit -m "chore: update zyphor What's New package"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zycamera-launcher.deb
-	git commit -m "chore: add zy camera launcher package"
+	git add bethany-lts/bethany/dists/bethany/InRelease
+	git commit -m "chore: update Bethany InRelease"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zylearn.deb
-	git commit -m "chore: add ZyLearn package"
+	git add bethany-lts/bethany/dists/bethany/Release
+	git commit -m "chore: update Bethany Release"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zywin-ui.deb
-	git commit -m "chore: add ZyWin UI package"
+	git add bethany-lts/bethany/dists/bethany/Release.gpg
+	git commit -m "chore: update Bethany Release signature"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zywin.deb
-	git commit -m "chore: add ZyWin package"
+	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
+	git commit -m "chore: update Bethany package index"
+
+	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
+	git commit -m "chore: update compressed Bethany package index"
+
+	git add bethany-lts/bethany/pool/main/z/zyphor-desktop-environment.deb
+	git commit -m "chore: update zyphor desktop environment package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
