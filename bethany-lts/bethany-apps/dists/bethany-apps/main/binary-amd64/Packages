@@ -86,15 +86,15 @@ Description: Zyphor Command Center Web
  management, analytics, and system configuration pages.
 
 Package: zyphor-whats-new
-Version: 1.0.2-r3-alpha
+Version: 2.0.0-r4-alpha
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3288
-MD5sum: 0ee505144e7684b8012d9e4badace6c7
-SHA1: 3b1a62a2d465bd398951e854c5c3b8071145e213
-SHA256: 452190800f2a6226644d3985a2b9af0422434298960c3ef838d9e7747b64378c
+Size: 3280
+MD5sum: 22e6e46dda051cff38468848506ebe5c
+SHA1: 48c5039c620a17c9e2f77eed43a5b61f7709e807
+SHA256: 73c798b34994c6c747fae9f8d3b77d5ba54ef025a3a68dde35ae007e5bc231d2
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
