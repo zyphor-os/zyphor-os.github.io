@@ -59,14 +59,15 @@ Description: Zyphor OS Calamares installer configuration
  Zyphor-specific installation scripts for Zyphor OS.
 
 Package: zyphor-desktop-environment
-Version: 5.0.0-r14-alpha
+Version: 6.0.0-r15-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: zyphor-command-center
 Filename: pool/main/z/zyphor-desktop-environment.deb
-Size: 4400892
-MD5sum: fdcaa8601d4159e388087f27aa1688fc
-SHA1: 13a8f2b6b080e7a42efdad0068f688d6854c2f20
-SHA256: 2a5f8528edfc337a48f6a3c4199980a980dade349294ef3e14854208f95e0995
+Size: 42434732
+MD5sum: e45a6f7a1bab8d3a80154e1698a17b80
+SHA1: 1c68948bfd2c301d955d18f9cc456b1207eb3bc2
+SHA256: 9cdd0f10be1e06f1453591ed7acfe574c06dedf4bdb9142e04cebb795e13c503
 Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
