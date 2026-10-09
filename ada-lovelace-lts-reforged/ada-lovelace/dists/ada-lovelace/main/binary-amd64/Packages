@@ -42,6 +42,20 @@ Priority: optional
 Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
+Package: zyphor-desktop-environment
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: zyphor-command-center
+Filename: pool/main/z/zyphor-desktop-environment.deb
+Size: 28753584
+MD5sum: ddc4a32429f4f5e716aab0c76a649d0c
+SHA1: dbcaeb7d4c7debbc06dd14e128de134cfefb3780
+SHA256: 07ab6023873f7e0a6178dfd69358ffe39dd26e0fbebe1b44c75452dfa17fb40b
+Section: admin
+Priority: optional
+Description: Zyphor OS Desktop Environment Theme
+
 Package: zyphor-face-icon
 Version: 1.0.0-r1
 Architecture: all
