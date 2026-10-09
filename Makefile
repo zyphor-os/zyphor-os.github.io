@@ -2,22 +2,22 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/InRelease
-	git commit -m "chore: update Ada Lovelace Reforged InRelease"
+	git add bethany-lts/bethany/dists/bethany/InRelease
+	git commit -m "chore: update Bethany InRelease"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release
-	git commit -m "chore: update Ada Lovelace Reforged Release"
+	git add bethany-lts/bethany/dists/bethany/Release
+	git commit -m "chore: update Bethany Release"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release.gpg
-	git commit -m "chore: update Ada Lovelace Reforged Release signature"
+	git add bethany-lts/bethany/dists/bethany/Release.gpg
+	git commit -m "chore: update Bethany Release signature"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages
-	git commit -m "chore: update Ada Lovelace Reforged package index"
+	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
+	git commit -m "chore: update Bethany package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
-	git commit -m "chore: update compressed Ada Lovelace Reforged package index"
+	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
+	git commit -m "chore: update compressed Bethany package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-desktop-environment.deb
+	git add bethany-lts/bethany/pool/main/z/zyphor-desktop-environment.deb
 	git commit -m "chore: update zyphor desktop environment package"
 
 pret:
