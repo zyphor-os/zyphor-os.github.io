@@ -40,15 +40,15 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 7.0.1-r4-stable-release
+Version: 8.0.0-r5
 Architecture: all
-Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
-Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web
+Maintainer: Zyphor OS Team
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 124888
-MD5sum: 59130abadaaefa68669814eddcafae54
-SHA1: bb482839669adac13d2e9be07bed472ea663efdd
-SHA256: fcb73e4ec5b27c2352298962a094dded19ae8adc552eb83238d5632a538a90cf
+Size: 120848
+MD5sum: d66d857b3037860f97bd6ff5ae4e13f0
+SHA1: 5af274a51369ec516208bfb5250165be094744a4
+SHA256: 6892697b8e992232efc3241b334694e3e2269903e04bd7014761ae32831435bb
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
@@ -86,15 +86,15 @@ Description: Zyphor Command Center Web
  management, analytics, and system configuration pages.
 
 Package: zyphor-whats-new
-Version: 61.0.1-r61-stable-release
+Version: 62.0.0-r62
 Architecture: amd64
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2980
-MD5sum: 43647513dd487612752a013061da714b
-SHA1: b82f33b2453e17ad1a3f09f5c928a36794cd4bef
-SHA256: d11f16034ec52e195119da7be04a4a2b63c3dee32570d3a5ce4fc2e3d8deb843
+Size: 3720
+MD5sum: 4d8153585b42bfa22454ca334664d6bd
+SHA1: 1025dd6cb0db0bcdd8126fd7ba6cd40e8cac0111
+SHA256: 3df89e7d08fb04f16492c4dafc9c0842861cb9d578d547b61fecbf0e8d2fa786
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
