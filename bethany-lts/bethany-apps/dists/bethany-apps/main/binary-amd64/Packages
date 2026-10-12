@@ -40,15 +40,15 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 1.0.1-r2-alpha
+Version: 1.1.0-r3-alpha
 Architecture: all
 Maintainer: Zyphor OS Team
 Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 124872
-MD5sum: fb9000cb33addebc1a4c074ee55a7517
-SHA1: edad18cf2d601d9170a82c125eecef55514cb7bd
-SHA256: 29f1acef8fc400dff1570e2b43f892ca578aba8c496dccd71d9176fca2451cdc
+Size: 120868
+MD5sum: bbe7972b9397fee10d5e6abd96142838
+SHA1: 91791187bdaec8626f61295437af68cad533cf2f
+SHA256: 786117b4953f4639290dd9514271a240c0483f42602aad66c2f6ac4cf2a033f6
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
@@ -86,15 +86,15 @@ Description: Zyphor Command Center Web
  management, analytics, and system configuration pages.
 
 Package: zyphor-whats-new
-Version: 2.0.0-r4-alpha
+Version: 3.0.0-r5-alpha
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3280
-MD5sum: 22e6e46dda051cff38468848506ebe5c
-SHA1: 48c5039c620a17c9e2f77eed43a5b61f7709e807
-SHA256: 73c798b34994c6c747fae9f8d3b77d5ba54ef025a3a68dde35ae007e5bc231d2
+Size: 3964
+MD5sum: 056013aeed5b59fb8d84337664e27887
+SHA1: e289cdeb19eb2b10a854e7202938c7ed26d4ef5b
+SHA256: 270d457bbdc307508df1dd403fa76683bff20aec7fc9f905ef6268d6677d86cd
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
