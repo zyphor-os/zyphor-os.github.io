@@ -100,14 +100,14 @@ Priority: optional
 Description: Zyphor OS Fastfetch Config
 
 Package: zyphor-os-release
-Version: 3.0.1-r9-alpha
+Version: 4.0.0-r10-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1416
-MD5sum: 7f8ab8407145a44daeec66c0f96f561c
-SHA1: b0c78ab4f32cf34870b199bec304a73b86ae6866
-SHA256: b8c03d21c313a00f12141aa3d2d20e400e48baec5bcbcd2d025f380dd96430d0
+Size: 1428
+MD5sum: 8c454324244b30fec641cc53cc6bb593
+SHA1: 6ec78b1146136dfc3bd454abc080893a6290312e
+SHA256: 58f5323ab9f7fbb03579d48aace6eb79c938fb7359095db9c05d1e54eccd2b5f
 Section: base
 Priority: required
 Description: Zyphor OS release information
