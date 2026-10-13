@@ -59,15 +59,15 @@ Description: Zyphor OS Calamares installer configuration
  Zyphor-specific installation scripts for Zyphor OS.
 
 Package: zyphor-desktop-environment
-Version: 6.0.1-r16-alpha
+Version: 6.1.0-r17-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: zyphor-command-center
 Filename: pool/main/z/zyphor-desktop-environment.deb
-Size: 42426660
-MD5sum: d73e42786590c73f1d657daf38bce1fd
-SHA1: a21da50dda9f5e847f29af9d29f7222a41641ffd
-SHA256: bd3320dc7aaa9d1669bc9c6ac0c569620f144b3d19917e5e3958a8fb0225a3c0
+Size: 42424996
+MD5sum: 057757362692e8d05ddb7b55a85671e3
+SHA1: 23e9ebf3c51e6433908a4dd6f033307dbfccb8a7
+SHA256: d7fabf4e43b3c65a90a2f65326c4c653e1ccd2d46117851b31f42ccd8ad952c9
 Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
@@ -100,14 +100,14 @@ Priority: optional
 Description: Zyphor OS Fastfetch Config
 
 Package: zyphor-os-release
-Version: 4.0.0-r10-alpha
+Version: 5.0.0-r11-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1428
-MD5sum: 8c454324244b30fec641cc53cc6bb593
-SHA1: 6ec78b1146136dfc3bd454abc080893a6290312e
-SHA256: 58f5323ab9f7fbb03579d48aace6eb79c938fb7359095db9c05d1e54eccd2b5f
+MD5sum: 97b87fe8e3c4dc37a77f019e4d3765f3
+SHA1: 63f7ce24389af7c56806ba71018ea14a0b4e0a63
+SHA256: 84f071ed31272d43343f1aa106c6b09fdf6f931bde03c1df29b964cc179d557f
 Section: base
 Priority: required
 Description: Zyphor OS release information
