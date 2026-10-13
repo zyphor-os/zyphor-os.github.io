@@ -43,15 +43,15 @@ Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
 Package: zyphor-desktop-environment
-Version: 1.0.0-r1
+Version: 1.0.1-r2
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: zyphor-command-center
 Filename: pool/main/z/zyphor-desktop-environment.deb
-Size: 28753584
-MD5sum: ddc4a32429f4f5e716aab0c76a649d0c
-SHA1: dbcaeb7d4c7debbc06dd14e128de134cfefb3780
-SHA256: 07ab6023873f7e0a6178dfd69358ffe39dd26e0fbebe1b44c75452dfa17fb40b
+Size: 28753588
+MD5sum: 6bd5d8e9e6d1d9e47bcdf43d574146bd
+SHA1: 36ca0ad4488fc6bab16e17d1574476b5faa299ac
+SHA256: 74bd0185b20ce8ec374d547d7417fb0283663b892afdde771ddf5bf45120b492
 Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
@@ -84,14 +84,14 @@ Priority: optional
 Description: Zyphor OS Fastfetch Config
 
 Package: zyphor-os-release
-Version: 2.0.0-r3
+Version: 3.0.0-r4
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1444
-MD5sum: 1e868806086cf5f9486ce816c1c4145f
-SHA1: 26e6c8255765090cf439596e4b9faa3f77f7fa86
-SHA256: 80f463720981ea4f2ac1104c6f6753b1a572d82f7f9dab52946abea7ed5490e5
+MD5sum: 1e6cc42fa8ee06dfd7bcdff745442796
+SHA1: 4d5e0d622afb4acb552deb34da808405b7ce324e
+SHA256: f4a0416a3fa58897551f684f753f6b3c2e30361ed6fac72c4e190f7e14d9908f
 Section: base
 Priority: required
 Description: Zyphor OS release information
