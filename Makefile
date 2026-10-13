@@ -17,9 +17,6 @@ add:
 	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Ada Lovelace apps package index"
 
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-command-center.deb
-	git commit -m "chore: update zyphor-command-center package"
-
 	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-whats-new.deb
 	git commit -m "chore: update zyphor-whats-new package"
 
@@ -37,6 +34,9 @@ add:
 
 	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Ada Lovelace package index"
+
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-desktop-environment.deb
+	git commit -m "chore: update zyphor-desktop-environment package"
 
 	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-os-release.deb
 	git commit -m "chore: update zyphor-os-release package"
