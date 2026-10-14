@@ -45,3 +45,9 @@ pret:
 
 min:
 	sh minify ada-lovelace-lts/registry/registry.json
+
+update:
+	@echo "\n--- FETCHING ORIGIN REPOSITORY ---\n";
+	git fetch origin
+	@echo "\n--- UPDATING MAIN ---\n";
+	git pull origin main
