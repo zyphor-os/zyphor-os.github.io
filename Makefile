@@ -29,16 +29,37 @@ add:
 	git add bethany-lts/bethany/dists/bethany/Release.gpg
 	git commit -m "chore: update Bethany Release signature"
 
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages \
-		bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
-	git commit -m "chore: update Bethany AMD64 package indexes"
+	# Update Ada Lovelace LTS InRelease
+	git add ada-lovelace-lts/dists/ada-lovelace/InRelease
+	git commit -m "repo: update Ada Lovelace LTS InRelease"
 
-	# Updated desktop and OS release packages
-	git add bethany-lts/bethany/pool/main/z/zyphor-desktop-environment.deb
-	git commit -m "chore: update Zyphor desktop environment package"
+	# Update Ada Lovelace LTS Release
+	git add ada-lovelace-lts/dists/ada-lovelace/Release
+	git commit -m "repo: update Ada Lovelace LTS Release metadata"
 
-	git add bethany-lts/bethany/pool/main/z/zyphor-os-release.deb
-	git commit -m "chore: update Zyphor OS release package"
+	# Update Ada Lovelace LTS Release signature
+	git add ada-lovelace-lts/dists/ada-lovelace/Release.gpg
+	git commit -m "repo: update Ada Lovelace LTS Release signature"
+
+	# Update AMD64 package index
+	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages
+	git commit -m "repo: update AMD64 package index"
+
+	# Update compressed AMD64 package index
+	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
+	git commit -m "repo: update compressed AMD64 package index"
+
+	# Update Zyphor GRUB theme package
+	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
+	git commit -m "repo: update zyphor-grub-theme package"
+
+	# Update Zyphor OS release package
+	git add ada-lovelace-lts/pool/main/z/zyphor-os-release.deb
+	git commit -m "repo: update zyphor-os-release package"
+
+	# Update Zyphor What's New package
+	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
+	git commit -m "repo: update zyphor-whats-new package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
