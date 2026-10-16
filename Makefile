@@ -2,33 +2,6 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Bethany Apps repository metadata
-	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
-	git commit -m "chore: update Bethany Apps InRelease metadata"
-
-	git add bethany-lts/bethany-apps/dists/bethany-apps/Release
-	git commit -m "chore: update Bethany Apps Release metadata"
-
-	git add bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg
-	git commit -m "chore: update Bethany Apps Release signature"
-
-	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages \
-		bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
-	git commit -m "chore: update Bethany Apps AMD64 package indexes"
-
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-whats-new.deb
-	git commit -m "chore: update zyphor-whats-new package"
-
-	# Bethany main repository metadata
-	git add bethany-lts/bethany/dists/bethany/InRelease
-	git commit -m "chore: update Bethany InRelease metadata"
-
-	git add bethany-lts/bethany/dists/bethany/Release
-	git commit -m "chore: update Bethany Release metadata"
-
-	git add bethany-lts/bethany/dists/bethany/Release.gpg
-	git commit -m "chore: update Bethany Release signature"
-
 	# Update Ada Lovelace LTS InRelease
 	git add ada-lovelace-lts/dists/ada-lovelace/InRelease
 	git commit -m "repo: update Ada Lovelace LTS InRelease"
