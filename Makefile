@@ -2,29 +2,29 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Update Bethany LTS InRelease
-	git add bethany-lts/bethany/dists/bethany/InRelease
-	git commit -m "repo: update Bethany LTS InRelease"
+	# Update Reforged Ada Lovelace LTS InRelease
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/InRelease
+	git commit -m "repo: update Reforged InRelease"
 
-	# Update Bethany LTS Release metadata
-	git add bethany-lts/bethany/dists/bethany/Release
-	git commit -m "repo: update Bethany LTS Release metadata"
+	# Update Reforged Ada Lovelace LTS Release metadata
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release
+	git commit -m "repo: update Reforged Release metadata"
 
-	# Update Bethany LTS Release signature
-	git add bethany-lts/bethany/dists/bethany/Release.gpg
-	git commit -m "repo: update Bethany LTS Release signature"
+	# Update Reforged Ada Lovelace LTS Release signature
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release.gpg
+	git commit -m "repo: update Reforged Release signature"
 
-	# Update AMD64 package index
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
-	git commit -m "repo: update Bethany LTS AMD64 package index"
+	# Update Reforged AMD64 package index
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages
+	git commit -m "repo: update Reforged AMD64 package index"
 
-	# Update compressed AMD64 package index
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
-	git commit -m "repo: update compressed Bethany LTS package index"
+	# Update compressed Reforged AMD64 package index
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
+	git commit -m "repo: update compressed Reforged package index"
 
-	# Update Zyphor desktop environment package
-	git add bethany-lts/bethany/pool/main/z/zyphor-desktop-environment.deb
-	git commit -m "repo: update Zyphor desktop environment package"
+	# Update Reforged desktop environment package
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-desktop-environment.deb
+	git commit -m "repo: update Reforged desktop environment package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
