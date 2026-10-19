@@ -43,15 +43,15 @@ Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
 Package: zyphor-desktop-environment
-Version: 1.0.1-r2
+Version: 1.0.2-r3
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: zyphor-command-center
 Filename: pool/main/z/zyphor-desktop-environment.deb
-Size: 28753588
-MD5sum: 6bd5d8e9e6d1d9e47bcdf43d574146bd
-SHA1: 36ca0ad4488fc6bab16e17d1574476b5faa299ac
-SHA256: 74bd0185b20ce8ec374d547d7417fb0283663b892afdde771ddf5bf45120b492
+Size: 28751512
+MD5sum: 526539faa7df0e2b1f4a734246e31f4f
+SHA1: 2c0862ab097568e98a7ac28043284d0aea8c990a
+SHA256: 8f9d7efd2c530f483ebd5850d2d44a26b685e04c5169dee1b67e54b63cacec49
 Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
