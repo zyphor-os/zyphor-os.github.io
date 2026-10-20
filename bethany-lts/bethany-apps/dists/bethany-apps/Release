@@ -1,24 +1,24 @@
 Architectures: amd64
 Codename: bethany-apps
 Components: main
-Date: Tue, 20 Oct 2026 01:57:35 +0000
+Date: Tue, 20 Oct 2026 06:44:32 +0000
 Description: Zyphor OS bethany-apps Repository
 Label: Zyphor OS
 Origin: Zyphor OS
 Suite: bethany-apps
 MD5Sum:
- 9526002367895e8b29c71aa37003f2ce              201 Release
- 32bd9cd4b10d0fffb52311295420e209             4070 main/binary-amd64/Packages
- 5f12208b9790c4cf7a1fc1ea48112030             1700 main/binary-amd64/Packages.gz
+ cb3f29cd64e9f4d82737b71d55652a7e              201 Release
+ 3fdfbf79b0906df105e79b682b14d5d6             4236 main/binary-amd64/Packages
+ 3d5f8c4d2fd3ff88f1c37d4ff9ef3d2c             1805 main/binary-amd64/Packages.gz
 SHA1:
- b56a52ef8fb71a53981ef71d93696d80a779e489              201 Release
- 0f78674c5fc55041fa11720c295bc2fa560fa827             4070 main/binary-amd64/Packages
- d56c3e2db08519e45e3d4dc7bb4bfa2118a22450             1700 main/binary-amd64/Packages.gz
+ 5a01c0e37713dd8d6b5e940f6d06f758f585a282              201 Release
+ 97f6f99f55c596e89d92e5b22693febda9acd1ff             4236 main/binary-amd64/Packages
+ f58f16e9c929f964b993175899437c11785f2688             1805 main/binary-amd64/Packages.gz
 SHA256:
- 245ffabaf7c1293f3b7a1994d69fcb836a459f3803f45f0f13ef16e173241fca              201 Release
- 3f76204143cba8d85e8b848009ffda554214cad663427740c4b904cb054a7f15             4070 main/binary-amd64/Packages
- 9a2d7a767cf55b311067931f11bc78f1ff340a70950a1f3f281a48bcaf727e06             1700 main/binary-amd64/Packages.gz
+ 98fc0c04f1116f72bc1ace22376e4d4dcd92e91c0851257d385ab76d2e7f25c5              201 Release
+ a3f34c50609a5e52b3e2b847fe5132db33f02a8b6d183f3f748a7cf725739a2a             4236 main/binary-amd64/Packages
+ 0b7b932329dc694993873e963dd752b670ef45939df8753a394b66ffd0f99e2d             1805 main/binary-amd64/Packages.gz
 SHA512:
- bf3e86afb070660890aa6cea714c1aaacc44e6241ec6b41d72bf9341d9febb623b2e0e481f457affdfc6a5d9eacacdf33bb2e055c9390351caef1f4805372379              201 Release
- f22d35a87bb624d9ad3d4ffdb17a166ef939013a79578cf3572585673b1c21d952e67599c787a17d9968c47b7ec290b9151ea5cae3d80260be8b5870997659f8             4070 main/binary-amd64/Packages
- cf71192dd97ad1952b4f3d6e1c01f7dcd1855b6d756ad9c48ed56b73356a590fb6242b79ca1e653c69b022ed32f6fb9ac3f35cc081e578c47c9644e5308360e5             1700 main/binary-amd64/Packages.gz
+ be01d43169e6bb8cbf6d07bd1aa9c283e82b95f7b5f33d8db7e45142a8ac2070baa820ec5ce3b87ad4eaa29a8567b2191c5bdad609cd5adba93325c8d6ec7d6c              201 Release
+ 12e163e1c6b057270f6152c0ccd9b45492fb1f28b40f33375ad36477dd4b760ffc40a30c9442fe9cc42b0d7f8ecc290120566f659c8ff63bfe55bacb8af8d3e6             4236 main/binary-amd64/Packages
+ 48809ba171a1c80b2c1f40bed20537ced54e85546a82b7c53114c3df6bab3314406e675b714681e461b62e2103625afe1c4293d7838856db3058f2ff5e53c329             1805 main/binary-amd64/Packages.gz
