@@ -13,28 +13,31 @@ Priority: optional
 Description: Zyphor OS Camera Launcher
 
 Package: zylearn
-Version: 1.0.0-r1
-Architecture: all
+Version: 1.2.1-r3
+Architecture: amd64
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: libc6, libstdc++6, git
 Filename: pool/main/z/zylearn.deb
-Size: 832
-MD5sum: 9a83f0cd65deeec7bf3e94f722b85262
-SHA1: 7c6736f1b406a545e3fe1519b9f923097110cebe
-SHA256: 60719c7e0dafd9a6356148f481e8c976a2d6f5d1649781d6416a9fd819bd5e29
+Size: 49342
+MD5sum: 113fe0e4509bdb9546a505bff343e9f8
+SHA1: b6e051f50a276f16b67d9f1fecbfaa9c5c40e74a
+SHA256: 377aa5c34651df52693fe343d9f4b16d71e125d5326398ebc5535194d2918788
 Section: utils
 Priority: optional
 Description: Zyphor OS Learning CLI
+ Guided Linux lessons, progress tracking and a learning skeleton
+ environment for students and new Linux users on Zyphor OS.
 
 Package: zyphor-cli
-Version: 13.0.2-r21-stable-release
+Version: 14.0.0-r22-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
-Depends: bash
+Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 22092
-MD5sum: 1c14e1a21b1c5699107c17e82b4c5352
-SHA1: a56243d71df5409f7281bba935bff1c14054e1e1
-SHA256: e0a74138ca0885225bd7a6b2645d8f6355ad13a7010b2b5d69c96174d63b52b3
+Size: 29256
+MD5sum: a557de166b9307ab73bf3281d0766d7d
+SHA1: 12cb6d2087e571164a6f618acd278546e4ffea83
+SHA256: 60d81a2c71cd5eadbd356a7903b1099adee24e1fde4e13982fb8ce32e9e9613b
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
