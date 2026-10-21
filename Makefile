@@ -22,9 +22,17 @@ add:
 	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
 	git commit -m "repo: update compressed Bethany LTS Apps package index"
 
-	# Update ZyLearn package
-	git add bethany-lts/bethany-apps/pool/main/z/zylearn.deb
-	git commit -m "repo: update zylearn package"
+	# Update Zyphor CLI package
+	git add bethany-lts/bethany-apps/pool/main/z/zyphor-cli.deb
+	git commit -m "repo: update zyphor-cli package"
+
+	# Update Zyphor What's New package
+	git add bethany-lts/bethany-apps/pool/main/z/zyphor-whats-new.deb
+	git commit -m "repo: update zyphor-whats-new package"
+
+	# Update documentation page
+	git add docs.html
+	git commit -m "docs: update website documentation"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
