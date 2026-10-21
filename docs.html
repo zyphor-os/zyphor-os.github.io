@@ -469,8 +469,23 @@
         </div>
         <p><strong>Zyphor CLI Abstraction Layer</strong> — A unified command framework that transforms complex Linux operations into simple, consistent, and easy-to-remember commands for developers, administrators, and everyday users.</p>
         <code><pre>zyphor help</pre></code>
+
+        <!-- Search Filter -->
+        <div class="mb-3">
+            <input
+                type="search"
+                id="commandSearch"
+                class="form-control"
+                placeholder="Search commands, categories, or descriptions..."
+                aria-label="Search Zyphor CLI commands"
+            >
+            <small class="text-muted" id="searchResults">
+                Showing all commands
+            </small>
+        </div>
+
         <div class="table-responsive">
-            <table class="table table-striped table-hover align-middle">
+            <table class="table table-striped table-hover align-middle" id="commandTable">
                 <thead>
                     <tr>
                         <th width="20%">Category</th>
@@ -1449,6 +1464,42 @@ getSourceForgeDownloads(
     'zyphor-os-3-bethany-lts',
     'downloads-project-3'
 );
+</script>
+<!-- Include jQuery if it is not already loaded -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+$(document).ready(function () {
+    const $search = $('#commandSearch');
+    const $rows = $('#commandTable tbody tr');
+    const $results = $('#searchResults');
+
+    $search.on('input', function () {
+        const query = $(this).val().trim().toLowerCase();
+        let visibleCount = 0;
+
+        $rows.each(function () {
+            const matches = $(this).text()
+                .toLowerCase()
+                .includes(query);
+
+            $(this).toggle(matches);
+
+            if (matches) {
+                visibleCount++;
+            }
+        });
+
+        if (query === '') {
+            $results.text('Showing all ' + $rows.length + ' commands');
+        } else {
+            $results.text(
+                'Showing ' + visibleCount + ' of ' +
+                $rows.length + ' commands'
+            );
+        }
+    });
+});
 </script>
 </body>
 </html>
