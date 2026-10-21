@@ -29,15 +29,15 @@ Description: Zyphor OS Learning CLI
  environment for students and new Linux users on Zyphor OS.
 
 Package: zyphor-cli
-Version: 3.1.0-r7-alpha
+Version: 4.0.0-r8-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 23736
-MD5sum: 3d0ee945c88a84111f100b246549362f
-SHA1: d61184ec9fd0584befe18378b99f9300fa1db061
-SHA256: 1bf7dcf08e1a7b49226bd346505baa24a2b18fdc3dfd870fede5c4d3b5c3a748
+Size: 29250
+MD5sum: e9f39db1d47f1fa2be5bea0fefb690fa
+SHA1: 6a272315a5d14eeaf194300c94bba34f43a6af52
+SHA256: 5fa8f415bd8929262487d65dd0e8a8d2473910bd71238152dc7a4f51959ba3d2
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
@@ -89,15 +89,15 @@ Description: Zyphor Command Center Web
  management, analytics, and system configuration pages.
 
 Package: zyphor-whats-new
-Version: 5.0.0-r7-alpha
+Version: 6.0.0-r8-alpha
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 4554
-MD5sum: edfb63d7c6f9f8644e01d1363e4b4bda
-SHA1: 16680ec394cef4c9e7c487ea64c77d5805d0935d
-SHA256: cb469522a63c14903074284fc037bb10027224f3819a7240a6bb445b57395c2b
+Size: 4978
+MD5sum: ac740005dcb080c31038e0ddef4d6ef6
+SHA1: 492ca4445ae99d2d4bd79f6345c38282a49ea4cc
+SHA256: 82d36ac48bd2679dc846a290b397bc59477eb3b8e59bffef89884c9097975d86
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
