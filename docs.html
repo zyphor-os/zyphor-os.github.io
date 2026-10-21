@@ -505,38 +505,62 @@
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>sudo zyphor setup dev php</code></td>
-                        <td>Install and configure PHP, Composer, Node.js, and other tools commonly required for modern PHP application development.</td>
+                        <td><code>zyphor setup dev version php</code></td>
+                        <td>List the PHP versions that are installed and available, and show which one is currently active.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>sudo zyphor setup dev node</code></td>
-                        <td>Install Node.js runtime and package management tools for building JavaScript and TypeScript applications.</td>
+                        <td><code>sudo zyphor setup dev version php 8.3</code></td>
+                        <td>Install the chosen PHP version (e.g. 8.3) with the common extensions and switch the active <code>php</code> command to it. Offers to add the Sury PHP repository if the version is not available in your current sources.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>sudo zyphor setup dev composer</code></td>
-                        <td>Install Composer and configure the environment for managing PHP packages and project dependencies.</td>
+                        <td><code>zyphor setup dev version node</code></td>
+                        <td>Show the installed Node.js version and the latest release of each recent Node.js major version, with LTS releases marked.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>sudo zyphor setup dev git</code></td>
-                        <td>Generate SSH keys, configure Git settings, and prepare secure authentication for GitHub and Git-based workflows.</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>SETUP</td>
-                        <td><code>sudo zyphor setup dev android-studio</code></td>
-                        <td>Install and configure Android Studio and the required tools for Android development.</td>
+                        <td><code>sudo zyphor setup dev version node 22</code></td>
+                        <td>Install the chosen Node.js version (e.g. 22) and switch to it. A minor version such as 22.5 is also accepted and pinned when it is still available.</td>
                     </tr>
 
                     <tr>
                         <td>SETUP</td>
-                        <td><code>sudo zyphor setup dev os</code></td>
-                        <td>Install the tools needed for OS/Distro development, including kernel and initramfs build tools, ISO creation tools, live-build, Debian packaging tools, and QEMU with OVMF for testing in a virtual machine.</td>
+                        <td><code>sudo zyphor setup dev undo php</code></td>
+                        <td>Remove PHP and its extensions, with optional removal of Composer and the Sury PHP repository. Asks for confirmation before anything is removed.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup dev undo node</code></td>
+                        <td>Remove Node.js, with optional removal of the NodeSource repository files.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup dev undo composer</code></td>
+                        <td>Remove Composer from <code>/usr/local/bin</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup dev undo git</code></td>
+                        <td>Remove the Git settings configured by the setup, with an optional, separate prompt for each generated SSH key. Git and OpenSSH themselves stay installed.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup dev undo android-studio</code></td>
+                        <td>Remove Android Studio, Flutter, and the PATH entries added to your shell configuration, with optional removal of the Android SDK and related build packages.</td>
+                    </tr>
+
+                    <tr>
+                        <td>SETUP</td>
+                        <td><code>sudo zyphor setup dev undo os</code></td>
+                        <td>Remove the OS/Distro development tools installed by <code>setup dev os</code>. Packages the base system depends on, such as <code>gzip</code>, <code>python3</code>, and <code>grub-pc-bin</code>, are kept.</td>
                     </tr>
 
                     <tr>
