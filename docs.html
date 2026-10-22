@@ -156,6 +156,7 @@
       <li class="nav-item"><a class="nav-link" href="#zywin-ui"><i class="fa-solid fa-box me-2"></i>Zywin UI</a></li>
       <li class="nav-item"><a class="nav-link" href="#zyphor-updates"><i class="fa-solid fa-box me-2"></i>Zyphor Updates</a></li>
       <li class="nav-item"><a class="nav-link" href="#zysh"><i class="fa-solid fa-box me-2"></i>Zysh</a></li>
+      <li class="nav-item"><a class="nav-link" href="#zyphor-smart-downloads"><i class="fa-solid fa-box me-2"></i>Zyphor Smart Downloads</a></li>
     </ul>
 
     <div class="nav-section-title">Contributing</div>
@@ -1139,6 +1140,176 @@ zylearn progress           # see how far you have come</code></pre>
         <p>
             <strong>Zysh</strong> is the official Zsh customization layer for Zyphor OS. It enhances the standard Zsh shell with Zyphor-specific branding, version information, color schemes, and terminal experience improvements. Rather than replacing Zsh, Zysh operates on top of it, extending and customizing the shell to provide a consistent and recognizable command-line environment across the Zyphor OS ecosystem.
         </p>
+    </section>
+
+    <!-- zyphor-smart-downloads -->
+    <section id="zyphor-smart-downloads" class="content-section mb-5">
+        <h2 class="fw-bold">Zyphor Smart Downloads</h2>
+        <p>Installation: <code>zyphor pkg install zyphor-smart-downloads</code></p>
+
+        <div class="alert alert-warning d-flex align-items-start gap-2" role="alert">
+            <i class="fa-solid fa-lightbulb mt-1"></i>
+            <div>
+                Note: The package installs a cron entry that runs every minute, so the <code>cron</code>
+                service must be running. It is enabled and started automatically during installation.
+            </div>
+        </div>
+
+        <p>
+            <strong>Zyphor Smart Downloads</strong> is a lightweight background utility that keeps your
+            <code>Downloads</code> folder clean. It automatically sorts finished downloads into each user's
+            own folders, so images, music, videos, and documents end up where they belong without any
+            manual work.
+        </p>
+
+        <p>
+            Files are sorted by type: images are moved to <code>~/Pictures</code>, music to
+            <code>~/Music</code>, videos to <code>~/Videos</code>, PDF files to
+            <code>~/Documents/PDFs</code>, office documents, text files, and ebooks to
+            <code>~/Documents</code>, and archives to <code>~/Documents/Archives</code>. Installers such as
+            <code>.deb</code>, <code>.iso</code>, and AppImage files are grouped under
+            <code>~/Downloads/Software</code>. Folder locations follow the user's
+            <code>xdg-user-dirs</code> settings, so translated folder names are supported.
+        </p>
+
+        <p>
+            A file is never moved while it is still being downloaded. Files with partial extensions such as
+            <code>.part</code>, <code>.crdownload</code>, or <code>.aria2</code>, files that were modified
+            recently, files whose size is still changing, and files currently open in a running program
+            (for example a video that is playing) are skipped and checked again on the next scan.
+        </p>
+
+        <p>
+            Before a file is moved, it is checked for damage. Truncated images and PDFs, corrupt archives,
+            empty files, and web pages saved with a wrong extension are detected and moved to
+            <code>~/Downloads/Damaged</code> instead of your real folders.
+        </p>
+
+        <p>
+            After moving, each file is renamed using the format
+            <code>&lt;date-with-seconds&gt;-&lt;filename&gt;</code>, for example
+            <code>20261022-143005-photo.jpg</code>. If a file with the same name already exists, a counter
+            is added automatically so nothing is overwritten.
+        </p>
+
+        <p>
+            The scan interval is fully configurable, from as little as 5 seconds up to hours. Settings are
+            stored in <code>/etc/zyphor-smart-downloads/zyphor-smart-downloads.conf</code>, and each user
+            can override them in <code>~/.config/zyphor-smart-downloads.conf</code>. Activity is recorded in
+            <code>~/.local/state/zyphor-smart-downloads/organizer.log</code>, which is rotated automatically
+            when it grows past 1 MB.
+        </p>
+
+        <h4 class="mt-4 mb-3">Available Commands</h4>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th width="35%">Command</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>zyphor-smart-downloads status</code></td>
+                        <td>
+                            Shows the current settings, whether the cron entry is installed, and the time of the last scan.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>zyphor-smart-downloads run</code></td>
+                        <td>
+                            Organizes your Downloads folder immediately, without waiting for the next scheduled scan.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>zyphor-smart-downloads log</code></td>
+                        <td>
+                            Displays your recent activity log, including moved and quarantined files.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>sudo zyphor-smart-downloads set-interval &lt;time&gt;</code></td>
+                        <td>
+                            Changes how often files are organized. Accepts seconds, minutes, or hours,
+                            for example <code>15s</code>, <code>30s</code>, <code>5m</code>, or <code>1h</code>.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>sudo zyphor-smart-downloads set &lt;KEY&gt; &lt;VALUE&gt;</code></td>
+                        <td>
+                            Changes any setting from the table below.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>sudo zyphor-smart-downloads enable</code> / <code>disable</code></td>
+                        <td>
+                            Turns automatic organizing on or off without uninstalling the package.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h4 class="mt-4 mb-3">Configuration Options</h4>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th width="35%">Option</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>SCAN_INTERVAL</code></td>
+                        <td>How often the Downloads folder is scanned. Default: <code>1m</code>. Minimum: <code>5s</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>MIN_FILE_AGE</code></td>
+                        <td>How long a file must stay unmodified before it can be moved. Default: <code>10s</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>STABILITY_WAIT</code></td>
+                        <td>Delay between two file size checks used to detect a download that is still growing. Default: <code>2s</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>DATE_SOURCE</code></td>
+                        <td>Source of the date in the new filename: <code>birth</code> (default), <code>mtime</code>, or <code>now</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>DATE_FORMAT</code></td>
+                        <td>Format of the filename date prefix. Default: <code>%Y%m%d-%H%M%S</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>INCLUDE_USERS</code> / <code>EXCLUDE_USERS</code></td>
+                        <td>Limits organizing to specific users, or skips specific users. By default every normal user is included.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>UNKNOWN_FILES</code></td>
+                        <td><code>leave</code> (default) keeps unrecognized files in place, <code>misc</code> moves them to <code>~/Downloads/Other</code>.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>DAMAGED_ACTION</code></td>
+                        <td><code>quarantine</code> (default) moves damaged files to <code>~/Downloads/Damaged</code>, <code>leave</code> keeps them in place.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
     <hr>
