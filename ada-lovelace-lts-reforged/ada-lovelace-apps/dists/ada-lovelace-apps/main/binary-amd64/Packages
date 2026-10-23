@@ -88,6 +88,29 @@ Description: Zyphor Command Center Web
  user management, dashboards, release notes, package
  management, analytics, and system configuration pages.
 
+Package: zyphor-smart-downloads
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Installed-Size: 68
+Depends: bash (>= 4.0), cron | cron-daemon, coreutils, util-linux, findutils, file, unzip
+Suggests: ffmpeg
+Filename: pool/main/z/zyphor-smart-downloads.deb
+Size: 7370
+MD5sum: 6473848a3f02790636df397978efcb00
+SHA1: 57077a4d6046cfd602344ccd2bb7bda8ff37a19a
+SHA256: 6e52619ccdb0d9d14724cfc3a70ff5e956b42f69564452d90d51c1e772ad41e1
+Section: utils
+Priority: optional
+Description: Automatically organize the Downloads folder of every user
+ Runs from cron (every minute, installed by postinst) and sorts finished
+ downloads into each user's Pictures, Music, Videos, Documents and
+ Documents/PDFs folders. Files that are still being written, held open by a
+ program, or that look damaged/truncated are never moved into the final
+ folders. Moved files are renamed <date-with-seconds>-<filename>. The scan
+ interval (seconds or minutes) is configurable in
+ /etc/zyphor-smart-downloads/zyphor-smart-downloads.conf.
+
 Package: zyphor-whats-new
 Version: 63.0.0-r63
 Architecture: amd64
