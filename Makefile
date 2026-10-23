@@ -2,37 +2,29 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Update Ada Lovelace LTS InRelease
-	git add ada-lovelace-lts/dists/ada-lovelace/InRelease
-	git commit -m "repo: update Ada Lovelace LTS InRelease"
+	# Update Ada Lovelace Reforged Apps InRelease
+	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/InRelease
+	git commit -m "repo: update Ada Lovelace Reforged Apps InRelease"
 
-	# Update Ada Lovelace LTS Release metadata
-	git add ada-lovelace-lts/dists/ada-lovelace/Release
-	git commit -m "repo: update Ada Lovelace LTS Release metadata"
+	# Update Ada Lovelace Reforged Apps Release metadata
+	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release
+	git commit -m "repo: update Ada Lovelace Reforged Apps Release metadata"
 
-	# Update Ada Lovelace LTS Release signature
-	git add ada-lovelace-lts/dists/ada-lovelace/Release.gpg
-	git commit -m "repo: update Ada Lovelace LTS Release signature"
+	# Update Ada Lovelace Reforged Apps Release signature
+	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release.gpg
+	git commit -m "repo: update Ada Lovelace Reforged Apps Release signature"
 
-	# Update AMD64 package index
-	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages
-	git commit -m "repo: update Ada Lovelace LTS AMD64 package index"
+	# Update AMD64 Apps package index
+	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages
+	git commit -m "repo: update Ada Lovelace Reforged Apps AMD64 package index"
 
-	# Update compressed AMD64 package index
-	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
-	git commit -m "repo: update compressed Ada Lovelace LTS package index"
+	# Update compressed AMD64 Apps package index
+	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
+	git commit -m "repo: update compressed Ada Lovelace Reforged Apps package index"
 
-	# Update Zyphor GRUB theme package
-	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
-	git commit -m "repo: update zyphor-grub-theme package"
-
-	# Update Zyphor OS release package
-	git add ada-lovelace-lts/pool/main/z/zyphor-os-release.deb
-	git commit -m "repo: update zyphor-os-release package"
-
-	# Update Zyphor What's New package
-	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
-	git commit -m "repo: update zyphor-whats-new package"
+	# Add Zyphor Smart Downloads package
+	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-smart-downloads.deb
+	git commit -m "repo: add zyphor-smart-downloads package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
