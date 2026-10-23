@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News — Zyphor OS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Serif+4:wght@400;600&display=swap">
+<link rel="stylesheet" href="news.css">
+</head>
+<body>
+<header class="bar"><a class="brand" href="index.html">Zyphor OS</a><a class="here" href="news.html">News</a></header>
+<main>
+  <h1 class="page-title">News</h1>
+  <p class="lede">Releases, guides and community updates.</p>
+  <section id="featured"></section>
+  <section id="grid" class="grid"></section>
+  <p id="status" role="status">Loading news…</p>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(function () {
+  function fmt(d) { return new Date(d).toLocaleDateString('en', {year:'numeric', month:'long', day:'numeric'}); }
+
+  function story(n, lead) {
+    var $a = $('<a class="story reveal">').addClass(lead ? 'lead' : '')
+      .attr('href', 'news-details.html?id=' + encodeURIComponent(n.id));
+    $('<img>').attr({src: n.featuredImage, alt: n.title, loading: lead ? 'eager' : 'lazy'}).appendTo($a);
+    var $t = $('<div class="txt">').appendTo($a);
+    $('<span class="tag">').text(n.category).appendTo($t);
+    $(lead ? '<h2>' : '<h3>').text(n.title).appendTo($t);
+    $('<p>').text(n.summary).appendTo($t);
+    $('<span class="meta">').text(fmt(n.date) + ' · ' + n.author).appendTo($t);
+    return $a;
+  }
+
+  $.getJSON('news.json').done(function (data) {
+    var items = data.news.slice().sort(function (a, b) { return new Date(b.date) - new Date(a.date); });
+    if (!items.length) { $('#status').text('No news yet. Add items to news.json.'); return; }
+    $('#featured').append(story(items[0], true));
+    $.each(items.slice(1), function (i, n) { $('#grid').append(story(n, false)); });
+    $('#status').remove();
+    // Page-load reveal: one staggered sequence
+    $('.reveal').each(function (i) {
+      var $el = $(this);
+      setTimeout(function () { $el.addClass('in'); }, 120 + i * 140);
+    });
+  }).fail(function () {
+    $('#status').text('Could not load news.json. Serve this folder over http (not file://) and check the file name.');
+  });
+});
+</script>
+</body>
+</html>

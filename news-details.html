@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News — Zyphor OS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Serif+4:wght@400;600&display=swap">
+<link rel="stylesheet" href="news.css">
+</head>
+<body>
+<header class="bar"><a class="brand" href="index.html">Zyphor OS</a><a class="here" href="news.html">News</a></header>
+<main>
+  <a class="back" href="news.html">Back to news</a>
+  <p id="status" role="status">Loading story…</p>
+  <article id="story" class="article"></article>
+  <section id="more" class="more"></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(function () {
+  var id = new URLSearchParams(location.search).get('id');
+  function fmt(d) { return new Date(d).toLocaleDateString('en', {year:'numeric', month:'long', day:'numeric'}); }
+
+  $.getJSON('news.json').done(function (data) {
+    var n = $.grep(data.news, function (x) { return x.id === id; })[0];
+    if (!n) { $('#status').text('Story not found. Return to the news list and pick a story.'); return; }
+    document.title = n.title + ' — Zyphor OS';
+    $('#status').remove();
+
+    var $s = $('#story');
+    $('<span class="tag reveal">').text(n.category).appendTo($s);
+    $('<h1 class="reveal">').text(n.title).appendTo($s);
+    $('<p class="meta reveal">').text(fmt(n.date) + ' · ' + n.author).appendTo($s);
+    $('<img class="hero-img reveal">').attr({src: n.featuredImage, alt: n.title}).appendTo($s);
+    $('<p class="summary reveal">').text(n.summary).appendTo($s);
+    $.each(n.content, function (i, para) { $('<p class="reveal">').text(para).appendTo($s); });
+
+    if (n.moreImages && n.moreImages.length) {
+      var $m = $('#more');
+      $('<h2 class="reveal">').text('More images').appendTo($m);
+      var $g = $('<div class="gallery">').appendTo($m);
+      $.each(n.moreImages, function (i, im) {
+        var $f = $('<figure class="reveal">').appendTo($g);
+        $('<img>').attr({src: im.src, alt: im.caption, loading: 'lazy'}).appendTo($f);
+        $('<figcaption>').text(im.caption).appendTo($f);
+      });
+    }
+
+    $('.reveal').each(function (i) {
+      var $el = $(this);
+      setTimeout(function () { $el.addClass('in'); }, 100 + i * 110);
+    });
+  }).fail(function () {
+    $('#status').text('Could not load news.json. Serve this folder over http (not file://).');
+  });
+});
+</script>
+</body>
+</html>
