@@ -2,29 +2,29 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Update Ada Lovelace Reforged Apps InRelease
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/InRelease
-	git commit -m "repo: update Ada Lovelace Reforged Apps InRelease"
+	# Update Bethany Apps repository InRelease
+	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
+	git commit -m "repo(bethany-apps): update InRelease metadata"
 
-	# Update Ada Lovelace Reforged Apps Release metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release
-	git commit -m "repo: update Ada Lovelace Reforged Apps Release metadata"
+	# Update Bethany Apps repository Release
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release
+	git commit -m "repo(bethany-apps): update Release metadata"
 
-	# Update Ada Lovelace Reforged Apps Release signature
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release.gpg
-	git commit -m "repo: update Ada Lovelace Reforged Apps Release signature"
+	# Update Bethany Apps repository Release signature
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg
+	git commit -m "repo(bethany-apps): update Release signature"
 
-	# Update AMD64 Apps package index
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages
-	git commit -m "repo: update Ada Lovelace Reforged Apps AMD64 package index"
+	# Update AMD64 package index
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages
+	git commit -m "repo(bethany-apps): update AMD64 package index"
 
-	# Update compressed AMD64 Apps package index
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
-	git commit -m "repo: update compressed Ada Lovelace Reforged Apps package index"
+	# Update compressed AMD64 package index
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
+	git commit -m "repo(bethany-apps): update compressed AMD64 package index"
 
-	# Add Zyphor Smart Downloads package
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-smart-downloads.deb
-	git commit -m "repo: add zyphor-smart-downloads package"
+	# Update Zyphor CLI package
+	git add bethany-lts/bethany-apps/pool/main/z/zyphor-cli.deb
+	git commit -m "pkg(bethany): update zyphor-cli package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
