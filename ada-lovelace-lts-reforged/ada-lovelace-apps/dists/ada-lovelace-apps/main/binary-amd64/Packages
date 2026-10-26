@@ -29,15 +29,15 @@ Description: Zyphor OS Learning CLI
  environment for students and new Linux users on Zyphor OS.
 
 Package: zyphor-cli
-Version: 14.0.0-r22-stable-release
+Version: 14.0.1-r23-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 29256
-MD5sum: a557de166b9307ab73bf3281d0766d7d
-SHA1: 12cb6d2087e571164a6f618acd278546e4ffea83
-SHA256: 60d81a2c71cd5eadbd356a7903b1099adee24e1fde4e13982fb8ce32e9e9613b
+Size: 30050
+MD5sum: 831ba9cbfd6842d72c68f8a89cd9292e
+SHA1: 12462368b882d2871521038e1b2c2f11900350c3
+SHA256: a121d7537146ef77e92deedb8345de9f24d7127aa6d6400b2255ad0845d62eab
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
