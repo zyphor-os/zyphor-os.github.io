@@ -22,10 +22,6 @@ add:
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "repo(ada-lovelace): update compressed AMD64 package index"
 
-	# Remove obsolete Zyphor CLI package
-	git add -u ada-lovelace-lts/pool/main/z/zyphor-cli.deb
-	git commit -m "pkg(ada-lovelace): remove obsolete zyphor-cli package"
-
 	# Update Zyphor GRUB theme package
 	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
 	git commit -m "pkg(ada-lovelace): update zyphor-grub-theme package"
