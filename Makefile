@@ -2,53 +2,29 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Update Ada Lovelace Reforged Apps InRelease metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/InRelease
-	git commit -m "repo(ada-lovelace-apps): update InRelease metadata"
+	# Update Bethany Apps InRelease metadata
+	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
+	git commit -m "repo(bethany-apps): update InRelease metadata"
 
-	# Update Ada Lovelace Reforged Apps Release metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release
-	git commit -m "repo(ada-lovelace-apps): update Release metadata"
+	# Update Bethany Apps Release metadata
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release
+	git commit -m "repo(bethany-apps): update Release metadata"
 
-	# Update Ada Lovelace Reforged Apps Release signature
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release.gpg
-	git commit -m "repo(ada-lovelace-apps): update Release signature"
+	# Update Bethany Apps Release signature
+	git add bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg
+	git commit -m "repo(bethany-apps): update Release signature"
 
-	# Update Ada Lovelace Reforged Apps AMD64 package index
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages
-	git commit -m "repo(ada-lovelace-apps): update AMD64 package index"
+	# Update AMD64 package index
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages
+	git commit -m "repo(bethany-apps): update AMD64 package index"
 
-	# Update compressed Ada Lovelace Reforged Apps AMD64 package index
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
-	git commit -m "repo(ada-lovelace-apps): update compressed AMD64 package index"
+	# Update compressed AMD64 package index
+	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
+	git commit -m "repo(bethany-apps): update compressed AMD64 package index"
 
-	# Update Ada Lovelace Reforged Zyphor What's New package
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-whats-new.deb
-	git commit -m "pkg(ada-lovelace-apps): update zyphor-whats-new package"
-
-	# Update Ada Lovelace Reforged InRelease metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/InRelease
-	git commit -m "repo(ada-lovelace): update InRelease metadata"
-
-	# Update Ada Lovelace Reforged Release metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release
-	git commit -m "repo(ada-lovelace): update Release metadata"
-
-	# Update Ada Lovelace Reforged Release signature
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release.gpg
-	git commit -m "repo(ada-lovelace): update Release signature"
-
-	# Update Ada Lovelace Reforged AMD64 package index
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages
-	git commit -m "repo(ada-lovelace): update AMD64 package index"
-
-	# Update compressed Ada Lovelace Reforged AMD64 package index
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
-	git commit -m "repo(ada-lovelace): update compressed AMD64 package index"
-
-	# Update Ada Lovelace Reforged Zyphor Bashrc Config package
-	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-bashrc-config.deb
-	git commit -m "pkg(ada-lovelace): update zyphor-bashrc-config package"
+	# Update Zyphor CLI package
+	git add bethany-lts/bethany-apps/pool/main/z/zyphor-cli.deb
+	git commit -m "pkg(bethany-apps): update zyphor-cli package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
