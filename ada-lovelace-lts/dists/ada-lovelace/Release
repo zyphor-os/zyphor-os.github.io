@@ -1,24 +1,24 @@
 Architectures: amd64
 Codename: ada-lovelace
 Components: main
-Date: Wed, 28 Oct 2026 12:38:18 +0000
+Date: Fri, 30 Oct 2026 01:27:11 +0000
 Description: Zyphor OS ada-lovelace Repository
 Label: Zyphor OS
 Origin: Zyphor OS
 Suite: ada-lovelace
 MD5Sum:
- 69992f0ad9de80ebb73e2cd3b1b71ee2              201 Release
- 6ec0a92bd75230edd8af099eb1ada066             9700 main/binary-amd64/Packages
- d83e43bbdd2215df9e1a457729c0afd5             3482 main/binary-amd64/Packages.gz
+ 014a492bbe6003fbce823dc321fa37a2              201 Release
+ cefaa70ec9c95305957fc7080cedda5a             9700 main/binary-amd64/Packages
+ 29aa130efcc0f14eb1b3cc2f64830251             3477 main/binary-amd64/Packages.gz
 SHA1:
- b2f17a8e09a845ab40d615947a14a9ec9f1914b9              201 Release
- 5cbbc146fe18cae7f642580424236ffe0a3abb38             9700 main/binary-amd64/Packages
- fefa2f60ef7f677ade367529f34be9e99bb7dad9             3482 main/binary-amd64/Packages.gz
+ f7d69d44bbbe830796a715b18121b4dc3866c6b8              201 Release
+ 1bdd5412c4cc2c21b0830efcf949ea4c978269cc             9700 main/binary-amd64/Packages
+ 3efdaf7c674fd6040a6a5325b66d6a55414cfe30             3477 main/binary-amd64/Packages.gz
 SHA256:
- 2ada9f4c0d0d5ba81ced552a27a4d420acd8045696448548ddb4c31813c767d3              201 Release
- 56b5f63ddbc7fcdba703b5d8f48825a2322f139a42165d6463f43182a33093a1             9700 main/binary-amd64/Packages
- 05da8781a736907d6fe9ac897ac5d08e0019e15ec48dcf642a20c1faefc55b9c             3482 main/binary-amd64/Packages.gz
+ 55748653dc9da08b276ff9500b809ec1b49201a8d4f0d6d44e15326847d98222              201 Release
+ a2a68ed166c457e1b9cea1a4ff9fb0207c228d0f8050829e67437169b8605f5c             9700 main/binary-amd64/Packages
+ c2cc71e4ec7808291561b31d448725f9e2ce422b394d9e3ee938962561b21dc9             3477 main/binary-amd64/Packages.gz
 SHA512:
- a0402796348bbdf354e94f3df9d716ae4f1175fd1a4b8254360982f5ae41981cd31bc74cd3ce96f28c7c54fec470ce9496582dd9baa1b0b6effcf66fd1f76dc6              201 Release
- 9e02fac174384dbdb180732f87860b74ba344c6123f76d29b6be4772ea8e7138932148785e80a925af36b588954d4797fce72005c374d5531208032725a03a6c             9700 main/binary-amd64/Packages
- b881f4c62caf8924b253d13ab79a4556ca80ee738e593bb565cc145d69352502c8b08059524c6d4699df65cc38df0e604a7b29e263b0c352a4315172b1aa6df2             3482 main/binary-amd64/Packages.gz
+ 619669903432d3641ffc38fe0d138189a37de4b9dfd37b03ccbf7e4e303b7ed5776d71e7a68fe7650054916880e4c7614b0ef0f2c0d334a0b84393a0471f77ca              201 Release
+ cfbe72a82c44df50cdfee9d86877f0e201fdf800d03c92e170dae728f6ea9d87896ce999dfbc92de500deb9aad9fd9ae013dce39eb7181087c204a43a101fe6d             9700 main/binary-amd64/Packages
+ 9524592e708de90a70cfde607bc29f37f319957e05186e53b6e053e35decbff15e2a05bb68385053830a4592364dc7b7c4a4f69776b2b24dcc120e8c5020e7a1             3477 main/binary-amd64/Packages.gz
