@@ -27,8 +27,7 @@ add:
 	git commit -m "pkg(os-release): update Ada Lovelace package"
 
 	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
-	git commit -m "pkg(whats-new): update Ada Lovelace package"new.deb
-	git commit -m "pkg(whats-new): update Debian package"
+	git commit -m "pkg(whats-new): update Ada Lovelace package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
