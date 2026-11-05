@@ -43,21 +43,21 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 1.1.0-r3-alpha
+Version: 1.1.1-r4-alpha
 Architecture: all
 Maintainer: Zyphor OS Team
-Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli,pkexec | policykit-1
 Filename: pool/main/z/zyphor-command-center.deb
 Size: 120868
-MD5sum: bbe7972b9397fee10d5e6abd96142838
-SHA1: 91791187bdaec8626f61295437af68cad533cf2f
-SHA256: 786117b4953f4639290dd9514271a240c0483f42602aad66c2f6ac4cf2a033f6
+MD5sum: b7bfa2e4cc5ff6f3e2bca6741c48b236
+SHA1: 628ef175040e48e805f18a10573701f1ab466563
+SHA256: bcdba9b686c813af8c40301c04b9c2fa8cc89a13ccba51f4b88c1c504128f317
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
 
 Package: zyphor-command-center-web
-Version: 1.0.0-r1-alpha
+Version: 1.0.2-r3-alpha
 Architecture: all
 Maintainer: Mark Jason Penote Espelita <markjasonespelita@gmail.com>
 Depends: composer,
@@ -70,18 +70,19 @@ Depends: composer,
  php-bcmath,
  php-intl,
  php-tokenizer,
- php-fileinfo
+ php-fileinfo,
+ php-gd
 Recommends: sqlite3
 Filename: pool/main/z/zyphor-command-center-web.deb
-Size: 135072
-MD5sum: 3a2681c4dcb2b32b9473a09f9e18b016
-SHA1: d081dcd23b253fe6ee636ba0dc7f6ae715021f61
-SHA256: da7a5c23118cbb32c3defdec3cb6583d3d7f317b1396e1af35fc794c509eb2c3
+Size: 136372
+MD5sum: cbc9e19283ee681cbcae1eb534d490cb
+SHA1: 46eb00aa17fd70b6aa63a5eb9a263414ef750900
+SHA256: 34afd20a112b7352d12bd124f72bf8bec34020c7efb2273c8bff3a7690abd7b9
 Section: admin
 Priority: optional
 Homepage: https://zyphor-os.vercel.app
 Description: Zyphor Command Center Web
- A Laravel-based web interface for Zyphor Command Center.
+ A PHP-based web interface for Zyphor Command Center.
  .
  Provides the graphical management interface used by the
  Zyphor Command Center desktop application, including
@@ -112,15 +113,15 @@ Description: Automatically organize the Downloads folder of every user
  /etc/zyphor-smart-downloads/zyphor-smart-downloads.conf.
 
 Package: zyphor-whats-new
-Version: 7.0.0-r9-alpha
+Version: 8.0.0-r10-alpha
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 5240
-MD5sum: d56cf8032a943088e52ac62ac8f40bd4
-SHA1: 3f77eed455f7075039a20297fc8a33f227faf0df
-SHA256: 7de1688c90a97bc802bc520cf13dbdce5aa34cbefb92325bf3bd6b6fbbda2f6e
+Size: 3580
+MD5sum: d0cbbbc393a69b9c6535d9428b45613d
+SHA1: 2cde86adc003eac625e5cd6b509190fddca371a4
+SHA256: d2f5ec961605073040861fd3359351834a42317d6eaeb28ca09f613ca3d34466
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
