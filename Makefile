@@ -2,31 +2,32 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Update repository metadata
-	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
-	git commit -m "repo: update Bethany Apps InRelease metadata"
+	# Update Ada Lovelace repository metadata
+	git add ada-lovelace-lts/dists/ada-lovelace/InRelease
+	git commit -m "repo: update Ada Lovelace InRelease metadata"
 
-	git add bethany-lts/bethany-apps/dists/bethany-apps/Release
-	git commit -m "repo: update Bethany Apps Release metadata"
+	git add ada-lovelace-lts/dists/ada-lovelace/Release
+	git commit -m "repo: update Ada Lovelace Release metadata"
 
-	git add bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg
-	git commit -m "repo: update Bethany Apps Release signature"
+	git add ada-lovelace-lts/dists/ada-lovelace/Release.gpg
+	git commit -m "repo: update Ada Lovelace Release signature"
 
 	# Update package indexes
-	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages
-	git commit -m "repo: update Bethany Apps package index"
+	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages
+	git commit -m "repo: update Ada Lovelace package index"
 
-	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
-	git commit -m "repo: update compressed Bethany Apps package index"
+	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
+	git commit -m "repo: update compressed Ada Lovelace package index"
 
 	# Update Debian packages
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-command-center-web.deb
-	git commit -m "pkg(command-center-web): update Debian package"
+	git add ada-lovelace-lts/pool/main/z/zyphor-grub-theme.deb
+	git commit -m "pkg(grub-theme): update Ada Lovelace package"
 
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-command-center.deb
-	git commit -m "pkg(command-center): update Debian package"
+	git add ada-lovelace-lts/pool/main/z/zyphor-os-release.deb
+	git commit -m "pkg(os-release): update Ada Lovelace package"
 
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-whats-new.deb
+	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
+	git commit -m "pkg(whats-new): update Ada Lovelace package"new.deb
 	git commit -m "pkg(whats-new): update Debian package"
 
 pret:
