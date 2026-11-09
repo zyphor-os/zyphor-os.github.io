@@ -43,15 +43,15 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 8.0.0-r5
+Version: 8.1.0-r6
 Architecture: all
 Maintainer: Zyphor OS Team
-Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli,pkexec | policykit-1
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 120848
-MD5sum: d66d857b3037860f97bd6ff5ae4e13f0
-SHA1: 5af274a51369ec516208bfb5250165be094744a4
-SHA256: 6892697b8e992232efc3241b334694e3e2269903e04bd7014761ae32831435bb
+Size: 126696
+MD5sum: df6d6fa0a82956c09aab02fedc18af4f
+SHA1: 9c327ad20eb3c06053f0c80faab5f6f34c0c0d0d
+SHA256: 08566a354d0fbe1da83083be5eb5e351d6febd407e735595f8a549fdad329f79
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
@@ -112,15 +112,15 @@ Description: Automatically organize the Downloads folder of every user
  /etc/zyphor-smart-downloads/zyphor-smart-downloads.conf.
 
 Package: zyphor-whats-new
-Version: 64.0.0-r64
+Version: 65.0.0-r65
 Architecture: amd64
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3974
-MD5sum: 5f0239b6967c984b29a73476493541c6
-SHA1: 09b0a09f6a122bf6f375e6808539f604bb9dafdf
-SHA256: f292c13d7f70150f6fab08c480e710b511432a7e4cf82868400f81e027b7e183
+Size: 4452
+MD5sum: 0b53e46cbe72ca7b6f623c8ffdfd1196
+SHA1: 17626e07f149dc18c9737ec32d1f74958afb87fa
+SHA256: 361a6012c1d2c8b2e922d42f2f47a1382cb957ac7b5bbd3284cfae28771592ba
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
