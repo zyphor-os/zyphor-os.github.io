@@ -3,28 +3,28 @@ add:
 	git commit -m "chore: modified Makefile"
 
 	# Update InRelease
-	git add bethany-lts/bethany/dists/bethany/InRelease
-	git commit -m "repo(bethany): update InRelease"
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/InRelease
+	git commit -m "repo(ada): update InRelease"
 
 	# Update Release
-	git add bethany-lts/bethany/dists/bethany/Release
-	git commit -m "repo(bethany): update Release"
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release
+	git commit -m "repo(ada): update Release"
 
 	# Update Release signature
-	git add bethany-lts/bethany/dists/bethany/Release.gpg
-	git commit -m "repo(bethany): update Release signature"
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release.gpg
+	git commit -m "repo(ada): update Release signature"
 
 	# Update Packages index
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
-	git commit -m "repo(bethany): update package index"
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages
+	git commit -m "repo(ada): update package index"
 
 	# Update compressed Packages index
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
-	git commit -m "repo(bethany): update compressed package index"
+	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
+	git commit -m "repo(ada): update compressed package index"
 
 	# Add Zyphor Blesh package
-	git add bethany-lts/bethany/pool/main/z/zyphor-blesh.deb
-	git commit -m "pkg(bethany): add zyphor-blesh package"
+	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-blesh.deb
+	git commit -m "pkg(ada): add zyphor-blesh package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
