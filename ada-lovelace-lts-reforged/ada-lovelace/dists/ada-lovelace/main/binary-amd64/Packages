@@ -42,6 +42,22 @@ Priority: optional
 Description: Zyphor OS Bash configuration
  Provides the default Zyphor OS Bash prompt and shell startup information.
 
+Package: zyphor-blesh
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash (>= 4.0), gawk
+Filename: pool/main/z/zyphor-blesh.deb
+Size: 583136
+MD5sum: c1bf113c8a2ef7b72b0ce1fd27c45330
+SHA1: f06391cad884762ac7bee14ec308ae8d165ba04f
+SHA256: 29d2ad171469d72caeae7a8cb9d67bce330d30bc7a8af6ae353c82daf522ba7e
+Section: shells
+Priority: optional
+Description: ble.sh (Bash Line Editor) for Zyphor OS
+ Provides inline history suggestions and syntax highlighting for Bash.
+ Built from https://github.com/akinomyoga/ble.sh
+
 Package: zyphor-desktop-environment
 Version: 1.0.2-r3
 Architecture: all
