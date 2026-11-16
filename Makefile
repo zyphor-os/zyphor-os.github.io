@@ -2,37 +2,29 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	# Update Ada Lovelace Apps repository metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/InRelease ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/Release.gpg ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
-	git commit -m "repo(ada): update apps repository metadata"
+	# Update InRelease
+	git add bethany-lts/bethany/dists/bethany/InRelease
+	git commit -m "repo(bethany): update InRelease"
 
-	# Update Ada Lovelace What's New package
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-whats-new.deb
-	git commit -m "pkg(ada): update zyphor-whats-new"
+	# Update Release
+	git add bethany-lts/bethany/dists/bethany/Release
+	git commit -m "repo(bethany): update Release"
 
-	# Update Ada Lovelace main repository metadata
-	git add ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/InRelease ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/Release.gpg ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages ada-lovelace-lts-reforged/ada-lovelace/dists/ada-lovelace/main/binary-amd64/Packages.gz
-	git commit -m "repo(ada): update main repository metadata"
+	# Update Release signature
+	git add bethany-lts/bethany/dists/bethany/Release.gpg
+	git commit -m "repo(bethany): update Release signature"
 
-	# Update Ada Lovelace Bashrc Config package
-	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-bashrc-config.deb
-	git commit -m "pkg(ada): update zyphor-bashrc-config"
+	# Update Packages index
+	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
+	git commit -m "repo(bethany): update package index"
 
-	# Update Bethany Apps repository metadata
-	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease bethany-lts/bethany-apps/dists/bethany-apps/Release bethany-lts/bethany-apps/dists/bethany-apps/Release.gpg bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
-	git commit -m "repo(bethany): update apps repository metadata"
+	# Update compressed Packages index
+	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
+	git commit -m "repo(bethany): update compressed package index"
 
-	# Update Bethany What's New package
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-whats-new.deb
-	git commit -m "pkg(bethany): update zyphor-whats-new"
-
-	# Update Bethany main repository metadata
-	git add bethany-lts/bethany/dists/bethany/InRelease bethany-lts/bethany/dists/bethany/Release bethany-lts/bethany/dists/bethany/Release.gpg bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
-	git commit -m "repo(bethany): update main repository metadata"
-
-	# Update Bethany Bashrc Config package
-	git add bethany-lts/bethany/pool/main/z/zyphor-bashrc-config.deb
-	git commit -m "pkg(bethany): update zyphor-bashrc-config"
+	# Add Zyphor Blesh package
+	git add bethany-lts/bethany/pool/main/z/zyphor-blesh.deb
+	git commit -m "pkg(bethany): add zyphor-blesh package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
