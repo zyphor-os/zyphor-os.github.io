@@ -28,19 +28,21 @@ Description: Zyphor OS desktop-base theme
  and theme assets for desktop environments.
 
 Package: zyphor-bashrc-config
-Version: 4.1.0-r5-alpha
+Version: 4.2.0-r6-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
-Depends: git
+Depends: git, zyphor-blesh
+Recommends: fzf
 Filename: pool/main/z/zyphor-bashrc-config.deb
-Size: 2180
-MD5sum: 19f8527e0b0b5a705a4236bf93e8e2f3
-SHA1: 49dc7d4a916cdb004f6d1422f7dac73eef66d9af
-SHA256: a0de01186cf46227dcf0ed185449ffb5e103177ded58067101a127e6fba16423
+Size: 3384
+MD5sum: 0e21907b8c554577e10984a6f42d8d9d
+SHA1: 49c722f35a2cacf8d21acd52875c85d646864ef8
+SHA256: 72846d7b20155f64ace803105476636de18a97b79e2c4bf046f91ba60402fcb7
 Section: shells
 Priority: optional
 Description: Zyphor OS Bash configuration
- Provides the default Zyphor OS Bash prompt and shell startup information.
+ Provides the default Zyphor OS Bash prompt, shell startup information,
+ and history autocomplete.
 
 Package: zyphor-blesh
 Version: 1.0.0-r1-alpha
@@ -48,10 +50,10 @@ Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash (>= 4.0), gawk
 Filename: pool/main/z/zyphor-blesh.deb
-Size: 582952
-MD5sum: 7915d94197d660616e5d1d6d78090f18
-SHA1: 05e0c5feabbe51d7ac4f9685aefd76034a71267f
-SHA256: 9fdcf405dd90dba9750a98b8f724408111924a5194bf720c3ce81e4e70313d9c
+Size: 583288
+MD5sum: 8f8c227d5d78ca143154f69406bb3a7e
+SHA1: 062f7b97d0d8129c961ad2b1daeeaa30309e324f
+SHA256: 8774cc5813f18a459256490ec1d8f9db709815f95a5c75f33b58898a29877fae
 Section: shells
 Priority: optional
 Description: ble.sh (Bash Line Editor) for Zyphor OS
