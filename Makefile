@@ -50,10 +50,6 @@ add:
 	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-bashrc-config.deb
 	git commit -m "pkg(ada): update zyphor-bashrc-config"
 
-	# Ada - Blesh package
-	git add ada-lovelace-lts-reforged/ada-lovelace/pool/main/z/zyphor-blesh.deb
-	git commit -m "pkg(ada): update zyphor-blesh"
-
 	# Bethany Apps - InRelease
 	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
 	git commit -m "repo(bethany): update apps InRelease"
@@ -101,10 +97,6 @@ add:
 	# Bethany - Bashrc Config package
 	git add bethany-lts/bethany/pool/main/z/zyphor-bashrc-config.deb
 	git commit -m "pkg(bethany): update zyphor-bashrc-config"
-
-	# Bethany - Blesh package
-	git add bethany-lts/bethany/pool/main/z/zyphor-blesh.deb
-	git commit -m "pkg(bethany): update zyphor-blesh"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
