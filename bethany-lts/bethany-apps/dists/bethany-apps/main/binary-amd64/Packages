@@ -113,15 +113,15 @@ Description: Automatically organize the Downloads folder of every user
  /etc/zyphor-smart-downloads/zyphor-smart-downloads.conf.
 
 Package: zyphor-whats-new
-Version: 13.0.0-r15-alpha
+Version: 14.0.0-r16-alpha
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 5060
-MD5sum: a1082ea37dc4f6eff2ddc42ad465a69d
-SHA1: 7798a19784387e9bed38bda442afad73bf0f1f86
-SHA256: 3d1ec00c0295eb84fffc0bb68b6b58504877ec571e546d7fa0d7f488dc367fa4
+Size: 5248
+MD5sum: 04ff9bd3bc38e50cd89ad922be001a64
+SHA1: d92c71f9278cc2a287a3b97a3614fc421e8013af
+SHA256: b2e9ebcce3577cf6503f00f7062ebb9f688d42ab3754d0eb0d09e6f3e5ef63dd
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
