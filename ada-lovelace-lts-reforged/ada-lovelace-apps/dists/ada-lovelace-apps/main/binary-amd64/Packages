@@ -29,15 +29,15 @@ Description: Zyphor OS Learning CLI
  environment for students and new Linux users on Zyphor OS.
 
 Package: zyphor-cli
-Version: 14.1.0-r24-stable-release
+Version: 14.2.0-r25-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 30188
-MD5sum: 9d3d242a245268f95741cd2fcc33f95c
-SHA1: 2954f4ed9e96af1174e15ed072f5c99a3eb54423
-SHA256: c0a3a70e0058777f1d377ed117e065186b36e45300d10cb22e4d60fb7a0ca607
+Size: 30308
+MD5sum: b8b36abe2da98ab0978bab987baf6c50
+SHA1: dd10ff2edb88b0a2e9bc71ee55479ed5402b973d
+SHA256: 3f73405b921cbe54105b4729ad17d4ebbc76021e6f01ed659a185a03d8565d7f
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
@@ -112,15 +112,15 @@ Description: Automatically organize the Downloads folder of every user
  /etc/zyphor-smart-downloads/zyphor-smart-downloads.conf.
 
 Package: zyphor-whats-new
-Version: 69.0.0-r69
+Version: 70.0.0-r70
 Architecture: amd64
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 5684
-MD5sum: 600800d32331a743faaf09bb413ba759
-SHA1: bcf7addb128408dcb41a06a1fb2e482bc5f6a7ff
-SHA256: a4a68a79ca22ddd1010369047e9a3a69f9a6874442f83541ecab1b6ace4ae113
+Size: 5864
+MD5sum: 2cc955fa116046287bf4ba20626d5633
+SHA1: 4a4f82434c1bcf92f1e6143f8f5dd53fb65982ed
+SHA256: 529854880198031cfc1d4500e90d9ac6214596a87aaf1c0b5cd8930922eaef7f
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
