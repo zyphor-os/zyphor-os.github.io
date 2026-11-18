@@ -163,3 +163,22 @@ Priority: optional
 Description: Zyphor OS repository configuration
  Installs and manages the Zyphor OS APT repository configuration.
 
+Package: zyphor-windows-handler
+Version: 1.0.0
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash, wine, libnotify-bin, udisks2, xdg-utils, thunar
+Filename: pool/main/z/zyphor-windows-handler.deb
+Size: 2396
+MD5sum: 8eab1ff7976f94a5006e33bd3b03aa06
+SHA1: 4293730518d52930d8b9fd75721c1c7d6f39be8e
+SHA256: 8ffdce72d15b689aebae85381587a82c4a26ca93775cefab852f3b4779b6ee7d
+Section: utils
+Priority: optional
+Description: Windows file handler for Zyphor OS
+ Opens Windows executables (.exe), Windows Installer packages (.msi)
+ and ISO disc images (.iso) directly from the file manager.
+ .
+ Executables and installers are launched with Wine. ISO images are
+ mounted read-only through udisks2 and opened in the file manager.
+
