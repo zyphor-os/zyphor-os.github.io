@@ -141,15 +141,15 @@ Priority: optional
 Description: Zyphor OS Windows Installer Application
 
 Package: zywin-ui
-Version: 1.0.0-r1
+Version: 1.0.1-r1
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: zywin
 Filename: pool/main/z/zywin-ui.deb
-Size: 140376
-MD5sum: 01a2a851545e92a6d4c646684ae59bdc
-SHA1: 1cb2df3c4347416e4e4cde6e222849679eb48b43
-SHA256: 6768e549f5e9cd618ab3a97ef1182352b7056c1bf6fbec14089c376cafebc9de
+Size: 158700
+MD5sum: e6e1d8d5231879192de007214d124e97
+SHA1: 8729961acc29853978d8ecaff326cf8a7a7863ad
+SHA256: dd03425a555acff27d897be4687c445beb9ab23c5d95327ae80e94c3b4262da5
 Section: utils
 Priority: optional
 Description: Zyphor OS zywin-ui Application
