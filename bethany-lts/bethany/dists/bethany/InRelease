@@ -4,40 +4,40 @@ Hash: SHA512
 Architectures: amd64
 Codename: bethany
 Components: main
-Date: Wed, 18 Nov 2026 10:39:23 +0000
+Date: Sat, 21 Nov 2026 06:53:01 +0000
 Description: Zyphor OS bethany Repository
 Label: Zyphor OS
 Origin: Zyphor OS
 Suite: bethany
 MD5Sum:
- c60f851638c6ea975a9b72769aef8afa              186 Release
+ 4567d7c2fc0ba2d1b95ddce8934257ff              186 Release
  4d04e2b505e14ee9f716529ab1572cfe             6486 main/binary-amd64/Packages
- 3dd841f661c9c14fd9ac4f478f993231             2385 main/binary-amd64/Packages.gz
+ c1b250af294b71040f7990935f7a36ab             2385 main/binary-amd64/Packages.gz
 SHA1:
- 11f45d6a7a11c2a2fa07b6f241b1557c09ae1589              186 Release
+ d23da9fad30d79e0f6464be5e6cd644ba4097bf9              186 Release
  8b081b1535c1430c2ff789ebbfa38e260b7b8f5a             6486 main/binary-amd64/Packages
- f5e8bf74999ce6a257106658e8a55adc95b012fc             2385 main/binary-amd64/Packages.gz
+ a4c89f6c8041ee4cbfde54a17aef162be78d5692             2385 main/binary-amd64/Packages.gz
 SHA256:
- cc8e2832e7df429cfc5fdb75faf040e9b21c625241b6573faab0e26bd37bac04              186 Release
+ 9ae81c371a33d6f2d2f12e94cfb696388173e6ef4c38e8c9f3bbca35a278f202              186 Release
  6d80479e3802463f2221319254e0de2d7c2c7f8e0a1893141e0d869db7ea13bc             6486 main/binary-amd64/Packages
- 4e1e62ac66be69d145d1697b16a87f16dace2c87e3358e6a83999956fb89418d             2385 main/binary-amd64/Packages.gz
+ 0617bb7e2ac230eecb14670d23d1005f45bb70fc523cdfe41b86b02687624644             2385 main/binary-amd64/Packages.gz
 SHA512:
- 2c9bd94b853137c20d853ada6b90af8de99bad747f815940d4825cd215c6cefbec1602596d67a3e7b6341657b8d25b2f461b077c137ba5f4c5827c78c3074bfe              186 Release
+ 9da6236af5d9be658ec016b138620321a98e2e42d4fef9d16a7f1256f94685842b47b70bf406522c9c66ad232e59061a25de53346b0658efc103158ef6533257              186 Release
  d69d3ffb1d3ace74dd5fe2c7a176cb4e150a1280e574f014c5694d74fc978c837d0a8ba03059857bc3e3b0fcf57d47b787924e0959a7c8d3d77250bde8f8a876             6486 main/binary-amd64/Packages
- 6572c9b71ed4f4c0bdedc290b80b338f88255d1402eb506a12564a05e403e24a832c2ab1d5250fc608fc773520e0067568581e66a8c8d23d7e850460f63e1ac7             2385 main/binary-amd64/Packages.gz
+ ff91ee755a86bd8405db3e2f7a7140359b2d2517fa759878d7fcfdfd045e961c02a08c7184bf47e6a75d967a47067930faf163c0e9b14467aa245c57b2857f19             2385 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEElNKaGEPAVty8W6s1DBZ784ju+AFAmr9gFsACgkQ1DBZ784j
-u+DSRRAAi37dB52UFxn4FcBoVThW6Ni9rFuaxoPhf+LWH8GO63ALquBQv1eWItFy
-5vpSvpU+mtLl8oPM/05eYREaGd1a2974bpdMu/osrP3M3wBQUJdx/oeolcswocrz
-RlnUhdsiL16PKrwWR9BDsuggs8C1v5nJGLUwmOLJl4US2HbUUKJoeo474oqUg06r
-5Gl2tRH0pGRBVDg06B/S8YKuseqHxI47XHxNMl4hXBMSCiid8nr9wj4npv27k0yZ
-uFfw1/EybkDwW4OsTPL1FjxI5QmCQuv8NJaKrBoS9L8LLHIfYp+x4Z4ntJzAMVD5
-oGxgMIpXU5fd0TALNUoRh3aUsyBCy4PMHO/xlm10n9BOcHYEswoYuke6tke2IlPG
-Q6lYnucJRLpeOrUSpEDSACMZOpCRMY9mKy0BOtUNfAlEwqNWKMGLXaGDmpYxQvP3
-It5U0BX830kn3yG61p6hNGx/kj84tKcGkwl6bA7lf+Pk8wJtzqCEh0RWdQ9PUb0a
-VSsuLmO5OyczPw3blMmjuSvjmumPtjQwXI1REJ0VHwUpDqhk7+DLrQOjyfvBeXSv
-UiowLq9XAxH+mTfU+Xrnxv/7oyYFtwPwa4yGJ2B5NGwf9Q0ataxb6hGJ4at2G5p0
-sxPacVK+DeFBVqsWTQDD6MOZEoAKpd76OYCK6vXeOkCmDb1O2rU=
-=72j9
+iQIzBAEBCgAdFiEEElNKaGEPAVty8W6s1DBZ784ju+AFAmsBP80ACgkQ1DBZ784j
+u+A5XxAAyXySI3RfH+LUImsle55nkRmjDrU8y3MQOGKq8rnX6ZmV63Jooz22cjQA
+xLDbQJWO2wng2HCFLrkZYEtyMnNaQiLiXcMmw3H5YUq+Bt9ALJJNNQhk27DQy1Ns
+Y0q14Fk/zv27SeLcU/kuNWH4AYzm/98bBgURz+ICuIUJTjLfUJ9bjE11kE+Ar33l
+H6Ry09rTi87v6L+IKV81xCII9+GaOrERRVb/vT1AP9pFZc8pR3Q4nFuhMAofnHtM
+iL8wfERCxY7eRpPUpa6zygE02EVOPlDwYPfwmFmlRRId2FFIf+G0z5KfZROdbJEN
+afejbqx7QoJodreuPHk/DPSM688TaL/4QPKSuINlgh0ph4O/+odcG7Q48Te7OtuS
+RsostK/AyDxohjlijDo+6lvdwcJTCvxXTJvq4vw6PFh8Z2ANozDZr2SStaBcl+Zr
+v7YP3pnyYyj4Z+ysHh2uNF1eK/A+2dk/qjLHJZVEFzHFDJjADXgymtMFs1/o819h
+Yb+M6booxAHD86waze3+5be30Pwd3S4zw4lyhICPcL4QPaLbMUG535n/N4WzkTAe
+PfFybC3lbdKnZwAOEEwDhFqHsVlI5VyZpux+MlvheLFHnmnRIESuM40xuVEg6HEp
+Stt3MdvTcTOJuYLUDc9jSh5LUx4Lyww4kk0nEQDuIbAZ0gsbemM=
+=c16X
 -----END PGP SIGNATURE-----
