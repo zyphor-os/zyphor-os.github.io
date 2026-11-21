@@ -29,29 +29,29 @@ Description: Zyphor OS Learning CLI
  environment for students and new Linux users on Zyphor OS.
 
 Package: zyphor-cli
-Version: 14.2.0-r25-stable-release
+Version: 14.3.0-r26-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: bash, curl, jq
 Filename: pool/main/z/zyphor-cli.deb
-Size: 30308
-MD5sum: b8b36abe2da98ab0978bab987baf6c50
-SHA1: dd10ff2edb88b0a2e9bc71ee55479ed5402b973d
-SHA256: 3f73405b921cbe54105b4729ad17d4ebbc76021e6f01ed659a185a03d8565d7f
+Size: 31476
+MD5sum: a9e02b8c810b02474b4ed97487c7dae7
+SHA1: df6ac549081f8a3635d2457578cfe5646e812aea
+SHA256: 03963c059f54d086f5baa48ecb1a8c3b4f8cd7b4834b573dab925aadd3a3294a
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 8.2.0-r7
+Version: 8.3.0-r8
 Architecture: all
 Maintainer: Zyphor OS Team
 Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web,zyphor-cli,pkexec | policykit-1
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 126816
-MD5sum: 38fff0128385855e145778ca101366e3
-SHA1: 87ab94ed2eb6a5037b6677c9cb4e819957d357fa
-SHA256: d4aed98762a9998458acc0be94a818ce58f7260ba918ec796c93f51e75b372fe
+Size: 126900
+MD5sum: 0afdf8bbe50fc775306ee1435fae60b0
+SHA1: 019606badfadf537d73e9889d10aa2dcec3198f8
+SHA256: 7be8653e26c57f033d3f1296d8806d52538ce2b148b00c90c5de945cb824a522
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
@@ -112,15 +112,15 @@ Description: Automatically organize the Downloads folder of every user
  /etc/zyphor-smart-downloads/zyphor-smart-downloads.conf.
 
 Package: zyphor-whats-new
-Version: 70.0.0-r70
+Version: 71.0.0-r71
 Architecture: amd64
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 5864
-MD5sum: 2cc955fa116046287bf4ba20626d5633
-SHA1: 4a4f82434c1bcf92f1e6143f8f5dd53fb65982ed
-SHA256: 529854880198031cfc1d4500e90d9ac6214596a87aaf1c0b5cd8930922eaef7f
+Size: 6056
+MD5sum: 499d2bde8ed21e52e34b2ea272533c51
+SHA1: 22583ce844d989ee8855804bacbcb9c16aa36b37
+SHA256: 122af08286ccc2edf60434fba4ece08bc6a4731ab4b84f5725de06e49454d57b
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
