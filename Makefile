@@ -18,15 +18,9 @@ add:
 	git add ada-lovelace-lts-reforged/ada-lovelace-apps/dists/ada-lovelace-apps/main/binary-amd64/Packages.gz
 	git commit -m "repo(ada): update compressed Apps package index"
 
-	# Update Ada Apps packages
+	# Update Ada Zyphor CLI package
 	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-cli.deb
 	git commit -m "pkg(ada): update Zyphor CLI package"
-
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-command-center.deb
-	git commit -m "pkg(ada): update Command Center package"
-
-	git add ada-lovelace-lts-reforged/ada-lovelace-apps/pool/main/z/zyphor-whats-new.deb
-	git commit -m "pkg(ada): update What's New package"
 
 	# Update Bethany Apps repository metadata
 	git add bethany-lts/bethany-apps/dists/bethany-apps/InRelease
@@ -44,15 +38,9 @@ add:
 	git add bethany-lts/bethany-apps/dists/bethany-apps/main/binary-amd64/Packages.gz
 	git commit -m "repo(bethany): update compressed Apps package index"
 
-	# Update Bethany Apps packages
+	# Update Bethany Zyphor CLI package
 	git add bethany-lts/bethany-apps/pool/main/z/zyphor-cli.deb
 	git commit -m "pkg(bethany): update Zyphor CLI package"
-
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-command-center.deb
-	git commit -m "pkg(bethany): update Command Center package"
-
-	git add bethany-lts/bethany-apps/pool/main/z/zyphor-whats-new.deb
-	git commit -m "pkg(bethany): update What's New package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
