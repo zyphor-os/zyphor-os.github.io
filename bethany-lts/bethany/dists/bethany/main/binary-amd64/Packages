@@ -76,6 +76,26 @@ Description: Zyphor OS Calamares installer configuration
  Provides Calamares configuration, branding, modules, and
  Zyphor-specific installation scripts for Zyphor OS.
 
+Package: zyphor-debian-handler
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash, apt, dpkg, pkexec | policykit-1, zenity, libnotify-bin, xdg-utils
+Filename: pool/main/z/zyphor-debian-handler.deb
+Size: 3760
+MD5sum: 3d42ce4384b7dde81271569efccb93be
+SHA1: 13ba79f865c51a587dfb16f822320e43b6806859
+SHA256: 72639fe96bc4c4978574461c7e0d7bf640ae7595450544d2b432843b393178b1
+Section: utils
+Priority: optional
+Description: Debian package handler for Zyphor OS
+ Installs Debian packages (.deb) by double-clicking them in the file
+ manager.
+ .
+ A confirmation dialog shows the package name, version and description,
+ then the package is installed with apt (so dependencies are resolved
+ automatically) after a graphical administrator authentication prompt.
+
 Package: zyphor-desktop-environment
 Version: 6.1.1-r18-alpha
 Architecture: all
