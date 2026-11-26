@@ -59,6 +59,26 @@ Description: ble.sh (Bash Line Editor) for Zyphor OS
  Provides inline history suggestions and syntax highlighting for Bash.
  Built from https://github.com/akinomyoga/ble.sh
 
+Package: zyphor-debian-handler
+Version: 1.0.0-r1
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Depends: bash, apt, dpkg, pkexec | policykit-1, zenity, libnotify-bin, xdg-utils
+Filename: pool/main/z/zyphor-debian-handler.deb
+Size: 3756
+MD5sum: 84c79928628a9e8a4c7baed3deee5dbf
+SHA1: e56c63c0baf691a2d8d39f847b6cf3a76b662aad
+SHA256: 6195d412ba022269dcd36045784fcff11788751ac2c1e0e1b6f336ee4ca4c21c
+Section: utils
+Priority: optional
+Description: Debian package handler for Zyphor OS
+ Installs Debian packages (.deb) by double-clicking them in the file
+ manager.
+ .
+ A confirmation dialog shows the package name, version and description,
+ then the package is installed with apt (so dependencies are resolved
+ automatically) after a graphical administrator authentication prompt.
+
 Package: zyphor-desktop-environment
 Version: 1.0.2-r3
 Architecture: all
