@@ -90,17 +90,17 @@ Description: Zyphor Command Center Web
  management, analytics, and system configuration pages.
 
 Package: zyphor-smart-downloads
-Version: 1.0.0-r1-alpha
+Version: 1.0.1-r2-alpha
 Architecture: all
 Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
 Installed-Size: 68
 Depends: bash (>= 4.0), cron | cron-daemon, coreutils, util-linux, findutils, file, unzip
 Suggests: ffmpeg
 Filename: pool/main/z/zyphor-smart-downloads.deb
-Size: 7368
-MD5sum: f10cda8115b8b992d5f37a3bb1592166
-SHA1: 1842ffca2b31f81b4d43f7b6f32b1f4373b76064
-SHA256: db1559c52614b70200216cd80cd58da5ed2d4a01bfcd73eaad75427ba4aec8d2
+Size: 7676
+MD5sum: bf4c6ec5151ee3ef71ff4793feb9fcc6
+SHA1: 2ec6cbd82e847ccabbbd852661b31921ea706166
+SHA256: b4e83d37a330f9c633be3775bd9f6b4c665dff6134d250cbd012fb20eb4b9005
 Section: utils
 Priority: optional
 Description: Automatically organize the Downloads folder of every user
